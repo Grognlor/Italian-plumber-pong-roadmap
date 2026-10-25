@@ -1,5 +1,19 @@
 # Progress
 
+<a id="session-29"></a>
+## Session 29 — Following the next connections
+
+We checked four connections to the routine under investigation and followed how
+the opening code registers work to run later. This gives us a clearer link
+between the opening route and those connections, but several conditions and
+memory changes still need proof. A possible route through the saved code does
+not show that the game actually takes it. We stopped before converting or
+running another game piece. Mario Tennis still does not start or play through
+this project. Next, we need to check the state and loaded code at the first
+handoff to that registered work.
+
+[Session 29 prompt record](../prompts/SESSION_29.md)
+
 <a id="session-28"></a>
 ## Session 28 — Checking the opening loading route
 
