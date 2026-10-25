@@ -12,5 +12,41 @@ now run in our PC test program. We are still working toward starting the game
 itself.
 
 See the [roadmap](docs/ROADMAP.md) for the planned steps and
-[progress notes](docs/PROGRESS.md) for a short history. This project does not
-include the original game or game files.
+[progress notes](docs/PROGRESS.md) for the development diary. This project
+does not include the original game or game files.
+
+## How This Project Is Being Made
+
+I'm not a professional programmer. This is an experiment to see how far I can
+get with very little programming experience, curiosity, and help from ChatGPT
+and Codex. The game itself is not playable yet, but I have learned a lot
+already.
+
+I work with ChatGPT and Codex across my phone, PC, and ASUS ROG Ally running
+Bazzite Linux. The Ally is where the local development work and original game
+files stay. Safe project code and documentation are pushed to a private
+development repository that ChatGPT can read.
+
+After each Codex session, ChatGPT and I review what we can verify, talk through
+the problems, and plan what to try next. I set the priorities and make the
+decisions. ChatGPT helps plan and review; Codex investigates, writes original
+project tools, and runs tests. I try to keep the public diary honest about
+both the useful steps and the setbacks.
+
+The motivation is simple: I'm curious, I want to learn, I hope this can
+contribute something useful to the gaming community, and I want to see what
+AI-assisted development can realistically do. If the Ally starts getting
+more tennis practice than I do, at least it will be earning it.
+
+Linux is first because it is what I use most. Once a Linux version is stable,
+Windows is next—and yes, Windows players, you're invited to keep score while
+you wait. Mac and other systems depend on finding people with the right
+equipment to help test them. There are no release dates.
+
+An evolving set of reusable project instructions is also being developed as a
+possible starting point for other game-recompilation projects. It includes
+security rules, constraints, and goals. A public archive of the actual session
+prompts is planned, but it has **not** been published and is still under
+review. There is no public download of the reusable instructions.
+
+For now, the best way to follow along is the [development diary](docs/PROGRESS.md).
