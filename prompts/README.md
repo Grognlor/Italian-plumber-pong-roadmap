@@ -18,6 +18,12 @@ Redactions are shown in square brackets, for example `[REDACTED: LOCAL ROM PATH]
 
 The archive does not contain ROMs, game files, extracted material, generated game code, disassembly, private reports, or chat transcripts.
 
+## Session 26
+
+[Session 26 — Caller evidence and careful local workflow](SESSION_26.md):
+authentic owner-supplied prompt with visible redactions. The diary explains the
+unresolved version check; it does not claim the game starts.
+
 ## Session 25
 
 [Session 25 — Fresh evidence and a careful startup investigation](SESSION_25.md):
