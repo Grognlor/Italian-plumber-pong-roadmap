@@ -1,5 +1,16 @@
 # Progress
 
+<a id="session-25"></a>
+## Session 25 — Checking a missing piece
+
+We rebuilt and independently checked one small piece of Mario Tennis from the
+owner's local copy. Our tools can now prepare and compile that piece for PC
+testing. It is not connected to a running game, and Mario Tennis still does not
+start or play through this project. Next, we need to identify which part of the
+game calls it and what else is needed for a complete startup.
+
+[Session 25 prompt record](../prompts/SESSION_25.md)
+
 <a id="session-24"></a>
 ## Session 24 — Checking the tools before going further
 
