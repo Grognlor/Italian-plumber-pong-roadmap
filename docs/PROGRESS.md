@@ -1,5 +1,18 @@
 # Progress
 
+<a id="session-30"></a>
+## Session 30 — Checking space for the first loaded pieces
+
+We checked how the opening code sets aside space for game data. The saved
+evidence narrows where the first pieces would go, but does not establish how
+much the first load writes. We stopped at that gap before assuming the next
+step is safe. This gives us a more specific piece of evidence to collect, but
+Mario Tennis still does not start or play through this project. No new game
+piece was converted or run. Next, we need to check the first load's actual
+size and writes before following the opening route further.
+
+[Session 30 prompt record](../prompts/SESSION_30.md)
+
 <a id="session-29"></a>
 ## Session 29 — Following the next connections
 
