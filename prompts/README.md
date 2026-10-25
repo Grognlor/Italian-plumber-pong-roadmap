@@ -18,6 +18,10 @@ Redactions are shown in square brackets, for example `[REDACTED: LOCAL ROM PATH]
 
 The archive does not contain ROMs, game files, extracted material, generated game code, disassembly, private reports, or chat transcripts.
 
+## Session 24
+
+[Session 24 — Toolchain recovery and evidence planning](SESSION_24.md): authentic owner-supplied prompt with visible redactions. The diary explains that work stopped at an unresolved tool-restoration problem.
+
 ## Session 23
 
 [Session 23 — Recovery and preservation](SESSION_23.md): authentic owner-supplied prompt with visible redactions. The diary records the partial recovery and remaining blockers.
