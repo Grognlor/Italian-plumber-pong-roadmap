@@ -1,3 +1,9 @@
+## Session 29
+
+[Session 29 — Following the caller connections](SESSION_29.md): authentic
+owner-supplied prompt with visible redactions. The diary explains the checked
+connections and remaining handoff conditions; the game has not started.
+
 ## Session 28
 
 [Session 28 — Following the startup loading route](SESSION_28.md): authentic
