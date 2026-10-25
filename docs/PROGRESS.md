@@ -1,5 +1,17 @@
 # Progress
 
+<a id="session-23"></a>
+## Session 23 — Preserving the work we could recover
+
+We found earlier saved work, checked its contents against the original records,
+and preserved copies with a clearer handoff for future sessions. Later saved
+work is still missing, and restoring the tools stopped at a compatibility
+problem. This protects the groundwork we still have; it did not get the game
+running. Mario Tennis remains unplayable through this project. Next, we need to
+resolve the tool problem and recover or carefully rebuild the missing evidence.
+
+[Session 23 prompt record](../prompts/SESSION_23.md)
+
 <a id="session-22"></a>
 ## Session 22 — We paused rather than guess
 
