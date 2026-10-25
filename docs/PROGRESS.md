@@ -1,5 +1,18 @@
 # Progress
 
+<a id="session-34"></a>
+## Session 34 — Checking how a loading task is prepared
+
+We traced the code that prepares one task and offers it for selection. This
+clarifies its initial information and working memory, but does not prove the
+game chooses it at the loading handoff. That choice depends on the task already
+running and others waiting, whose state still needs checking. We stopped at
+that gap. No new game piece was converted or run, and Mario Tennis remains
+unplayable through this project. Next, we need evidence for the task-selection
+conditions at that handoff.
+
+[Session 34 prompt record](../prompts/SESSION_34.md)
+
 <a id="session-33"></a>
 ## Session 33 — Finding the missing loading context
 
