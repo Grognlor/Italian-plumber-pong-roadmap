@@ -1,9 +1,45 @@
-# Session 22 prompt
+<!-- Authentic owner-supplied Session 22 technical prompt. Visible redactions are marked inline. -->
 
-**Status: In progress — original technical prompt not recovered.**
+ITALIAN PLUMBER PONG — SESSION 22 TECHNICAL MASTER PROMPT
 
-No authentic original Session 22 master prompt was found in the owner-supplied files and permitted records reviewed for this archive. This page is a status placeholder, not a reconstructed prompt.
+You are Codex working in the existing Italian Plumber Pong private development checkout on the owner's Bazzite ROG Ally. This is the FIRST technical Session 22. The separate prompt-archive documentation mini-session has already finished; do not redo it or mislabel it as technical Session 22.
 
-The technical session has not been completed. The separate prompt-archive maintenance request is not a Session 22 technical master prompt. This page will be updated only if the authentic prompt becomes available and passes review.
+MISSION
+Resolve the next evidence-supported N64Recomp startup dependency, currently direct-call target [REDACTED: GAME-DERIVED ADDRESS] reached while processing [REDACTED: PRIVATE TECHNICAL DETAIL]. Maintain all security and evidence standards. Work in bounded iterations, stop at genuine uncertainty, and produce a complete reviewed Session 22 report and handoff.
 
-[Read the development diary](../docs/PROGRESS.md); no completed Session 22 technical diary entry exists yet.
+FIRST: READ AND CONFIRM
+Read AGENTS.md, README.md, docs/SECURITY.md, docs/PROJECT_STATUS.md, docs/NEXT_SESSION_PLAN.md, docs/SESSION_21_REPORT.md, docs/DEVELOPMENT_WORKFLOW.md, docs/MMIO_DEVICE_BRIDGE.md, docs/ENHANCED_PORT_REQUIREMENTS.md where present, and docs/PROMPT_ARCHIVE_MINI_SESSION_REPORT.md. Confirm current branch [REDACTED: PRIVATE TECHNICAL DETAIL], clean or explain any dirty working tree, current GitHub remote and existing external analysis artifacts. Do not overwrite uncommitted work. Check the Session 21 external inventory and relevant retained archive inventories before relying on them. Preserve pinned N64Recomp version and patch chain unless a specific verified need requires a reviewed change.
+
+VERIFIED STARTING POINT
+[REDACTED: PRIVATE TECHNICAL DETAIL: private mapping baseline, ROM-derived blocker, function totals and execution status.]
+
+PRIORITY A: INVESTIGATE EXACT NEXT BLOCKER
+1. Inspect the retained external decoded-image, assembly, mapping, caller and load-state evidence for [REDACTED: GAME-DERIVED ADDRESS] and its caller [REDACTED: PRIVATE TECHNICAL DETAIL]. Use tools/blocker_investigator.py as guidance, never as proof of a function boundary.
+2. Identify actual owning image and loading state; distinguish virtual/decompressed offsets from compressed ROM offsets. Establish entry and complete body from independent evidence: instruction validity, branch destinations, delay slots, returns, data references, shared/interior entries, adjacent boundaries and direct calls. Never guess a length or function role.
+3. If evidence is sufficient, record the mapping ONLY in the approved external private workspace and run the pinned generator in a fresh external output directory. Capture bounded diagnostics and identify the next exact blocker. If evidence is insufficient, record what is missing and stop that branch.
+4. Follow docs/DEVELOPMENT_WORKFLOW.md: at most 15 dependency closure rounds, three attempts per unresolved blocker, 20 minutes bounded tool work and 300 seconds per individual process, or stricter limits documented there. Stop sooner on ambiguity, integrity failure, repeated errors or security concern. No recursive Codex, unattended next-session launches, fabricated success or speculative maps.
+5. Do not run original game code or a larger startup group until coherent generated/compiled dependencies, authentic memory and overlay state, CPU and MMIO services, interrupts, event timing and reliable execution limits are independently demonstrated. The wall-clock process guard is not an instruction budget or sandbox. Do not fake SI/PI/AI, PIF, DMA or interrupt behavior.
+
+PRIORITY B: TEST AND REPORT HONESTLY
+Run python3 tools/development.py verify and applicable pinned-generator synthetic regressions. Full mode requires the reviewed external generator build; opt-in archive checks require explicit external manifests. Keep PASS, FAIL, SKIPPED and BLOCKED distinct. Recompute evidence-backed metrics, separately reporting reviewed map entries, completely generated original functions, compiled functions, behaviorally validated functions, isolated native executions, and coherent startup-group executions. Do not count partial generator output or infer percentage complete. Keep all detailed ROM-derived diagnostics and files outside Git.
+
+PRIORITY C: PRESERVE LONG-TERM PRODUCT GOALS WITHOUT DIVERTING STARTUP WORK
+Keep the existing eight milestones and Linux/Bazzite-first, Windows-second, optional macOS roadmap. Maintain a defined first-playable vertical slice: launch a singles exhibition match, control players, serve, rally, score and finish a game. Plan future deterministic gameplay regression tests for scoring, physics, input and AI. Require a simple launcher-free portable install: user places their legally obtained supported ROM into a documented roms/ folder beside the native application, then launches the game directly or from Steam. Validate ROM locally, generate any necessary local data, cache safely, handle missing/unsupported ROMs clearly, and keep saves/settings in appropriate user-data directories. Do not add a setup wizard or separate launcher. Support controller-first Steam Game Mode, suspend/resume and exit. Milestone 6's integrated Mario Tennis-style PC Settings menu should eventually include graphics, controls, audio and Game Updates. Milestone 7's opt-in update action should check deliberate verified official releases, download/authenticate safely, update through a minimal helper after game exit where necessary, preserve ROM/saves/settings, roll back on failure, support offline play, and avoid interfering with externally managed packages. Do not implement these premature features during this session. Preserve the future reusable security-conscious recompilation starter kit, community contribution pathway, and Ally performance/frame-time/power benchmark plans. Update requirement docs only if necessary to keep these owner-approved goals represented, and do not claim implementation.
+
+PRIORITY D: SECURITY, PUBLIC DIARY AND PROMPT ARCHIVE
+The private repository [REDACTED: PRIVATE TECHNICAL DETAIL] MUST remain private. The public repository Grognlor/Italian-plumber-pong-roadmap remains public. Never stage, commit, upload or publish ROMs, fragments, proprietary assets, disassembly, decoded images, generated game code, private analysis artifacts, binaries, private technical reports, credentials, personal data or local private paths. ROM-derived information may be used locally in the authorized Codex context but never put in Git or public output. Only approved public roadmap paths may be modified: README.md, docs/ROADMAP.md, docs/PROGRESS.md, docs/FAQ.md, docs/CONTRIBUTING.md, prompts/README.md and numbered prompts/SESSION_NN.md. No other public paths, releases, visibility changes, media publication or source mirrors without explicit owner approval.
+
+The prompt archive mini-session already created the public archive and published sanitized authentic Sessions 20 and 21; Sessions 1–19 are marked Not recovered, and Session 22 currently has an in-progress placeholder. Preserve the EXACT Session 22 prompt privately in the approved owner-supplied/local source location if available, verify provenance, then at session close prepare a readable, meaning-preserving redacted copy for public prompts/SESSION_22.md. Use conspicuous labels such as [REDACTED: LOCAL ROM PATH], [REDACTED: PRIVATE ANALYSIS DIRECTORY], [REDACTED: GAME-DERIVED ADDRESS], [REDACTED: PRIVATE TECHNICAL DETAIL], [REDACTED: CREDENTIAL] where warranted. Never silently rewrite the original. Review the ENTIRE sanitized prompt, run security scans and publish only if safe and authentic. If the exact source cannot be recovered, leave the truthful placeholder and report why. Do not publish hidden instructions or private conversations. Add a newest-first, plain-English Session 22 entry to public docs/PROGRESS.md with accurate achievements, setbacks, next step and a link to the archive entry. Preserve every prior diary entry.
+
+PRIORITY E: CLOSEOUT AND GITHUB
+Write docs/SESSION_22_REPORT.md including precise evidence, classification, exact next blocker, attempts and stop reasons, verified metrics, validation output, external archive inventory results, security review, GitHub commits and CI status (do not claim CI PASS unless confirmed). Update docs/PROJECT_STATUS.md, docs/NEXT_SESSION_PLAN.md, relevant technical roadmap and private Issue #2 under milestone 2 without closing incomplete criteria. Do not change the eight-milestone order or status without evidence. Review the staged file list individually, run staged/history security scans, and commit/push only safe original code/tests/docs to the existing private investigation branch under standing authorization. Update approved public diary/archive paths only after separate public-content scans. Never merge main, force push, change visibility, create releases, publish game binaries or alter host permissions. Clearly report what completed, what remains unknown, what was published, exact commits, and whether anything requires owner approval.
+
+Start Session 22 now. Focus first on the single unresolved dependency. Do not claim the game is booting or playable unless directly demonstrated.
+
+---
+
+**Archive status:** Authentic Session 22 technical prompt, reviewed and visibly redacted for public release.
+
+> Editorial note: Private analysis identifiers, addresses, counts, and diagnostics are withheld. The private session report contains the detailed outcome.
+
+[Read the Session 22 development diary entry](../docs/PROGRESS.md#session-22).
