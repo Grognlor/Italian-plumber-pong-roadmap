@@ -1,3 +1,9 @@
+## Session 28
+
+[Session 28 — Following the startup loading route](SESSION_28.md): authentic
+owner-supplied prompt with visible redactions. The diary explains the checked
+loading route and the remaining uncertainty; the game has not started.
+
 ## Session 27
 
 [Session 27 — Caller image evidence and bounded local access](SESSION_27.md):
