@@ -1,5 +1,19 @@
 # Progress
 
+<a id="session-27"></a>
+## Session 27 — Checking which game version was active
+
+We reviewed saved notes about two versions of the same game part. The old label
+points into the middle of each version, and the notes do not show which one was
+active when it was needed. We found separate links from each version to another
+small game routine, but cannot yet show that either link is part of the opening
+sequence. We stopped before converting another piece rather than guess. This
+means Mario Tennis still does not start or play through this project. Next, we
+need reliable evidence showing which version the game loads and when.
+
+[Session 27 prompt record](../prompts/SESSION_27.md)
+
+
 <a id="session-26"></a>
 ## Session 26 — Checking which version the game uses
 
