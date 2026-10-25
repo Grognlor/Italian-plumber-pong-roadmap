@@ -2,16 +2,16 @@
 
 ## Latest update
 
-We have mapped another piece needed by one of the game's startup paths. That
-helped our conversion tool move on to the next missing piece, but the startup
-group still is not ready to run. We also tested a way to stop a test program
-that gets stuck, before trying longer experiments.
+We identified another piece the original game needs before it can start. Our
+conversion tool now gets past that piece and reaches the next missing one. We
+also tested a way to stop a computer test if it gets stuck, before trying
+longer experiments.
 
 For players, this is careful behind-the-scenes progress toward getting the
-game to start. We also added a future plan for an in-game settings menu that
-would feel like part of Mario Tennis. Next, we are checking the remaining
-startup pieces and the hardware behavior the game expects. The game is still
-not playable, and there is no release date.
+game to start. We also added a future plan for a settings menu that would feel
+like part of Mario Tennis. Next, we are checking what else the game needs
+before it can start. The game is still not playable, and there is no release
+date.
 
 ## Where things stand
 
