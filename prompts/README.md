@@ -1,3 +1,9 @@
+## Session 35
+
+[Session 35 — Startup evidence and independent native-runtime readiness](SESSION_35.md):
+authentic owner-supplied prompt with visible redactions. The diary separates the
+remaining startup blocker from synthetic test progress; the game has not started.
+
 ## Session 34
 
 [Session 34 — Checking how a loading task is prepared](SESSION_34.md): authentic
