@@ -7,9 +7,9 @@ The goal is to keep the original tennis, characters, courts, game modes and
 local multiplayer, then add helpful PC options such as widescreen and smoother
 play where they work correctly.
 
-**The game is not playable yet.** We have converted and tested small parts of
-the game, and we are working toward getting the first original game code to
-run on a PC.
+**The game is not playable yet.** A few small pieces from the original game
+now run in our PC test program. We are still working toward starting the game
+itself.
 
 See the [roadmap](docs/ROADMAP.md) for the planned steps and
 [progress notes](docs/PROGRESS.md) for a short history. This project does not

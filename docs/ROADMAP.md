@@ -12,6 +12,13 @@ to get original game code running on a PC. Later goals depend on that working.
 | **Coming Later** | Making the Whole Game Work | Support the original modes, players, courts, sound, saving and multiplayer. |
 | **Coming Later** | Making It Better on PC | Add widescreen, more display choices, smoother play and modern controllers. |
 | **Coming Later** | Ready for Everyone | Make a stable version that people can install on supported Linux systems. |
+| **Coming Later** | Bringing Mario Tennis to More Systems | After Linux is ready, bring the game to Windows, then look at Mac and other systems if testing help is available. |
+
+Our first target is Linux, including Bazzite, ROG Ally, Steam Deck and supported
+desktop systems. After that version is stable, we'd like to make a Windows
+version that runs directly on Windows. Mac and other systems may follow if
+people with suitable equipment can help test them. These are future plans, not
+working versions.
 
 These are goals, not promises or release dates. Planned features are not
 finished until they work in the game and have been checked.

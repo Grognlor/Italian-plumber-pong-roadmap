@@ -19,6 +19,13 @@ to open an emulator. That goal has not been reached yet.
 Those are goals for the future. Neither device is supported or tested by a
 playable build today.
 
+### Will it run on Windows or Mac?
+
+Linux is the first goal. After that version is stable, we'd like to make a
+Windows version that runs directly on Windows and test it on a Windows
+computer. Mac and other systems may be explored later if people with suitable
+computers can help test them. None of these versions exists yet.
+
 ### Will it support four players?
 
 The goal is to keep the original local multiplayer, including four players
