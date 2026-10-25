@@ -1,5 +1,17 @@
 # Progress
 
+<a id="session-22"></a>
+## Session 22 — We paused rather than guess
+
+We checked that the local game copy matches the version expected for this
+project. The saved notes and tools needed to examine the next startup step were
+not available in the workspace we could inspect, so we stopped rather than
+guess or replace them. This is careful groundwork, but it did not get the game
+running. Mario Tennis is still not playable through this project. Next, we'll
+restore the reviewed notes and tools and continue the same investigation.
+
+[Session 22 prompt record](../prompts/SESSION_22.md)
+
 <a id="session-21"></a>
 ## Session 21 — We followed the next startup path
 
