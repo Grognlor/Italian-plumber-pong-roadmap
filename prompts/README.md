@@ -1,3 +1,9 @@
+## Session 32
+
+[Session 32 — Checking the first loading handoff](SESSION_32.md): authentic
+owner-supplied prompt with visible redactions. The diary records the bounded
+service review and remaining memory-context gate; the game has not started.
+
 ## Session 31
 
 [Session 31 — Checking the first decoded writes](SESSION_31.md): authentic
