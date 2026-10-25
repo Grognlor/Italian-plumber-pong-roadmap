@@ -45,8 +45,10 @@ equipment to help test them. There are no release dates.
 
 An evolving set of reusable project instructions is also being developed as a
 possible starting point for other game-recompilation projects. It includes
-security rules, constraints, and goals. A public archive of the actual session
-prompts is planned, but it has **not** been published and is still under
-review. There is no public download of the reusable instructions.
+security rules, constraints, and goals. There is no public download of those
+reusable instructions.
 
-For now, the best way to follow along is the [development diary](docs/PROGRESS.md).
+The [Codex prompt archive](prompts/README.md) contains authentic session prompts
+when an original copy was available and safe to share. Missing records are
+clearly labeled, and sensitive details are visibly redacted. The
+[development diary](docs/PROGRESS.md) explains what the work means for players.
