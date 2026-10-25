@@ -20,7 +20,7 @@ The archive does not contain ROMs, game files, extracted material, generated gam
 
 ## Session 24
 
-[Session 24 — Toolchain recovery and evidence planning](SESSION_24.md): authentic owner-supplied prompt with visible redactions. The diary explains that work stopped at an unresolved tool-restoration problem.
+[Session 24 — Toolchain recovery and evidence planning](SESSION_24.md): authentic owner-supplied prompt with visible redactions. The diary records the initial tool-restoration setback, how saved instructions resolved it, and that the game itself remains unplayable.
 
 ## Session 23
 

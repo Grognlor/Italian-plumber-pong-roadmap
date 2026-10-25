@@ -4,12 +4,12 @@
 ## Session 24 — Checking the tools before going further
 
 We rechecked saved project materials from earlier work, and their listed files
-still match the records we kept. We also checked whether the tools can be
-restored for the next investigation. One tool update still fails for a reason
-we have not established, so we stopped instead of guessing. For players, this
-was careful recovery work; Mario Tennis is still not playable through this
-project. Next, we will isolate the tool problem before examining more of the
-game.
+still match the records we kept. We found the missing instruction needed to
+restore our conversion tools. All six tool updates then went on correctly, the
+main tool rebuilt, and two made-up test examples passed. For players, this
+restores our tools but does not mean Mario Tennis has run: the game is still
+not playable through this project. Next, we need to recover or carefully
+rebuild missing evidence before returning to the startup investigation.
 
 [Session 24 prompt record](../prompts/SESSION_24.md)
 
