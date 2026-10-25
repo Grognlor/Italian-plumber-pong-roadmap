@@ -1,5 +1,18 @@
 # Progress
 
+<a id="session-32"></a>
+## Session 32 — Checking the first loading handoff
+
+We checked how the game prepares its first loading request and found a failure
+path that the caller does not check. The saved evidence still does not establish
+the active memory setup or show that the request completes. We stopped at that
+gap. The earlier size check remains useful, but does not mean loading succeeded.
+No new game piece was converted or run, and Mario Tennis remains unplayable
+through this project. Next, we need evidence for the memory setup used at that
+first handoff.
+
+[Session 32 prompt record](../prompts/SESSION_32.md)
+
 <a id="session-31"></a>
 ## Session 31 — Checking the first decoded piece
 
