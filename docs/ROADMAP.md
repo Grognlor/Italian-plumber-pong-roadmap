@@ -10,7 +10,7 @@ to get original game code running on a PC. Later goals depend on that working.
 | **Coming Later** | First Successful Startup | Start the game and reach its title screen. |
 | **Coming Later** | Time to Play Tennis! | Play a complete tennis match. |
 | **Coming Later** | Making the Whole Game Work | Support the original modes, players, courts, sound, saving and multiplayer. |
-| **Coming Later** | Making It Better on PC | Add widescreen, more display choices, smoother play and modern controllers. |
+| **Coming Later** | Making It Better on PC | Add widescreen, more display choices, smoother play, modern controllers and settings you can change from inside Mario Tennis. |
 | **Coming Later** | Ready for Everyone | Make a stable version that people can install on supported Linux systems. |
 | **Coming Later** | Bringing Mario Tennis to More Systems | After Linux is ready, bring the game to Windows, then look at Mac and other systems if testing help is available. |
 
@@ -22,3 +22,11 @@ working versions.
 
 These are goals, not promises or release dates. Planned features are not
 finished until they work in the game and have been checked.
+
+### Settings That Feel Like Part of Mario Tennis
+
+Later on, we want a PC Settings menu that looks and feels like it belongs in
+Mario Tennis. Players could change supported screen, graphics, performance,
+sound and controller options from inside the game, using a controller. It
+would not be a separate launcher. This is a future plan, after the game is
+running; it does not exist yet.
