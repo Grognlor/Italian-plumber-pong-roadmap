@@ -1,3 +1,9 @@
+## Session 27
+
+[Session 27 — Caller image evidence and bounded local access](SESSION_27.md):
+authentic owner-supplied prompt with visible redactions. The diary records
+that the active game image remains uncertain; the game has not started.
+
 # Codex session prompts
 
 This archive contains original session prompts supplied by the project owner, when an authentic copy could be recovered and safely reviewed. Each recovered prompt keeps its original order and wording as much as possible. Sensitive spans are visibly marked instead of being silently rewritten.
