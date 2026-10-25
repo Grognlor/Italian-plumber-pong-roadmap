@@ -17,3 +17,7 @@ A page marked **Authentic** comes from an owner-supplied original prompt. A page
 Redactions are shown in square brackets, for example `[REDACTED: LOCAL ROM PATH]`, `[REDACTED: PRIVATE ANALYSIS DIRECTORY]`, `[REDACTED: CREDENTIAL]`, `[REDACTED: PERSONAL INFORMATION]`, `[REDACTED: GAME-DERIVED CODE]`, and `[REDACTED: PRIVATE TECHNICAL DETAIL]`. Each item is reviewed in context. Public tool names and ordinary technical ideas may remain when they do not reveal private or game-derived information. A redaction means text was withheld; it does not imply the rest of a prompt is a technical report or a claim that the game works.
 
 The archive does not contain ROMs, game files, extracted material, generated game code, disassembly, private reports, or chat transcripts.
+
+## Session 23
+
+[Session 23 — Recovery and preservation](SESSION_23.md): authentic owner-supplied prompt with visible redactions. The diary records the partial recovery and remaining blockers.
