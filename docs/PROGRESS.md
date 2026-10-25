@@ -1,5 +1,20 @@
 # Progress
 
+<a id="session-28"></a>
+## Session 28 — Checking the opening loading route
+
+We checked a saved route through the opening sequence and found another game
+part that can occupy the same space as the versions studied earlier. Its small
+routine does not make the connection we were looking for. The route also shows
+that changing to the next version depends on an earlier result. This narrows
+the investigation, but does not prove which version the old attempt used or
+that the needed routine is reached. No new game piece was converted or run.
+Mario Tennis still does not start or play through this project. Next, we need
+to follow the next version's opening route to that routine and check when its
+code is replaced.
+
+[Session 28 prompt record](../prompts/SESSION_28.md)
+
 <a id="session-27"></a>
 ## Session 27 — Checking which game version was active
 
