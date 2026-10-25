@@ -16,12 +16,22 @@ These entries summarize verified session reports. They were written later
 from those reports, not posted during the original sessions. The game has not
 reached its title screen.
 
-### Sessions 1–3 — Earlier records not recovered
+### Session 1 — Earlier record not recovered
 
-We could not find reliable session reports for these sessions. We do not know
-enough to say what was accomplished, so we will not fill in the gaps by
-guessing. The next recorded work begins with checking the game copy and
-building a safe way to study it.
+No reliable report for this session was found. We cannot say what changed
+without guessing. The next surviving project record does not appear until a
+later session.
+
+### Session 2 — Earlier record not recovered
+
+No reliable report for this session was found. We cannot confirm its work or
+outcome. We will leave that part of the story open instead of making one up.
+
+### Session 3 — Earlier record not recovered
+
+No reliable report for this session was found. We cannot confirm what was
+planned or completed. The first detailed surviving technical report is from
+Session 4.
 
 ### Session 4 — Checking the game copy and first small tests
 
