@@ -1,5 +1,18 @@
 # Progress
 
+<a id="session-33"></a>
+## Session 33 — Finding the missing loading context
+
+We narrowed the loading question to how the game chooses the active task and
+its working memory. We also checked that two different pieces of task information
+must not be confused. The saved evidence does not yet establish which task is
+active at the first handoff, so we stopped there. This gives us a more precise
+next check, but does not prove that loading finishes. No new game piece was
+converted or run. Mario Tennis remains unplayable through this project. Next,
+we need to trace how that first task is prepared and selected.
+
+[Session 33 prompt record](../prompts/SESSION_33.md)
+
 <a id="session-32"></a>
 ## Session 32 — Checking the first loading handoff
 
