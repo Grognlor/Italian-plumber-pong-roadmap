@@ -1,5 +1,20 @@
 # Progress
 
+<a id="session-35"></a>
+## Session 35 — Checking an earlier handoff and strengthening our tests
+
+The saved code shows an earlier task-priority change can hand off control before
+the loading task is prepared. We still need evidence for the state at that
+point, so the startup investigation remains blocked. Separately, we added a
+native PC test that checks unsupported work is reported as an error after a
+handoff, and wrote a practical plan for the runtime pieces we can test safely.
+That test uses made-up examples only. No new original game piece was converted
+or run, and Mario Tennis remains unplayable through this project. Next, the
+game investigation needs the state at that earlier priority change; independent
+runtime tests can continue under their own scope.
+
+[Session 35 prompt record](../prompts/SESSION_35.md)
+
 <a id="session-34"></a>
 ## Session 34 — Checking how a loading task is prepared
 
