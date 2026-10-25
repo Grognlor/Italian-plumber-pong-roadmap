@@ -3,13 +3,13 @@
 ## Latest update
 
 This session we fixed a problem in how our PC test program hands control from
-one task to another. We used a small made-up test to confirm that this handoff
-works. The original Mario Tennis game still has not run in our PC program.
+one task to another. We tested that with made-up routines, and we also
+translated and compiled three small original game routines. The game itself
+still has not run in our PC program.
 
-For players, this removes one obstacle on the way to testing real pieces of the
-game, but it does not mean the game is playable. Next, we are working on the
-game's timing and task-switching needs so we can connect more original game
-code safely. There is no release date.
+For players, these are useful building pieces, but they do not mean the game is
+playable. Next, we are working on the game's timing and task handoffs so we can
+connect a complete startup group. There is no release date.
 
 ## Where things stand
 
