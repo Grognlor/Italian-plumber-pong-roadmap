@@ -1,5 +1,18 @@
 # Progress
 
+<a id="session-31"></a>
+## Session 31 — Checking the first decoded piece
+
+We checked the first data stream from the owner's local game copy. Under the
+reviewed conditions, its decoded output fits the space requested and stops
+before the next reserved area. This clears the specific size concern from the
+last session. We still need to prove how the game delivers that data and
+reports completion, so the opening sequence has not run. No new game piece
+was converted or executed. Mario Tennis remains unplayable through this
+project. Next, we will check that first loading handoff and its effects.
+
+[Session 31 prompt record](../prompts/SESSION_31.md)
+
 <a id="session-30"></a>
 ## Session 30 — Checking space for the first loaded pieces
 
