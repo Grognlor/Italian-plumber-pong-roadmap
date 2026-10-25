@@ -1,3 +1,9 @@
+## Session 33
+
+[Session 33 — Finding the missing loading context](SESSION_33.md): authentic
+owner-supplied prompt with visible redactions. The diary records the narrower
+task-selection blocker; the game has not started.
+
 ## Session 32
 
 [Session 32 — Checking the first loading handoff](SESSION_32.md): authentic
