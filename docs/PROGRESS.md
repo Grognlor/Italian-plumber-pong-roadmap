@@ -2,14 +2,15 @@
 
 ## Latest update
 
-This session we fixed a problem in how our PC test program hands control from
-one task to another. We tested that with made-up routines, and we also
-translated and compiled three small original game routines. The game itself
+This session we fixed a problem in how our PC test program passes control
+between parts of the game. We checked it with made-up routines and prepared
+three small pieces of the original game for later testing. The game itself
 still has not run in our PC program.
 
 For players, these are useful building pieces, but they do not mean the game is
-playable. Next, we are working on the game's timing and task handoffs so we can
-connect a complete startup group. There is no release date.
+playable. Next, we are working on how the original game handles timing and
+switches between its background jobs so we can try starting more of it safely.
+There is no release date.
 
 ## Where things stand
 
