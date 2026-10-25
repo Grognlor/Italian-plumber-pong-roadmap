@@ -2,13 +2,16 @@
 
 ## Latest update
 
-We have now run three tiny pieces from the original Mario Tennis game in our PC
-test program. This is the first time original game parts have run inside this
-project. They are small helpers; they do not start the game or make it playable.
+We have mapped another piece needed by one of the game's startup paths. That
+helped our conversion tool move on to the next missing piece, but the startup
+group still is not ready to run. We also tested a way to stop a test program
+that gets stuck, before trying longer experiments.
 
-For players, this is a small step toward getting the game to start. Next, we are
-working on the timing and behind-the-scenes tasks the game needs before more of
-its startup can run safely. There is no release date.
+For players, this is careful behind-the-scenes progress toward getting the
+game to start. We also added a future plan for an in-game settings menu that
+would feel like part of Mario Tennis. Next, we are checking the remaining
+startup pieces and the hardware behavior the game expects. The game is still
+not playable, and there is no release date.
 
 ## Where things stand
 
