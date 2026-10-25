@@ -1,3 +1,10 @@
+## Session 34
+
+[Session 34 — Checking how a loading task is prepared](SESSION_34.md): authentic
+owner-supplied prompt with visible redactions. The diary records conditional
+task preparation and the remaining selection-state blocker; the game has not
+started.
+
 ## Session 33
 
 [Session 33 — Finding the missing loading context](SESSION_33.md): authentic
