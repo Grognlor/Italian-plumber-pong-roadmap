@@ -1,3 +1,9 @@
+## Session 31
+
+[Session 31 — Checking the first decoded writes](SESSION_31.md): authentic
+owner-supplied prompt with visible redactions. The diary records the bounded
+output check and remaining loading-service gate; the game has not started.
+
 ## Session 30
 
 [Session 30 — Checking memory writes before the first handoff](SESSION_30.md):
