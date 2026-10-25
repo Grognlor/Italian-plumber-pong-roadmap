@@ -41,6 +41,12 @@ does not work yet.
 Smooth 60-frame-per-second play is a goal. The project first needs to run the
 game correctly, and faster play must not make the tennis move too quickly.
 
+### Will I be able to change PC settings inside the game?
+
+That is a later goal. We would like a controller-friendly settings menu that
+looks like part of Mario Tennis, with supported screen, graphics, sound and
+controller choices. It has not been built yet.
+
 ### When will it be released?
 
 There is no release date. The project is still at an early stage.
