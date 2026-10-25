@@ -1,3 +1,9 @@
+## Session 30
+
+[Session 30 — Checking memory writes before the first handoff](SESSION_30.md):
+authentic owner-supplied prompt with visible redactions. The diary records the
+narrower loading check and remaining gap; the game has not started.
+
 ## Session 29
 
 [Session 29 — Following the caller connections](SESSION_29.md): authentic
