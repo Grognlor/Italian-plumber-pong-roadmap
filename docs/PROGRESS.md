@@ -2,14 +2,14 @@
 
 ## Latest update
 
-We built and tested a small piece of the PC program that helps it switch
-control between test routines. The test routines were made for testing; Mario
-Tennis itself did not run. This is groundwork for how the game switches between
-its own work while starting, but the game still does not run on a PC through
-this project.
+This session we fixed a problem in how our PC test program hands control from
+one task to another. We used a small made-up test to confirm that this handoff
+works. The original Mario Tennis game still has not run in our PC program.
 
-Next, we are checking another handoff the original game needs before we can try
-running its real code. There is no release date.
+For players, this removes one obstacle on the way to testing real pieces of the
+game, but it does not mean the game is playable. Next, we are working on the
+game's timing and task-switching needs so we can connect more original game
+code safely. There is no release date.
 
 ## Where things stand
 
