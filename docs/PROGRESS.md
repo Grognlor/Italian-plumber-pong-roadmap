@@ -1,5 +1,17 @@
 # Progress
 
+<a id="session-26"></a>
+## Session 26 — Checking which version the game uses
+
+We found two different versions of one game part in the saved evidence. The
+older notes do not tell us which version was active when it was needed, so we
+stopped rather than guess. This keeps the startup investigation honest, but
+Mario Tennis still does not start or play through this project. Next, we need
+to recover clear evidence showing which version the game uses before following
+that connection further.
+
+[Session 26 prompt record](../prompts/SESSION_26.md)
+
 <a id="session-25"></a>
 ## Session 25 — Checking a missing piece
 
