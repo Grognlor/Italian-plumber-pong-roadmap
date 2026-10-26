@@ -1,5 +1,19 @@
 # Progress
 
+<a id="session-40"></a>
+## Session 40 — Looking for a smaller first step
+
+We changed direction: instead of following the whole startup sequence, we
+reviewed three possible pairs of original game routines for a smaller PC test.
+A utility pair looks most promising, but none has enough evidence for integration
+yet. Next, we need to verify that pair's starting conditions and memory rules.
+The earlier startup question remains open and is deferred. No new game code was
+converted, compiled or run, and no executable changes were made. Mario Tennis
+remains unplayable through this project.
+
+[Session 40 prompt source record](../prompts/SESSION_40.md) — source-limitation
+placeholder; an exact original byte source was unavailable for verification.
+
 <a id="session-39"></a>
 ## Session 39 — Tracing working memory and checking recorded handoffs
 
