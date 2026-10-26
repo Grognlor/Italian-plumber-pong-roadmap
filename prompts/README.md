@@ -1,3 +1,9 @@
+## Session 45
+
+[Session 45 — Raw-memory backing contract investigation](SESSION_45.md): authentic
+owner-supplied attachment with visible redactions. The diary records a traced
+memory owner and a remaining memory check; no original game code ran.
+
 ## Session 44
 
 [Session 44 — Owner-supplied primary reference and gated comparison](SESSION_44.md):
