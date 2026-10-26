@@ -1,5 +1,20 @@
 # Progress
 
+<a id="session-46"></a>
+## Session 46 — Checking which memory would back the proposed test
+
+We checked the first requirement for the proposed safety certificate: which
+memory allocation is actually designated for the original routine pair. The
+records describe the general memory system and made-up test allocations, but
+do not establish an accepted allocation for this pair. We stopped there rather
+than choose one by assumption. Next, we need an owner-designated allocation
+specification or existing record to review before checking the address range.
+All 108 existing tests and both made-up conversion checks pass; no new tests or
+executable changes were added. No original game code was converted, compiled or
+run. Mario Tennis remains unplayable through this project.
+
+[Session 46 authentic prompt with visible redactions](../prompts/SESSION_46.md)
+
 <a id="session-45"></a>
 ## Session 45 — Tracing which memory checks actually apply
 
