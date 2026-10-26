@@ -1,3 +1,9 @@
+## Session 42
+
+[Session 42 — Independent instruction-reference gate](SESSION_42.md): authentic
+owner-supplied text attachment with visible redactions. The diary records a
+missing verified local reference; the helper was not used as its own oracle.
+
 ## Session 41
 
 [Session 41 — Utility-pair state and memory contract](SESSION_41.md): authentic
