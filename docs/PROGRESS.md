@@ -1,5 +1,19 @@
 # Progress
 
+<a id="session-38"></a>
+## Session 38 — Checking a setup assumption and rejecting misleading test results
+
+The saved data contains the expected starting value for a setup flag, but we
+cannot yet prove that earlier memory writes leave it intact when needed. We
+stopped at that gap, so startup remains blocked. Separately, the made-up native
+tests now reject error reports whose messages or recorded handoffs disagree.
+All ten focused runner tests pass, and the five existing test outcomes are
+preserved. No new original game piece was converted or run; Mario Tennis remains
+unplayable through this project. Next, we need evidence for the earlier memory
+setup before trusting that flag value.
+
+[Session 38 authentic prompt with visible redactions](../prompts/SESSION_38.md)
+
 <a id="session-37"></a>
 ## Session 37 — Checking an earlier setup step and a public reference
 
