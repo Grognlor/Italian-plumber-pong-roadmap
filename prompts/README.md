@@ -1,3 +1,9 @@
+## Session 38
+
+[Session 38 — Setup evidence and independent result validation](SESSION_38.md):
+authentic owner-supplied prompt with visible redactions. The diary separates the
+remaining startup question from synthetic test validation; the game has not started.
+
 ## Session 37
 
 [Session 37 — Startup evidence, reference review and independent memory test](SESSION_37.md):
