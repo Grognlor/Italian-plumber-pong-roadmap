@@ -1,3 +1,9 @@
+## Session 47
+
+[Session 47 — Backing-owner record intake and independent review](SESSION_47.md):
+authentic owner-supplied attachment with visible redactions. The diary records
+no accepted designated record; review authority did not supply a memory design.
+
 ## Session 46
 
 [Session 46 — Raw-address admission certificate](SESSION_46.md): authentic
