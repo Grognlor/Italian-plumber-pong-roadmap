@@ -1,5 +1,19 @@
 # Progress
 
+<a id="session-39"></a>
+## Session 39 — Tracing working memory and checking recorded handoffs
+
+We connected several saved startup steps to the area where a setup flag could
+be changed. The missing link is whether the first task actually receives the
+working memory prepared for it, so startup remains blocked. Separately, the
+made-up native tests now reject success or test-limit reports with missing or
+inconsistent handoffs. All eleven focused runner tests pass, and the five
+existing outcomes remain intact. No new original game piece was converted or
+run; Mario Tennis remains unplayable through this project. Next, we need evidence
+for that first handoff and its working memory.
+
+[Session 39 authentic prompt with visible redactions](../prompts/SESSION_39.md)
+
 <a id="session-38"></a>
 ## Session 38 — Checking a setup assumption and rejecting misleading test results
 
