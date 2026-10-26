@@ -5,12 +5,13 @@
 
 We checked the input needed for the next memory-safety review. The saved notes
 request missing decisions; they are not an approved memory plan for the proposed
-original-routine test. No allocation record was designated, so none could be
-accepted this session. We stopped before choosing memory values or a design for
-the owner. Next, we need to review one explicitly designated and justified plan
-once it is supplied. All 108 existing tests and both made-up conversion checks
-pass; no new tests or executable changes were added. No original game code was
-converted, compiled or run. Mario Tennis remains unplayable through this project.
+original-routine test. A final bounded search of the existing project documents
+also found no previously approved plan. The certificate remains blocked, and no
+memory values or design were chosen for the owner. Next, a proposed allocation
+plan needs separate owner review and approval before any implementation. All 108
+existing tests and both made-up conversion checks pass; no new tests or executable
+changes were added. No original game code was converted, compiled or run. Mario
+Tennis remains unplayable through this project.
 
 [Session 47 authentic prompt with visible redactions](../prompts/SESSION_47.md)
 
