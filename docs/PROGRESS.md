@@ -1,5 +1,19 @@
 # Progress
 
+<a id="session-43"></a>
+## Session 43 — Stopping when the reference could not be verified
+
+We tried three narrowly scoped downloads of public processor manuals, but each
+retrieval failed. Search results supplied leads, not a verified manual we could
+use to check the memory operation. We stopped at the attempt limit and kept the
+comparison unproved. Next, we need an authenticated copy of the reference before
+trusting the expected result. All 108 existing tests and both made-up conversion
+checks pass; no new tests or executable changes were added. No original game
+code was converted, compiled or run. Mario Tennis remains unplayable through
+this project.
+
+[Session 43 authentic prompt with visible redactions](../prompts/SESSION_43.md)
+
 <a id="session-42"></a>
 ## Session 42 — Keeping an independent memory check honest
 
@@ -504,3 +518,4 @@ not as a complete game sequence.
 We will check the newly reached part against the saved evidence and continue
 only if its role and boundaries are clear. The [roadmap](ROADMAP.md) lists the
 larger goals. There is no release date.
+
