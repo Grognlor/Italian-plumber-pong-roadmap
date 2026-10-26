@@ -1,3 +1,9 @@
+## Session 46
+
+[Session 46 — Raw-address admission certificate](SESSION_46.md): authentic
+owner-supplied attachment with visible redactions. The diary records a stop at
+the missing allocation designation; no original game code ran.
+
 ## Session 45
 
 [Session 45 — Raw-memory backing contract investigation](SESSION_45.md): authentic
