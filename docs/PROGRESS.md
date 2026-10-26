@@ -1,5 +1,19 @@
 # Progress
 
+<a id="session-48"></a>
+## Session 48 — A proposed memory plan is ready for owner review
+
+We prepared one concrete memory plan for the proposed original-routine test,
+using the existing PC memory system and a checked local reference. The plan is
+still a proposal: the owner has not approved it, and it has not been implemented.
+The next step is the owner's decision on that plan. Further safety checks and
+separate permission would still be needed before implementation or a game-code run.
+All 108 existing tests and both made-up conversion checks pass; no new tests or
+executable changes were added. No original game code was inspected, converted,
+compiled or run. Mario Tennis remains unplayable through this project.
+
+[Session 48 authentic prompt with visible redactions](../prompts/SESSION_48.md)
+
 <a id="session-47"></a>
 ## Session 47 — Waiting for an approved memory plan to review
 
