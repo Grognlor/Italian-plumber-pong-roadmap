@@ -1,3 +1,9 @@
+## Session 48
+
+[Session 48 — One controlled memory proposal for owner review](SESSION_48.md):
+authentic owner-supplied attachment with visible redactions. The diary records
+one proposed plan, awaiting owner decision; no implementation or game-code run.
+
 ## Session 47
 
 [Session 47 — Backing-owner record intake and independent review](SESSION_47.md):
