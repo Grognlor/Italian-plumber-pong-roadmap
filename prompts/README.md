@@ -1,3 +1,10 @@
+## Session 36
+
+[Session 36 prompt source record](SESSION_36.md): **Not recovered** as a verified
+byte-exact source. The owner supplied the prompt inline; the public page clearly
+records that limitation rather than reconstructing an authentic copy. The diary
+separates the blocked startup proof from synthetic runner progress.
+
 ## Session 35
 
 [Session 35 — Startup evidence and independent native-runtime readiness](SESSION_35.md):
