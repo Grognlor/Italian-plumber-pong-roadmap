@@ -1,5 +1,20 @@
 # Progress
 
+<a id="session-45"></a>
+## Session 45 — Tracing which memory checks actually apply
+
+We traced where the PC test memory comes from and how functions receive it.
+The checked memory helpers protect their own accesses, but those checks do not
+automatically cover the raw memory route used by converted functions. We stopped
+at the missing proof that the addresses and full access fit the actual buffer.
+Next, we need an independently reviewed check that links each address to enough
+valid memory before trying the original routine pair. All 108 existing tests and both made-up
+conversion checks pass; no new tests or executable changes were added. No original
+game code was converted, compiled or run. Mario Tennis remains unplayable through
+this project.
+
+[Session 45 authentic prompt with visible redactions](../prompts/SESSION_45.md)
+
 <a id="session-44"></a>
 ## Session 44 — Checking the instruction against its original manual
 
