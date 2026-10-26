@@ -1,3 +1,9 @@
+## Session 44
+
+[Session 44 — Owner-supplied primary reference and gated comparison](SESSION_44.md):
+authentic owner-supplied text attachment with visible redactions. The diary records
+accepted instruction rules and an open memory-safety contract; no game code ran.
+
 ## Session 43
 
 [Session 43 — Independent public-reference acquisition](SESSION_43.md): authentic
