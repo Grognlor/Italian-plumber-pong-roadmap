@@ -1,3 +1,10 @@
+## Session 37
+
+[Session 37 — Startup evidence, reference review and independent memory test](SESSION_37.md):
+authentic owner-supplied prompt with visible redactions. The diary separates the
+remaining startup question, limited reference findings and synthetic test progress.
+The game has not started.
+
 ## Session 36
 
 [Session 36 prompt source record](SESSION_36.md): **Not recovered** as a verified
