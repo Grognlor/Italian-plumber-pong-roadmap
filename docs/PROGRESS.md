@@ -1,5 +1,23 @@
 # Progress
 
+<a id="session-44"></a>
+## Session 44 — Checking the instruction against its original manual
+
+The owner supplied a processor manual, and we checked its identity and relevant
+pages. This let us independently establish the memory instruction's byte rules.
+The PC helper's result calculation agrees under the reviewed conditions, but we
+still need to justify its memory accesses before trying the original routine pair.
+We stopped at that remaining safety question. Next, we will focus on that one
+memory contract. All 108 existing tests and both made-up conversion checks pass;
+no new tests or executable changes were added. No original game code was converted,
+compiled or run. Mario Tennis remains unplayable through this project.
+
+Reference: NEC, *VR4300, VR4305, VR4310 64-Bit Microprocessor User's Manual*,
+U10504EJ7V0UMJ1, seventh edition, August 2000; printed pages 498–500, with
+notation and memory-operation definitions on pages 364–368.
+
+[Session 44 authentic prompt with visible redactions](../prompts/SESSION_44.md)
+
 <a id="session-43"></a>
 ## Session 43 — Stopping when the reference could not be verified
 
