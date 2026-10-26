@@ -1,5 +1,19 @@
 # Progress
 
+<a id="session-47"></a>
+## Session 47 — Waiting for an approved memory plan to review
+
+We checked the input needed for the next memory-safety review. The saved notes
+request missing decisions; they are not an approved memory plan for the proposed
+original-routine test. No allocation record was designated, so none could be
+accepted this session. We stopped before choosing memory values or a design for
+the owner. Next, we need to review one explicitly designated and justified plan
+once it is supplied. All 108 existing tests and both made-up conversion checks
+pass; no new tests or executable changes were added. No original game code was
+converted, compiled or run. Mario Tennis remains unplayable through this project.
+
+[Session 47 authentic prompt with visible redactions](../prompts/SESSION_47.md)
+
 <a id="session-46"></a>
 ## Session 46 — Checking which memory would back the proposed test
 
