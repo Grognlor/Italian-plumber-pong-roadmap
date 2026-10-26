@@ -1,3 +1,9 @@
+## Session 41
+
+[Session 41 — Utility-pair state and memory contract](SESSION_41.md): authentic
+owner-supplied text attachment with visible redactions. The diary records a
+remaining memory-semantics question; no original game code ran.
+
 ## Session 40
 
 [Session 40 prompt source record](SESSION_40.md): **Not recovered** as a verified
