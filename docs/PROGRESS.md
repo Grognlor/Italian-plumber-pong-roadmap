@@ -1,5 +1,20 @@
 # Progress
 
+<a id="session-36"></a>
+## Session 36 — Finding an earlier task and making test outcomes clear
+
+We found an earlier task-starting step that can affect which work is waiting
+when the game reaches the loading handoff. Its actual state and return still
+need evidence, so startup remains blocked. Separately, our new native test
+command now reports success, unsupported work, a test limit and a timeout as
+different outcomes. Eight new tests pass using made-up functions only. No new
+original game piece was converted or run; Mario Tennis remains unplayable
+through this project. Next, the game investigation needs the state at that
+earlier task-starting step.
+
+[Session 36 prompt source record](../prompts/SESSION_36.md) — source-limitation
+placeholder; an exact original byte copy was unavailable for verification.
+
 <a id="session-35"></a>
 ## Session 35 — Checking an earlier handoff and strengthening our tests
 
