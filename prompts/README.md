@@ -1,3 +1,9 @@
+## Session 40
+
+[Session 40 prompt source record](SESSION_40.md): **Not recovered** as a verified
+byte-exact source. The prompt was supplied inline; the record states that limitation.
+The diary describes a candidate-selection and architecture session, with no game execution.
+
 ## Session 39
 
 [Session 39 — Working-memory evidence and independent handoff validation](SESSION_39.md):
