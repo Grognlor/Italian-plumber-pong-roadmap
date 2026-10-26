@@ -1,3 +1,9 @@
+## Session 39
+
+[Session 39 — Working-memory evidence and independent handoff validation](SESSION_39.md):
+authentic owner-supplied prompt with visible redactions. The diary separates the
+remaining startup question from synthetic result validation; the game has not started.
+
 ## Session 38
 
 [Session 38 — Setup evidence and independent result validation](SESSION_38.md):
