@@ -1,5 +1,17 @@
 # Progress
 
+<a id="session-41"></a>
+## Session 41 — Narrowing the utility test's memory question
+
+We checked how the leading utility pair would receive its inputs and use memory
+in a small, controlled test. One memory operation still needs an independent
+check before we can trust the full expected result, so the pair is not ready
+to run. We stopped there. Next, we will focus on that single memory question.
+No new game code was converted, compiled or run, and no executable changes or
+new tests were added. Mario Tennis remains unplayable through this project.
+
+[Session 41 authentic prompt with visible redactions](../prompts/SESSION_41.md)
+
 <a id="session-40"></a>
 ## Session 40 — Looking for a smaller first step
 
