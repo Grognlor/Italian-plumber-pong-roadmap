@@ -1,5 +1,19 @@
 # Progress
 
+<a id="session-37"></a>
+## Session 37 — Checking an earlier setup step and a public reference
+
+We found an earlier setup step whose starting condition still needs proof, so
+the startup investigation stopped there. We also checked the small public
+Mario Tennis N64 reference already listed in our notes. It clarified the source
+and its limits, but did not answer the missing startup question. Separately,
+one new made-up test checks that an invalid memory access is reported clearly
+after a handoff. All nine focused runner tests pass. No new original game piece
+was converted or run; Mario Tennis remains unplayable through this project.
+Next, we need evidence for that earlier setup condition.
+
+[Session 37 authentic prompt with visible redactions](../prompts/SESSION_37.md)
+
 <a id="session-36"></a>
 ## Session 36 — Finding an earlier task and making test outcomes clear
 
