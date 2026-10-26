@@ -1,5 +1,18 @@
 # Progress
 
+<a id="session-42"></a>
+## Session 42 — Keeping an independent memory check honest
+
+We rechecked the saved instruction and the PC helper's memory accesses, then
+looked for an independent instruction reference in the approved local records.
+The records contain citations, but no verified source copy for the needed check.
+We stopped there and kept the comparison unproved. Next, we need an authenticated
+reference before trusting the expected result. No new reference was downloaded,
+no original game code was converted, compiled or run, and no executable changes
+or new tests were added. Mario Tennis remains unplayable through this project.
+
+[Session 42 authentic prompt with visible redactions](../prompts/SESSION_42.md)
+
 <a id="session-41"></a>
 ## Session 41 — Narrowing the utility test's memory question
 
