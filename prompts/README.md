@@ -1,3 +1,9 @@
+## Session 43
+
+[Session 43 — Independent public-reference acquisition](SESSION_43.md): authentic
+owner-supplied text attachment with visible redactions. Three retrievals failed;
+the diary records the unresolved reference gate and no original game execution.
+
 ## Session 42
 
 [Session 42 — Independent instruction-reference gate](SESSION_42.md): authentic
@@ -136,3 +142,4 @@ what this work means for players; the game remains unplayable.
 ## Session 23
 
 [Session 23 — Recovery and preservation](SESSION_23.md): authentic owner-supplied prompt with visible redactions. The diary records the partial recovery and remaining blockers.
+
