@@ -1,3 +1,10 @@
+## Session 55
+
+[Session 55 — Initialization service boundary review](SESSION_55.md): authentic
+owner-supplied attachment with visible redactions. The review found a candidate,
+but an adapter remains blocked pending a complete boundary and effects contract.
+No new game execution or first frame is claimed.
+
 ## Session 54
 
 [Session 54 — Architecture research and reference library](SESSION_54.md):
