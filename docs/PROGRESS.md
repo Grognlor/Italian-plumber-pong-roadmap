@@ -1,5 +1,24 @@
 # Progress
 
+<a id="session-57"></a>
+## Session 57 — A working test bridge to PC services
+
+We built a small, disposable test that lets converted, made-up code call PC-side
+initialization, controller-input and message services. It checks memory ownership,
+results and errors, including a real converted test caller. This makes the planned
+service approach more concrete without changing the game's startup or replacing
+the runtime. All controller samples and messages are explicitly made-up test data.
+
+All 167 repository tests and three existing synthetic conversion checks pass;
+the new converted-caller experiment passes separately. The original startup
+question still lacks evidence identifying one source as code or data. No Mario
+Tennis code ran this session, and there is still no boot, title screen, game frame
+or playable build. Next is to match one actual game service's required effects to
+this tested bridge before considering a replacement. No earlier release or
+first-frame estimate is justified.
+
+[Session 57 authentic prompt with visible redactions](../prompts/SESSION_57.md)
+
 <a id="session-56"></a>
 ## Session 56 — An independent check narrows the next question
 
