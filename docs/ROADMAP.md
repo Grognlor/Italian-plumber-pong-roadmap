@@ -1,9 +1,10 @@
 # Roadmap
 
-The game is **not playable**. Controlled local PC tests now follow one original
-startup path with an explicitly supplied busy-status input. They stop when another
-hardware answer is needed. Actual hardware state and a complete startup still need
-support. A title screen and the later goals remain future work.
+The game is **not playable**. We are comparing established PC runtime components
+to find a practical way through startup, while preserving the controlled local
+tests. The next step is to verify which console startup services can be soundly
+replaced on PC. No new game execution or graphics integration happened in this
+research session. A title screen and the later goals remain future work.
 
 | Status | Milestone | What it means for players |
 | --- | --- | --- |
