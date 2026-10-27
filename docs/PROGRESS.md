@@ -1,5 +1,20 @@
 # Progress
 
+<a id="session-49"></a>
+## Session 49 — Working native memory checks with made-up data
+
+We moved from planning to implementation. The native test runner now performs
+checked memory updates, refuses invalid or incomplete accesses, and prevents its
+memory owner from being copied or moved. A working test records a transfer between
+made-up routines and checks the resulting bytes; a second test deliberately fails
+safely. Seven new tests bring the suite to 115 passing tests, with both made-up
+conversion checks passing too. Extra sanitizer checks could not run because their
+local runtime libraries are missing; nothing was downloaded. No original game
+material was accessed or run. The next engineering step is recording nested calls
+and returns in the test runner. Mario Tennis remains unplayable through this project.
+
+[Session 49 authentic prompt with visible redactions](../prompts/SESSION_49.md)
+
 <a id="session-48"></a>
 ## Session 48 — A proposed memory plan is ready for owner review
 
