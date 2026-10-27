@@ -1,5 +1,20 @@
 # Progress
 
+<a id="session-52"></a>
+## Session 52 — A longer startup test reaches the next hardware boundary
+
+Original startup code now runs much farther in a controlled local PC test and
+prepares the next piece of game code itself. Two different test setups agree with
+an independent check, and a deliberately limited run stops safely. The clock
+counter and several CPU control operations now have explicit test models. These
+models do not prove console startup conditions. The next blocker is a hardware
+status read; no made-up ready or completed response was supplied. All 149 repository
+tests and three made-up conversion checks pass. There is still no game boot,
+title screen, rendered frame or gameplay. Next is a supported hardware-status
+contract at that stopping point.
+
+[Session 52 source-provenance note and authentic redacted continuation](../prompts/SESSION_52.md)
+
 <a id="session-51"></a>
 ## Session 51 — A first bounded piece of startup code ran locally
 
