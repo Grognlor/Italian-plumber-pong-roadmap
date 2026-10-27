@@ -1,10 +1,10 @@
 # Roadmap
 
-The game is **not playable**. A bounded review found a possible startup routine
-where PC services might replace console initialization. Its complete boundary and
-required effects still need confirmation, so no adapter has been built. The
-existing controlled tests are preserved. There is no game boot, title screen or
-rendered frame yet.
+The game is **not playable**. An independent check agrees on a proposed startup
+routine region, but one source still needs to be identified as code or data before
+its complete boundary can be confirmed. No actual extra entry or successful
+replacement is claimed. The existing controlled tests are preserved; no game boot,
+title screen or rendered frame has been reached.
 
 | Status | Milestone | What it means for players |
 | --- | --- | --- |
