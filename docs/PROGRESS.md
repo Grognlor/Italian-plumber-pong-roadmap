@@ -1,5 +1,22 @@
 # Progress
 
+<a id="session-54"></a>
+## Session 54 — Choosing a practical route toward the first game screen
+
+We studied how three other N64 PC ports handle startup, graphics, controllers and
+settings. The most promising next step is to check where an established PC runtime
+can replace console startup services, while keeping the working local tests. We
+also prepared a source index and compared options for controller-friendly settings.
+
+This was research, with no new game execution or graphics integration. All 157
+repository tests and three synthetic conversion checks pass. Reusing a library
+still needs compatibility and license checks; it does not automatically make Mario
+Tennis run. There is still no game boot, title screen, rendered frame or playable
+build. Next is one concrete check of the game's startup boundary before trying
+a replacement.
+
+[Session 54 authentic prompt with visible redactions](../prompts/SESSION_54.md)
+
 <a id="session-53"></a>
 ## Session 53 — A controlled busy signal exercises the next startup path
 
