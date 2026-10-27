@@ -1,10 +1,10 @@
 # Roadmap
 
-The game is **not playable**. We are comparing established PC runtime components
-to find a practical way through startup, while preserving the controlled local
-tests. The next step is to verify which console startup services can be soundly
-replaced on PC. No new game execution or graphics integration happened in this
-research session. A title screen and the later goals remain future work.
+The game is **not playable**. A bounded review found a possible startup routine
+where PC services might replace console initialization. Its complete boundary and
+required effects still need confirmation, so no adapter has been built. The
+existing controlled tests are preserved. There is no game boot, title screen or
+rendered frame yet.
 
 | Status | Milestone | What it means for players |
 | --- | --- | --- |
