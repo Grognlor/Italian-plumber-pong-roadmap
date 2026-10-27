@@ -1,3 +1,10 @@
+## Session 56
+
+[Session 56 — Independent initialization boundary check](SESSION_56.md): authentic
+owner-supplied attachment with visible redactions. The local structural check
+agrees, but a source-classification question blocks the complete certificate.
+No new game execution, host adapter or first frame is claimed.
+
 ## Session 55
 
 [Session 55 — Initialization service boundary review](SESSION_55.md): authentic
