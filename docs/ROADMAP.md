@@ -1,10 +1,12 @@
 # Roadmap
 
-The game is **not playable**. An independent check agrees on a proposed startup
-routine region, but one source still needs to be identified as code or data before
-its complete boundary can be confirmed. No actual extra entry or successful
-replacement is claimed. The existing controlled tests are preserved; no game boot,
-title screen or rendered frame has been reached.
+The game is **not playable**. A disposable test now connects converted, made-up
+code to PC-side initialization, controller-input and message services. This is a
+working test of the approach, not a replacement in Mario Tennis. One original
+startup source still needs to be identified as code or data, and the game's
+required service effects remain unconfirmed. No boot, title screen or game frame
+has been reached. The next step is matching one actual game service to the tested
+bridge before considering a replacement.
 
 | Status | Milestone | What it means for players |
 | --- | --- | --- |
