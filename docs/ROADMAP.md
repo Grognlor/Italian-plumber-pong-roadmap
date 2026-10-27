@@ -1,9 +1,9 @@
 # Roadmap
 
-The game is **not playable**. Original startup code now prepares and enters the
-next piece of code in controlled local PC tests. Execution stops before a hardware
-status read that still needs support. A complete startup and title screen remain
-future work; later goals depend on getting them working.
+The game is **not playable**. Controlled local PC tests now follow one original
+startup path with an explicitly supplied busy-status input. They stop when another
+hardware answer is needed. Actual hardware state and a complete startup still need
+support. A title screen and the later goals remain future work.
 
 | Status | Milestone | What it means for players |
 | --- | --- | --- |
