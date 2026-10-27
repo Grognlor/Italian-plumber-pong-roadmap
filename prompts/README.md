@@ -1,3 +1,9 @@
+## Session 51
+
+[Session 51 — Original bootstrap integration](SESSION_51.md): authentic
+owner-supplied attachment with visible redactions. The diary records a bounded
+startup prefix and an unsupported counter boundary, without a game boot or frame.
+
 ## Session 50
 
 [Session 50 — Local original-game integration](SESSION_50.md): authentic
