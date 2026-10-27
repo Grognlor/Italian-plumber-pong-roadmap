@@ -1,3 +1,10 @@
+## Session 54
+
+[Session 54 — Architecture research and reference library](SESSION_54.md):
+authentic owner-supplied attachment with visible redactions. The completed research
+compares established PC runtime and settings approaches; no game boot or playable
+build is claimed.
+
 ## Session 53
 
 [Session 53 — SI status and startup progression](SESSION_53.md): authentic
