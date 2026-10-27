@@ -1,5 +1,20 @@
 # Progress
 
+<a id="session-51"></a>
+## Session 51 — A first bounded piece of startup code ran locally
+
+A short piece of the original startup code now runs in the local PC test,
+including a handoff into a second piece. Two controlled memory checks agree
+with an independent result check, and a deliberately small instruction limit
+stops safely. Execution pauses before an original clock-counter read because
+its starting value and timing still need support. The test prepares the game
+image explicitly; it does not show a complete console startup. All 135 repository
+tests and three made-up conversion checks pass. Original game material and
+detailed results stayed local. No game boot, title screen, frame or gameplay
+was reached. Next is the counter and timing contract at that stopping point.
+
+[Session 51 authentic prompt with visible redactions](../prompts/SESSION_51.md)
+
 <a id="session-50"></a>
 ## Session 50 — Two connected original game routines ran locally
 
