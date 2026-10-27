@@ -1,3 +1,10 @@
+## Session 52
+
+[Session 52 — Overnight development and continuation](SESSION_52.md): the inline
+master source is explicitly marked Not recovered as byte-exact. The authentic
+continuation attachment is published with visible redactions. The diary records
+a longer controlled startup test and a hardware boundary, without a boot or frame.
+
 ## Session 51
 
 [Session 51 — Original bootstrap integration](SESSION_51.md): authentic
