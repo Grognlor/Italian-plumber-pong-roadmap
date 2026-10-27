@@ -1,5 +1,19 @@
 # Progress
 
+<a id="session-53"></a>
+## Session 53 — A controlled busy signal exercises the next startup path
+
+The local test can now supply one clearly marked busy-status input and run the
+original polling path past its previous stopping point. Two different busy inputs
+agree with an independent check. Wrong timing, missing input and a deliberately
+reduced execution limit stop safely. The test stops when another hardware answer is
+needed; it does not invent a ready signal, completed transfer or controller reply.
+All 157 repository tests and three made-up conversion checks pass. The game is
+still not playable, and no game boot, title screen or frame was reached. Next is
+evidence for where the next hardware status comes from and when it can change.
+
+[Session 53 authentic prompt with visible redactions](../prompts/SESSION_53.md)
+
 <a id="session-52"></a>
 ## Session 52 — A longer startup test reaches the next hardware boundary
 
