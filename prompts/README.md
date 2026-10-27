@@ -1,3 +1,9 @@
+## Session 49
+
+[Session 49 — Autonomous synthetic engineering](SESSION_49.md): authentic
+owner-supplied attachment with visible redactions. The diary records implemented
+native memory checks and passing made-up tests, without original game access.
+
 ## Session 48
 
 [Session 48 — One controlled memory proposal for owner review](SESSION_48.md):
