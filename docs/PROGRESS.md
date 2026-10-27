@@ -1,5 +1,20 @@
 # Progress
 
+<a id="session-50"></a>
+## Session 50 — Two connected original game routines ran locally
+
+Two original Mario Tennis routines now run together in a controlled native test:
+one calls the other, both return, and the results match an independent check for
+three test inputs, including checks that nearby memory stays unchanged. Deliberately invalid stack inputs are rejected safely. This is
+actual original-code execution, beyond the earlier made-up tests, but it is not
+a game boot or playable build. The retained image for this pair does not cover the recorded starting point;
+verifying the bootstrap image and its entry is next. All 121
+repository tests and three made-up conversion checks pass. Original game material,
+generated code and detailed results stayed local and were not uploaded. No title
+screen, rendered frame or gameplay was reached.
+
+[Session 50 authentic prompt with visible redactions](../prompts/SESSION_50.md)
+
 <a id="session-49"></a>
 ## Session 49 — Working native memory checks with made-up data
 
