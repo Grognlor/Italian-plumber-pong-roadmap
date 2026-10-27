@@ -1,3 +1,9 @@
+## Session 50
+
+[Session 50 — Local original-game integration](SESSION_50.md): authentic
+owner-supplied attachment with visible redactions. The diary records two connected
+original routines running in controlled local tests, without a game boot or frame.
+
 ## Session 49
 
 [Session 49 — Autonomous synthetic engineering](SESSION_49.md): authentic
