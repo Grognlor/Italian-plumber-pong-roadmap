@@ -1,8 +1,9 @@
 # Roadmap
 
-The game is **not playable**. Small pieces of original code now run in controlled
-PC tests, including a bounded startup prefix. A complete startup and title screen
-remain future work; later goals depend on getting them working.
+The game is **not playable**. Original startup code now prepares and enters the
+next piece of code in controlled local PC tests. Execution stops before a hardware
+status read that still needs support. A complete startup and title screen remain
+future work; later goals depend on getting them working.
 
 | Status | Milestone | What it means for players |
 | --- | --- | --- |
