@@ -1,3 +1,10 @@
+## Session 53
+
+[Session 53 — SI status and startup progression](SESSION_53.md): authentic
+owner-supplied attachment with visible redactions. The diary records one controlled
+busy-status input and the next missing hardware-state dependency, without a boot
+or playable build.
+
 ## Session 52
 
 [Session 52 — Overnight development and continuation](SESSION_52.md): the inline
