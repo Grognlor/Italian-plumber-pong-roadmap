@@ -1,5 +1,21 @@
 # Progress
 
+<a id="session-62"></a>
+## Session 62 — The PC test program processes its first graphics task
+
+The PC test program now processes the game's first graphics task. This task only
+sets up drawing state; it draws no pixels. The game's original code receives both
+completion messages and continues loading more data. Two controlled PC runs
+agree with independent checks and preserve all previously checked progress.
+
+The longer PC run still reaches a safety limit in our test program. Next, we need
+to extend checked execution toward actual drawing work and connect it to a PC
+graphics renderer. There is still no title screen, rendered game frame, sound
+output or playable build. All 195 project tests and three existing synthetic
+conversion checks pass. A check that refuses unsupported drawing work also passes.
+
+[Read the visibly redacted owner prompt](../prompts/SESSION_62.md).
+
 <a id="session-61"></a>
 ## Session 61 — Startup prepares its first graphics task
 
@@ -791,13 +807,12 @@ that new connection, not to assume its role.
 
 ## Where things stand
 
-The game is **not playable yet**. We have not reached its title screen or shown
-a running game. A few small original pieces have run in a PC test program, but
-not as a complete game sequence.
+The game is **not playable yet**. Original startup code has processed its first
+graphics setup task in controlled PC tests, but that task draws no pixels.
+There is still no title screen, rendered game frame or complete game sequence.
 
 ## What comes next
 
-Next we will test a cartridge-access service at the startup call the game has
-actually reached. The [roadmap](ROADMAP.md) lists the larger goals. There is no
-release date.
-
+Next we will extend checked execution toward actual drawing work and connect
+it to a PC graphics renderer. The [roadmap](ROADMAP.md) lists the larger goals.
+There is no release date.
