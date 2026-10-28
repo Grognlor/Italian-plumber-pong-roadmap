@@ -1,3 +1,10 @@
+## Session 58
+
+[Session 58 — Execution-first native recompilation](SESSION_58.md): owner-issued
+inline wording captured as rendered text, with visible redactions. Original
+transport-byte identity is UNKNOWN; no attachment recovery is claimed. Real
+original-code experiments ran, but there is no game boot or first frame.
+
 ## Session 57
 
 [Session 57 — Synthetic host adapter feasibility](SESSION_57.md): authentic
