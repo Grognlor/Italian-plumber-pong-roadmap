@@ -1,5 +1,22 @@
 # Progress
 
+<a id="session-60"></a>
+## Session 60 — Cartridge setup reaches original video initialization
+
+A new experimental PC service reads verified data from the owner's game file
+where the console would probe its cartridge. Original Mario Tennis code then
+builds its cartridge information and runs video setup. Both controlled PC runs
+agree with independent checks. We also fixed another stopping bug exposed by the
+longer tests and exercised the original memory-mapping initialization.
+
+The next missing piece is how a new game task starts using floating-point
+calculations. There is still no title screen, rendered game frame, sound output
+or playable build. Video requests are captured for checking; a renderer has not
+been connected. All 183 project tests and three existing synthetic conversion
+checks pass. These experimental service assumptions still need broader testing.
+
+[Read the visibly redacted owner prompt](../prompts/SESSION_60.md).
+
 <a id="session-59"></a>
 ## Session 59 — Startup gets past the early return bug
 
