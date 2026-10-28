@@ -1,12 +1,9 @@
 # Roadmap
 
-The game is **not playable**. A disposable test now connects converted, made-up
-code to PC-side initialization, controller-input and message services. This is a
-working test of the approach, not a replacement in Mario Tennis. One original
-startup source still needs to be identified as code or data, and the game's
-required service effects remain unconfirmed. No boot, title screen or game frame
-has been reached. The next step is matching one actual game service to the tested
-bridge before considering a replacement.
+The game is **not playable**. Real game code has reached experimental PC startup
+and audio-configuration services. The latter records setup requests; it does not
+produce sound. A longer continuation still fails a native validation check, which
+must be repaired before advancing. No boot, title screen or game frame exists.
 
 | Status | Milestone | What it means for players |
 | --- | --- | --- |
