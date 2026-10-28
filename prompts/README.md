@@ -1,3 +1,11 @@
+## Session 61
+
+[Session 61 — FPU exception handling and forward execution](SESSION_61.md):
+authentic owner-issued user-message text with visible redactions. The exact
+captured text is retained privately; no transport-byte identity is claimed.
+The diary records original startup reaching graphics-task preparation, with no
+renderer submission, rendered frame or playable build.
+
 ## Session 60
 
 [Session 60 — Cartridge initialization and forward execution](SESSION_60.md):
