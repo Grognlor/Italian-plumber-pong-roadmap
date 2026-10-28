@@ -1,9 +1,9 @@
 # Roadmap
 
-The game is **not playable**. Real game code has reached experimental PC startup
-and audio-configuration services. The latter records setup requests; it does not
-produce sound. A longer continuation still fails a native validation check, which
-must be repaired before advancing. No boot, title screen or game frame exists.
+The game is **not playable**. A return-handling fix lets real game code run
+farther through startup with experimental PC services. The next step is a tested
+cartridge-access service. There is still no boot, title screen, game frame or
+sound output.
 
 | Status | Milestone | What it means for players |
 | --- | --- | --- |
