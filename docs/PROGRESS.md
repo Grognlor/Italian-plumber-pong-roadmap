@@ -1,5 +1,20 @@
 # Progress
 
+<a id="session-59"></a>
+## Session 59 — Startup gets past the early return bug
+
+We fixed a return-handling bug that stopped real Mario Tennis code too soon.
+Original startup code now runs farther through initialization using experimental
+PC services. Tests also check that changed code is handled safely and that an
+interrupt mask comes from the game's own requests, rather than a guessed value.
+
+The next step is a tested cartridge-access service. There is still no game boot,
+title screen, rendered game frame, sound output or playable build. All 179 project
+tests and the three existing synthetic conversion checks pass. Experimental
+services still need broader game-compatibility testing.
+
+[Read the visibly redacted owner prompt](../prompts/SESSION_59.md).
+
 <a id="session-58"></a>
 ## Session 58 — Real game code reaches experimental PC services
 
@@ -748,7 +763,7 @@ not as a complete game sequence.
 
 ## What comes next
 
-We will check the newly reached part against the saved evidence and continue
-only if its role and boundaries are clear. The [roadmap](ROADMAP.md) lists the
-larger goals. There is no release date.
+Next we will test a cartridge-access service at the startup call the game has
+actually reached. The [roadmap](ROADMAP.md) lists the larger goals. There is no
+release date.
 
