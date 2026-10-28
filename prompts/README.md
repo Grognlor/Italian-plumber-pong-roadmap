@@ -1,3 +1,10 @@
+## Session 59
+
+[Session 59 — Execution-first native recompilation](SESSION_59.md): authentic
+owner-supplied attachment with visible redactions. The original attachment was
+retained exactly; the diary describes verified startup progress and remaining
+experimental limits. No game boot or first frame is claimed.
+
 ## Session 58
 
 [Session 58 — Execution-first native recompilation](SESSION_58.md): owner-issued
