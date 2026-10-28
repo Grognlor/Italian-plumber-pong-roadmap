@@ -1,9 +1,9 @@
 # Roadmap
 
-The game is **not playable**. A return-handling fix lets real game code run
-farther through startup with experimental PC services. The next step is a tested
-cartridge-access service. There is still no boot, title screen, game frame or
-sound output.
+The game is **not playable**. Original Mario Tennis code now reaches cartridge
+and video setup using experimental PC services. The next step is another startup
+handoff needed before graphics can run. There is still no title screen, rendered
+game frame or sound output.
 
 | Status | Milestone | What it means for players |
 | --- | --- | --- |
