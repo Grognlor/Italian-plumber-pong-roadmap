@@ -1,3 +1,11 @@
+## Session 60
+
+[Session 60 — Cartridge initialization and forward execution](SESSION_60.md):
+authentic owner-issued user-message text with visible redactions. The exact
+captured text is retained privately; no attachment recovery or transport-byte
+identity is claimed. The diary records verified cartridge/video startup progress
+and the next missing service. No game frame or playable build is claimed.
+
 ## Session 59
 
 [Session 59 — Execution-first native recompilation](SESSION_59.md): authentic
