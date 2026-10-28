@@ -1,3 +1,10 @@
+## Session 62
+
+[Session 62 — Graphics task bridge](SESSION_62.md): authentic owner-issued
+user-message text with visible redactions. The captured source is preserved
+privately. The diary records the first setup task processed by the PC test
+program, with no rendered frame or playable build.
+
 ## Session 61
 
 [Session 61 — FPU exception handling and forward execution](SESSION_61.md):
