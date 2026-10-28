@@ -1,5 +1,21 @@
 # Progress
 
+<a id="session-58"></a>
+## Session 58 — Real game code reaches experimental PC services
+
+Real Mario Tennis code now calls an experimental PC startup service and sends
+two audio setup requests to a checked host-side capture. This uses original code,
+not just made-up tests, but the capture does not produce sound and there is still
+no boot, title screen, game frame or playable build.
+
+All 170 repository tests and three synthetic conversion checks pass. A longer
+continuation failed native validation; its reference result is not counted as
+successful game execution. Next is to repair that first return or handoff check
+before continuing toward graphics. These temporary service assumptions still
+need compatibility testing.
+
+[Session 58 inline prompt with visible redactions](../prompts/SESSION_58.md)
+
 <a id="session-57"></a>
 ## Session 57 — A working test bridge to PC services
 
