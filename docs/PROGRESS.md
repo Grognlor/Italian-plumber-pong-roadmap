@@ -1,5 +1,22 @@
 # Progress
 
+<a id="session-61"></a>
+## Session 61 — Startup prepares its first graphics task
+
+We fixed the missing floating-point handoff by letting the game's original
+handler give the running task access to its calculations. Real Mario Tennis code
+now runs farther, reads more of the owner's game file and loads another piece of
+its startup code. Both controlled PC runs agree with independent checks.
+
+Original code has now prepared its first graphics task. It contains initial
+screen-drawing setup, and the next job is connecting that work to a PC graphics
+service. It has not been submitted to a renderer, and there is still no title
+screen, rendered game frame, sound output or playable build. Along the way,
+longer runs exposed conversion and call-handling bugs that we fixed and checked.
+All 189 project tests and three existing synthetic conversion checks pass.
+
+[Read the visibly redacted owner prompt](../prompts/SESSION_61.md).
+
 <a id="session-60"></a>
 ## Session 60 — Cartridge setup reaches original video initialization
 
