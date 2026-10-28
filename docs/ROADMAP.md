@@ -1,9 +1,9 @@
 # Roadmap
 
-The game is **not playable**. Original Mario Tennis code now reaches cartridge
-and video setup using experimental PC services. The next step is another startup
-handoff needed before graphics can run. There is still no title screen, rendered
-game frame or sound output.
+The game is **not playable**. Original Mario Tennis startup code now prepares
+its first graphics task in the PC test program. The next step is connecting
+that work to PC graphics. There is still no title screen, rendered game frame
+or sound output.
 
 | Status | Milestone | What it means for players |
 | --- | --- | --- |
