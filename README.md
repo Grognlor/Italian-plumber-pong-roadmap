@@ -16,6 +16,12 @@ See the [roadmap](docs/ROADMAP.md) for the planned steps and
 [progress notes](docs/PROGRESS.md) for the development diary. This project
 does not include the original game or game files.
 
+## Development Workflow
+
+![Italian Plumber Pong development workflow showing the roles of the project owner, ChatGPT, Codex, GitHub, and the local Bazzite development environment](Roadmap1.png)
+
+*An overview of the project's AI-assisted development process. This illustration describes the workflow and goals, not a playable build or screenshots from a functioning PC port.*
+
 ## How This Project Is Being Made
 
 I'm not a professional programmer. This is an experiment to see how far I can
