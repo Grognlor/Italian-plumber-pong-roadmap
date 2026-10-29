@@ -1,9 +1,10 @@
 # Roadmap
 
-The game is **not playable**. A local development program prepares its test code
-directly from the owner's game file and runs several small original routines
-using established runtime software. Next are startup threads, message handling
-and real graphics. There is still no title screen, rendered game frame or sound.
+The game is **not playable**. More original startup and message handling now
+runs in a local developer build, including real waiting and wakeup across PC
+threads. The real graphics engine also processes a captured original setup task,
+which draws no picture. Next are actual startup threads, safe graphics completion
+messages and an original drawing task. No game frame or title screen exists.
 
 | Status | Milestone | What it means for players |
 | --- | --- | --- |
