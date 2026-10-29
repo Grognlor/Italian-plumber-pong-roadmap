@@ -1,5 +1,23 @@
 # Progress
 
+<a id="session-67"></a>
+## Session 67 — Checking when graphics memory can be reused
+
+Progress was limited to investigating graphics memory safety and adding tests.
+The review clarified why separate task records can still share memory, but it
+did not prove when every part of the game is allowed to change it. New made-up test
+cases use the real PC thread scheduler to check early wakeups, memory reuse and
+cancellation. The existing original-code checks and captured graphics setup task
+still pass on the real graphics engine.
+
+Live graphics submission stays disabled until the missing ownership rules are
+proved. No new game startup step or game thread was connected. There is still
+no game picture, rendered frame, sound output, gameplay or playable download.
+Next is tracing the game routines that can change graphics memory. No release
+date is set.
+
+[Read the visibly redacted owner prompt](../prompts/SESSION_67.md).
+
 <a id="session-66"></a>
 ## Session 66 — Checking graphics memory safety
 

@@ -1,3 +1,10 @@
+## Session 67
+
+[Session 67 — Graphics memory ownership and completion](SESSION_67.md): authentic
+owner-issued prompt with visible redactions. The diary records limited progress
+on memory safety evidence and scheduling tests; live submission stays disabled
+and no game frame or playable download exists.
+
 ## Session 66
 
 [Session 66 — Live startup and graphics ownership](SESSION_66.md): authentic
