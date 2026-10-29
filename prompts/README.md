@@ -1,3 +1,10 @@
+## Session 66
+
+[Session 66 — Live startup and graphics ownership](SESSION_66.md): authentic
+owner-issued prompt with visible redactions. The diary records limited progress
+on graphics memory checks; live execution remains blocked and no game frame or
+playable download exists.
+
 ## Session 65
 
 [Session 65 — Connected startup and RT64 integration](SESSION_65.md): authentic

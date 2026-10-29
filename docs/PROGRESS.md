@@ -1,5 +1,22 @@
 # Progress
 
+<a id="session-66"></a>
+## Session 66 — Checking graphics memory safety
+
+Progress was limited to investigating when the game can reuse graphics memory
+and strengthening the existing checks. The graphics engine now keeps its own
+copy of the task's input record, and new tests check that changes to referenced
+memory are caught. Existing original-code checks and the captured graphics setup
+task still pass on the real graphics engine.
+
+The complete ownership rules are still uncertain, so live graphics submission
+remains disabled. No new original startup step or game thread was connected.
+There is still no game picture, rendered frame, sound output, gameplay or
+playable download. Next is proving when every relevant graphics buffer can be
+reused before connecting the live path. No release date is set.
+
+[Read the visibly redacted owner prompt](../prompts/SESSION_66.md).
+
 <a id="session-65"></a>
 ## Session 65 — Real threads and the first graphics-engine task
 
