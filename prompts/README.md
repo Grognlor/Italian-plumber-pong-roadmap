@@ -1,3 +1,10 @@
+## Session 69
+
+[Session 69 — Authentic graphics callback activation and connected execution](SESSION_69.md):
+authentic owner-issued prompt with visible redactions. The original callback entry
+remains unresolved; checked PC thread-priority handling advanced. Live graphics
+remains blocked and no game frame or playable download exists.
+
 ## Session 68
 
 [Session 68 — Graphics callback discovery and original execution](SESSION_68.md):

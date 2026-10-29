@@ -1,5 +1,23 @@
 # Progress
 
+<a id="session-69"></a>
+## Session 69 — Checking the path into graphics
+
+We checked more evidence for how the game reaches the graphics callback found in
+the previous session. Its original startup path is still unresolved, so that
+callback has not run. A small PC runtime improvement now checks which thread
+a priority request belongs to. It passed checks with real thread waiting and
+wakeup, but has not been connected to original game startup.
+
+Existing original-code checks and the captured graphics setup task still pass
+with the real graphics engine. Live graphics stays disabled until the original
+entry path and shared-memory lifetime are understood. There is no game picture,
+rendered frame, sound output, gameplay or playable download. Next is identifying
+the original code and loading conditions that reach the callback registration.
+No release date is set.
+
+[Read the visibly redacted owner prompt](../prompts/SESSION_69.md).
+
 <a id="session-68"></a>
 ## Session 68 — Finding a graphics callback
 
