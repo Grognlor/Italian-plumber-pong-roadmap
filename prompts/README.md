@@ -1,3 +1,10 @@
+## Session 65
+
+[Session 65 — Connected startup and RT64 integration](SESSION_65.md): authentic
+owner-issued prompt with visible redactions. Original message handling now works
+across real PC threads, and the real graphics engine processes a captured setup
+task. There is still no rendered game frame or playable download.
+
 ## Session 64
 
 [Session 64 — Accelerated established-runtime integration](SESSION_64.md): authentic
