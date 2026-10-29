@@ -1,10 +1,9 @@
 # Roadmap
 
-The game is **not playable**. A local development program now runs a small piece
-of original Mario Tennis code using established PC runtime software. Next comes
-preparing code directly from the owner's game file and connecting more startup
-work, then real graphics. There is still no title screen, rendered game frame
-or sound output.
+The game is **not playable**. A local development program prepares its test code
+directly from the owner's game file and runs several small original routines
+using established runtime software. Next are startup threads, message handling
+and real graphics. There is still no title screen, rendered game frame or sound.
 
 | Status | Milestone | What it means for players |
 | --- | --- | --- |
