@@ -1,3 +1,10 @@
+## Session 64
+
+[Session 64 — Accelerated established-runtime integration](SESSION_64.md): authentic
+owner-issued prompt with visible redactions. The diary records direct preparation
+from the owner's game file and more original code using established runtime
+services. There is still no game boot, rendered game frame or playable download.
+
 ## Session 63
 
 [Session 63 — Established runtime integration](SESSION_63.md): authentic
