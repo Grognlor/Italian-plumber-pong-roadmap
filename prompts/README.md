@@ -1,3 +1,10 @@
+## Session 63
+
+[Session 63 — Established runtime integration](SESSION_63.md): authentic
+owner-issued user-message text with visible redactions. The captured source is
+preserved privately. The diary records a working local development program using
+established runtime software, with no game boot or playable download.
+
 ## Session 62
 
 [Session 62 — Graphics task bridge](SESSION_62.md): authentic owner-issued
