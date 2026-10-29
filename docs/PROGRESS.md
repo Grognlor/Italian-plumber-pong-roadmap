@@ -1,5 +1,24 @@
 # Progress
 
+<a id="session-68"></a>
+## Session 68 — Finding a graphics callback
+
+We found how the game can register one graphics callback and identified the
+original routine it points to. The review also connected it to lists of graphics
+commands and memory they share. Small original helper routines now pass twelve
+separate checks, including one needed by video startup. The callback itself has
+not run through the PC application's startup path.
+
+The remaining problem is proving how startup reaches that registration and when
+all of its shared graphics memory can safely be reused. Live graphics stays
+disabled while that evidence is incomplete. Existing checks and the captured
+graphics setup task still pass with the real graphics engine. There is no game
+picture, rendered frame, sound output, gameplay or playable download. Next is
+tracing the original startup path to the recovered registration. No release date
+is set.
+
+[Read the visibly redacted owner prompt](../prompts/SESSION_68.md).
+
 <a id="session-67"></a>
 ## Session 67 — Checking when graphics memory can be reused
 

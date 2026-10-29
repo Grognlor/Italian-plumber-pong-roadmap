@@ -1,3 +1,10 @@
+## Session 68
+
+[Session 68 — Graphics callback discovery and original execution](SESSION_68.md):
+authentic owner-issued prompt with visible redactions. A callback registration
+and its target were identified, with small isolated original-code checks passing.
+Live graphics remains blocked; no game frame or playable download exists.
+
 ## Session 67
 
 [Session 67 — Graphics memory ownership and completion](SESSION_67.md): authentic
