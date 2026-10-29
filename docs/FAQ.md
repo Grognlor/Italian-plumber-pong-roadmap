@@ -7,12 +7,15 @@ a PC game, while keeping the original game experience.
 
 ### Is it playable?
 
-No. The project has not reached a running game, title screen or playable match.
+No. The native PC version has no game frame, title screen or playable match.
+The original opening sequence runs in a separate research emulator used to
+understand the game; that is not a playable native port.
 
 ### Is this an emulator?
 
-No. The goal is a PC version that runs as a PC game instead of asking players
-to open an emulator. That goal has not been reached yet.
+The finished project is intended to run directly as a PC game. During development,
+we also use a separate emulator to understand how the original game works. It
+will not be a dependency for the finished PC game. The native goal is unfinished.
 
 ### Will it run on Steam Deck or ROG Ally?
 

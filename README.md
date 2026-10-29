@@ -10,8 +10,10 @@ play where they work correctly.
 **The game is not playable yet.** A local developer build now runs connected
 original message handling across real PC threads. The real graphics engine
 starts and processes a captured original setup task, which draws no picture.
-Actual game startup and drawing still need more work. There is no title screen
-or rendered game frame.
+Native game startup and drawing still need more work. There is no native title
+screen or rendered game frame. A separate research emulator now runs the original
+opening sequence and has helped us find its graphics startup path; those emulator
+pictures are research evidence, not a working PC port.
 
 See the [roadmap](docs/ROADMAP.md) for the planned steps and
 [progress notes](docs/PROGRESS.md) for the development diary. This project

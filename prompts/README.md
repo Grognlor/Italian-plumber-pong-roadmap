@@ -1,3 +1,10 @@
+## Session 70
+
+[Session 70 — Instrumented reference emulator and graphics discovery](SESSION_70.md):
+authentic owner-issued prompt with visible redactions. The research emulator ran
+the original opening sequence and revealed its graphics startup path. The native
+PC version still has no rendered game frame or playable build.
+
 ## Session 69
 
 [Session 69 — Authentic graphics callback activation and connected execution](SESSION_69.md):

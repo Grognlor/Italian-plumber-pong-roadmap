@@ -1,5 +1,40 @@
 # Progress
 
+<a id="session-70"></a>
+## Session 70 — Watching the original game start drawing
+
+- Start: October 29, 2026, 13:51:20 PDT (UTC−07:00), the first recorded session timestamp.
+- Finish: October 29, 2026, 15:02:14 PDT (UTC−07:00), recorded at the handoff freeze during closeout.
+- Elapsed wall time: 1 hour 10 minutes 54 seconds through that recorded finish.
+- Active execution time: UNKNOWN; it was not measured reliably.
+
+We built a separate research emulator and successfully ran the original Mario
+Tennis opening sequence. Watching it run revealed the missing route into the
+code that starts drawing graphics. We checked where that code came from and saw
+original drawing work reach the emulator's graphics engine.
+
+### Behind the Scenes
+
+Codex first checked the saved evidence and reran the PC developer build's tests.
+It then built a modified Nintendo 64 emulator to watch how Mario Tennis loads
+parts of its program and starts drawing. Early attempts stalled because of
+emulator setup mistakes, including plugins connected in the wrong order. Fixing
+those mistakes let the game continue. Some suspected program parts did not match
+and were rejected; a later exact match connected the missing graphics path.
+
+Repeated runs produced the same pictures at several checkpoints, but their
+complete memory state differed, so we cannot call the runs fully repeatable yet.
+A small mapping experiment also showed a way to find groups of code more
+efficiently. The public community decompilation was unchanged when checked.
+
+All pictures observed here came from the research emulator. The native PC version still
+has no game picture or playable build, and the emulator will not become part of
+the finished game. Next is checking the newly found path carefully enough to
+bring a small piece into the native build, including how its shared memory stays
+safe. There is no release date. No pictures or videos are published in this update.
+
+[Read the visibly redacted owner prompt](../prompts/SESSION_70.md).
+
 <a id="session-69"></a>
 ## Session 69 — Checking the path into graphics
 
