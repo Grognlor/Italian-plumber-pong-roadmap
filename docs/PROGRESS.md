@@ -1,5 +1,28 @@
 # Progress
 
+<a id="session-65"></a>
+## Session 65 — Real threads and the first graphics-engine task
+
+More original startup code now creates its message queues and forwards an
+original message. Original access code also runs across two real PC threads:
+one waits for a token held by the other, then wakes when the original release
+code returns it. Independent checks agree on the execution and memory changes.
+Preparing the existing CPU checks directly from the owner's game file still works.
+
+The real RT64 graphics engine now builds, starts on the local Vulkan graphics
+device and processes Mario Tennis's first captured graphics setup task. The task
+came from earlier local testing; the new startup path is not yet feeding it
+live. It sets up graphics state and draws no picture. There is no rendered game
+frame, title screen, sound output, gameplay or playable download.
+
+A build hit its time limit and needed a continuation, and an incorrect test
+comparison was corrected. The final project, conversion and local integration
+checks pass, including real waiting/wakeup and graphics rejection checks. Next
+are the game's actual startup threads and safe graphics completion messages,
+followed by an original task that draws something. No release date is set.
+
+[Read the visibly redacted owner prompt](../prompts/SESSION_65.md).
+
 <a id="session-64"></a>
 ## Session 64 — Preparing directly from your game file
 
@@ -851,12 +874,13 @@ that new connection, not to assume its role.
 
 ## Where things stand
 
-The game is **not playable yet**. A local development build prepares its test
-code directly from the owner's game file and runs several small original game
-routines using established runtime software. There is no game boot or frame.
+The game is **not playable yet**. A local developer build runs connected original
+message handling across real PC threads. The real graphics engine initializes
+and processes a captured original setup task, which draws no picture. Preparing
+the CPU checks directly from the owner's game file still works.
 
 ## What comes next
 
-Next we will connect original startup threads and message handling to the runtime,
-then real graphics. The [roadmap](ROADMAP.md) lists the larger goals. There is no
-release date.
+Connect the game's actual startup threads and safe graphics completion handling,
+then reach an original drawing task. The [roadmap](ROADMAP.md) lists the larger
+goals. There is no release date.
