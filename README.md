@@ -7,10 +7,11 @@ The goal is to keep the original tennis, characters, courts, game modes and
 local multiplayer, then add helpful PC options such as widescreen and smoother
 play where they work correctly.
 
-**The game is not playable yet.** A local development program now prepares its
-test code directly from the owner's game file and runs several small original
-routines using established runtime software. Startup threads and real graphics
-come next. There is still no title screen or rendered game frame.
+**The game is not playable yet.** A local developer build now runs connected
+original message handling across real PC threads. The real graphics engine
+starts and processes a captured original setup task, which draws no picture.
+Actual game startup and drawing still need more work. There is no title screen
+or rendered game frame.
 
 See the [roadmap](docs/ROADMAP.md) for the planned steps and
 [progress notes](docs/PROGRESS.md) for the development diary. This project
