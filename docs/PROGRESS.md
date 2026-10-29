@@ -1,5 +1,28 @@
 # Progress
 
+<a id="session-64"></a>
+## Session 64 — Preparing directly from your game file
+
+The local development program can now prepare the code it needs directly from
+the owner's supported game file. It no longer needs a prepared memory copy for
+these checks, and does not replay the long startup experiment. Three small
+pieces of original game code now compile and run using established PC runtime
+services. Two of them acquire and release the same access queue across repeated
+calls; independent checks agree on their results and memory changes.
+
+A graphics input adapter also preserves the first authentic task in the runtime's
+expected format. It does not send that task to a renderer or produce a frame.
+An incorrect pointer assumption in its first check was corrected and retained
+for review. All 203 project tests, three existing conversion checks and four
+local integration checks pass. The next step is connecting real startup threads
+and their message handling, followed by a real graphics backend.
+
+This remains a developer build. There is no title screen, rendered game frame,
+sound output, gameplay or ready-to-play download. The intended installation
+still starts by choosing your own game file; consumer packaging is future work.
+
+[Read the visibly redacted owner prompt](../prompts/SESSION_64.md).
+
 <a id="session-63"></a>
 ## Session 63 — A first build using established PC runtime software
 
@@ -828,12 +851,12 @@ that new connection, not to assume its role.
 
 ## Where things stand
 
-The game is **not playable yet**. A local development build now runs a small
-piece of original game code using established PC runtime software. This does
-not start the game. There is still no title screen or rendered game frame.
+The game is **not playable yet**. A local development build prepares its test
+code directly from the owner's game file and runs several small original game
+routines using established runtime software. There is no game boot or frame.
 
 ## What comes next
 
-Next we will prepare the needed code directly from the owner's game file and
-connect more original startup work to the runtime, followed by real graphics.
-The [roadmap](ROADMAP.md) lists the larger goals. There is no release date.
+Next we will connect original startup threads and message handling to the runtime,
+then real graphics. The [roadmap](ROADMAP.md) lists the larger goals. There is no
+release date.
