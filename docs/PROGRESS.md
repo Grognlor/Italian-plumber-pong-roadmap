@@ -1,5 +1,26 @@
 # Progress
 
+<a id="session-63"></a>
+## Session 63 — A first build using established PC runtime software
+
+We changed direction toward the software used by established N64 PC ports. A
+local development program now compiles real Mario Tennis code and links it to
+existing PC runtime services. A small original routine creates a message queue
+and sends a message through those services. Independent checks agree on the
+results, and a fresh build reproduces the test.
+
+The program checks the owner's game file and can run this small test without
+Codex. It still needs prepared local code data, and cannot start Mario Tennis.
+An early checking mistake was fixed before the independent checks passed. All
+199 project tests, three existing conversion checks and two runtime integration
+checks pass. The next job is preparing the needed code directly from the game
+file and connecting more original startup code to these services, then graphics.
+There is still no title screen, rendered game frame, sound output or playable
+download. The intended installation remains launch, choose your own game file,
+and process it locally; that user experience is not implemented yet.
+
+[Read the visibly redacted owner prompt](../prompts/SESSION_63.md).
+
 <a id="session-62"></a>
 ## Session 62 — The PC test program processes its first graphics task
 
@@ -807,12 +828,12 @@ that new connection, not to assume its role.
 
 ## Where things stand
 
-The game is **not playable yet**. Original startup code has processed its first
-graphics setup task in controlled PC tests, but that task draws no pixels.
-There is still no title screen, rendered game frame or complete game sequence.
+The game is **not playable yet**. A local development build now runs a small
+piece of original game code using established PC runtime software. This does
+not start the game. There is still no title screen or rendered game frame.
 
 ## What comes next
 
-Next we will extend checked execution toward actual drawing work and connect
-it to a PC graphics renderer. The [roadmap](ROADMAP.md) lists the larger goals.
-There is no release date.
+Next we will prepare the needed code directly from the owner's game file and
+connect more original startup work to the runtime, followed by real graphics.
+The [roadmap](ROADMAP.md) lists the larger goals. There is no release date.
