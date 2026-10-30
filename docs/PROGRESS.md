@@ -1,5 +1,39 @@
 # Progress
 
+<a id="session-74"></a>
+## Session 74 — Saved startup graphics now draw through the PC renderer
+
+- Start: October 30, 2026, 08:52:20 PDT (UTC−07:00).
+- Technical finish: October 30, 2026, 09:54:01 PDT (UTC−07:00).
+- Elapsed through technical finish: 1 hour 1 minute 41 seconds. Evidence preservation and delivery followed.
+- Active execution time: UNKNOWN; it was not measured reliably.
+
+Two saved original drawing tasks now run through the native PC graphics engine
+and produce a recognizable, dark Nintendo 64 startup logo. Private images were
+saved directly from the graphics output. This is a frozen replay: the native game
+still cannot start itself, and there is no playable build or live native first frame.
+No game images are published here.
+
+A direct check against the research software renderer found pixel differences.
+The drawing runs are real, but their complete visual accuracy is not yet proven.
+The simpler depth-clear check still agrees exactly. We also caught and fixed an
+image-export ordering mistake; the original diagnostic files were kept.
+
+### Behind the Scenes
+
+One more small original message-queue routine now runs directly on the PC in a
+separate test. A previously missing CPU setting is now observed, allowing a
+complete comparison of that routine's short execution with independent checks.
+The larger research runs still differ in memory, so broad repeatability remains
+unproven. Normal native startup coverage did not increase.
+
+New tools make complete input fingerprints and save private images without
+changing their size or pixels. All 232 project tests pass, along with the existing
+native checks. Next are explaining the graphics differences and completing the
+original loading and startup handoffs. There is no release date.
+
+[Read the visibly redacted owner prompt](../prompts/SESSION_74.md).
+
 <a id="session-73"></a>
 ## Session 73 — A real loading request and a small native graphics test
 
@@ -1087,13 +1121,13 @@ that new connection, not to assume its role.
 
 ## Where things stand
 
-The game is **not playable yet**. A local developer build runs connected original
-message handling across real PC threads. The real graphics engine initializes
-and processes a captured original setup task, which draws no picture. Preparing
-the CPU checks directly from the owner's game file still works.
+The game is **not playable yet**. A local developer build runs original message
+handling across PC threads. Separate saved drawing tasks now produce startup
+logos through the native graphics engine, with pixel differences still unresolved.
+The native game cannot yet produce these pictures through its own startup.
 
 ## What comes next
 
-Connect the game's actual startup threads and safe graphics completion handling,
-then reach an original drawing task. The [roadmap](ROADMAP.md) lists the larger
-goals. There is no release date.
+Explain the drawing differences and connect the game's actual loading, startup
+threads and safe graphics completion handling. The [roadmap](ROADMAP.md) lists
+the larger goals. There is no release date.

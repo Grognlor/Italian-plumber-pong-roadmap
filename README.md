@@ -7,13 +7,12 @@ The goal is to keep the original tennis, characters, courts, game modes and
 local multiplayer, then add helpful PC options such as widescreen and smoother
 play where they work correctly.
 
-**The game is not playable yet.** A local developer build now runs connected
-original message handling across real PC threads. The real graphics engine
-starts and processes a captured original setup task, which draws no picture.
-Native game startup and drawing still need more work. There is no native title
-screen or rendered game frame. A separate research emulator now runs the original
-opening sequence and has helped us find its graphics startup path; those emulator
-pictures are research evidence, not a working PC port.
+**The game is not playable yet.** A local developer build runs connected original
+message handling across real PC threads. Separate frozen replays of saved original
+drawing tasks now produce recognizable startup logos through the native PC graphics
+engine. These pictures still differ from the research software renderer, and the
+native game cannot yet reach them through its own startup. There is no live native
+first frame or playable download. Diagnostic game images remain private.
 
 See the [roadmap](docs/ROADMAP.md) for the planned steps and
 [progress notes](docs/PROGRESS.md) for the development diary. This project

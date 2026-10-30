@@ -1,3 +1,9 @@
+## Session 74
+
+[Session 74 — Native execution, validation and private screenshot capture](SESSION_74.md):
+authentic owner prompt with visible redactions. Saved original startup graphics
+now draw through the PC renderer; pixel differences and live startup remain open.
+
 ## Session 73
 
 [Session 73 — Loading, validation and frozen graphics tests](SESSION_73.md):

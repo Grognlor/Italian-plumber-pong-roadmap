@@ -1,13 +1,10 @@
 # Roadmap
 
-The game is **not playable**. More original startup and message handling now
-runs in a local developer build, including real waiting and wakeup across PC
-threads. The real graphics engine also processes a captured original setup task,
-which draws no picture. The original opening sequence now runs in a separate
-research emulator, which
-helped us find the graphics startup path. The native PC build still needs that
-path, actual startup threads and safe shared-memory handling. No native game
-frame or title screen exists.
+The game is **not playable**. Original message handling runs across real PC threads
+in a local developer build. Separate frozen replays now draw saved original startup
+logos through the native graphics engine, with pixel differences still unresolved.
+The native game still needs its actual loading and startup path, thread ownership
+and safe graphics completion handling. No live native first frame exists.
 
 | Status | Milestone | What it means for players |
 | --- | --- | --- |
