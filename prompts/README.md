@@ -1,3 +1,9 @@
+## Session 73
+
+[Session 73 — Loading, validation and frozen graphics tests](SESSION_73.md):
+authentic owner prompt with visible redactions. A small original helper and a
+saved graphics clear run natively in separate tests; complete startup remains blocked.
+
 ## Session 72
 
 [Session 72 — Checking the original ROM loader](SESSION_72.md): authentic owner

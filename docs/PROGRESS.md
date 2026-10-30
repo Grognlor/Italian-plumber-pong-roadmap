@@ -1,5 +1,43 @@
 # Progress
 
+<a id="session-73"></a>
+## Session 73 — A real loading request and a small native graphics test
+
+- Start: October 29, 2026, 21:28:46 PDT (UTC−07:00), the first recorded session timestamp.
+- Finish: October 29, 2026, 23:05:47 PDT (UTC−07:00), at the technical handoff freeze.
+- Elapsed wall time: 1 hour 37 minutes 1 second through that finish.
+- Active execution time: UNKNOWN; it was not measured reliably.
+
+We followed the original game's small loading request all the way to its worker,
+watched the requested record arrive, and saw the loading lookup return. That record
+tells the game where to find material in the ROM, so this helps explain what the
+native PC loader must reproduce. The whole transfer still needs independent checks
+of its worker and hardware behavior before it can join native startup.
+
+### Behind the Scenes
+
+Three tracks ran this session. One small original helper now runs natively in a
+separate test and agrees with independent checks. New comparison tooling checks
+that tests use the right call and program image, then reports the first difference
+in execution or memory. Its made-up test cases pass; older captures still lack one
+CPU field, so it refuses to call those a complete comparison.
+
+The graphics track also replayed one saved original drawing task through the real
+PC graphics engine. It cleared a depth buffer, and every resulting memory byte
+matched a separate calculation. This is a frozen graphics task replay, not a game
+picture or live startup. The more complex textured tasks still need review.
+
+A graphics build missed a required compiler setting. A rejection test also found
+a cleanup crash; both were fixed, and the final rejection and real-task checks
+passed. The existing native build and all project tests pass. Its normal startup
+coverage is unchanged, and there is still no native game frame or playable build.
+
+Next are the original loading worker, a more complete automatic comparison and
+one textured frozen graphics task. A private diagnostic image was kept for owner
+review. No game files, images or videos are published, and no release date is set.
+
+[Read the visibly redacted owner prompt](../prompts/SESSION_73.md).
+
 <a id="session-72"></a>
 ## Session 72 — Following the original game's loading steps
 
