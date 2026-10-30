@@ -1,5 +1,26 @@
 # Progress
 
+<a id="session-75"></a>
+## Session 75 — Checking how game loading begins
+
+One starting value needed by game loading is already present in the original game
+data. Independent checks agree that the PC program preserves it. This resolves one
+loading question, but the game's own startup and background loading still cannot run
+through the native program. No additional original routine was added this session.
+
+Two small graphics checks found a difference in how the PC graphics engine and the
+research renderer round colors. That is a useful lead, but it does not yet explain
+or fix the saved startup pictures. The existing pixel differences remain, and no
+new game images are published.
+
+All 232 project tests pass, along with the established native checks. Next are
+verifying which original startup threads own the loading work and checking colors
+before the startup image's dark overlay. This was a deliberately short session;
+the detailed evidence and next steps are preserved for the next development push.
+The game is not playable, and there is no live native first frame or release date.
+
+[Read the visibly redacted owner prompt](../prompts/SESSION_75.md).
+
 <a id="session-74"></a>
 ## Session 74 — Saved startup graphics now draw through the PC renderer
 

@@ -1,3 +1,9 @@
+## Session 75
+
+[Session 75 — Focused native execution investigation](SESSION_75.md): authentic
+owner prompt with visible redactions. One loading question was resolved; native
+startup and the saved graphics differences remain blocked.
+
 ## Session 74
 
 [Session 74 — Native execution, validation and private screenshot capture](SESSION_74.md):
