@@ -1,3 +1,9 @@
+## Session 72
+
+[Session 72 — Checking the original ROM loader](SESSION_72.md): authentic owner
+prompt with visible redactions. A short lookup check agreed independently; the
+complete loading step remains blocked. No new native game picture or playable build.
+
 ## Session 71
 
 [Session 71 — Checking the original graphics startup producer](SESSION_71.md):

@@ -1,5 +1,40 @@
 # Progress
 
+<a id="session-72"></a>
+## Session 72 — Following the original game's loading steps
+
+- Start: October 29, 2026, 19:50:18 PDT (UTC−07:00), the first recorded session timestamp.
+- Finish: October 29, 2026, 20:32:07 PDT (UTC−07:00), at the technical handoff freeze.
+- Elapsed wall time: 0 hours 41 minutes 49 seconds through that finish.
+- Active execution time: UNKNOWN; it was not measured reliably.
+
+The graphics startup code needs the original game's ROM loader before it can
+continue. This session followed the exact loading call found last time, so we
+can learn what the native PC version must reproduce.
+
+### Behind the Scenes
+
+Codex reused the research emulator to watch the correct loading call and checked
+a short part with a separate interpreter. The check agreed, including all the
+memory changes. It showed that the game first asks for a small record telling
+it where the requested material lives in the ROM. It marks which record it wants
+before the new record arrives, so seeing that mark alone would not prove success.
+
+The full loading check remains blocked at the step that requests and waits for
+that record. We stopped there instead of inventing a successful load. Some local
+commands initially met tool restrictions and succeeded on approved retries; a
+script preparation mistake was caught before it ran. The emulator experiment
+and the short independent checks passed, but the complete loader did not pass.
+
+The existing native developer build's tests passed again. No original loading
+code was added to the native runtime, and there is still no native game picture
+or playable build. Next is checking how the game's loading records are initialized
+and how this exact request reaches its worker and gets a real completion, before
+continuing toward graphics startup. No game files, pictures or videos are published,
+and no release date is promised.
+
+[Read the visibly redacted owner prompt](../prompts/SESSION_72.md).
+
 <a id="session-71"></a>
 ## Session 71 — Checking the newly found graphics startup path
 
