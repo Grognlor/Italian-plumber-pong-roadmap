@@ -1,5 +1,38 @@
 # Progress
 
+<a id="session-71"></a>
+## Session 71 — Checking the newly found graphics startup path
+
+- Start: October 29, 2026, 17:10:40 PDT (UTC−07:00), the first recorded session timestamp.
+- Finish: October 29, 2026, 18:06:21 PDT (UTC−07:00), recorded at the technical handoff freeze during closeout.
+- Elapsed wall time: 0 hours 55 minutes 41 seconds through that recorded finish.
+- Active execution time: UNKNOWN; it was not measured reliably.
+
+Last session, we found the original game's graphics startup path by watching
+Mario Tennis run in a modified N64 emulator. This session checked how that path
+begins so we can eventually bring it into the native PC version safely.
+
+### Behind the Scenes
+
+Codex checked the saved evidence and reran the PC developer build's existing
+tests. It reused the research emulator without rebuilding it, watched a short
+part of startup, and checked the same beginning with a separate interpreter.
+That small check agreed, including the memory changes. The full path still needs
+a loading step whose behavior has not been verified for the PC runtime.
+
+An automatic code map had grouped separate routines together, so it could not
+be trusted as a finished map. One memory capture also belonged to an earlier
+loading call; checking which caller produced it prevented using the wrong state.
+These checks helped narrow the next task, but did not complete the full graphics
+startup test or add original code to the native PC runtime.
+
+The existing PC tests passed. There is still no native game picture or playable
+build. Next is verifying that first loading step and how the loaded program's
+memory is initialized before continuing toward graphics startup. No pictures,
+videos or game files are published with this update, and there is no release date.
+
+[Read the visibly redacted owner prompt](../prompts/SESSION_71.md).
+
 <a id="session-70"></a>
 ## Session 70 — Watching the original game start drawing
 

@@ -1,3 +1,10 @@
+## Session 71
+
+[Session 71 — Checking the original graphics startup producer](SESSION_71.md):
+authentic owner-issued prompt with visible redactions. A small startup check
+agreed with a separate interpreter; the full path remains blocked by loading.
+No original code was added to the native runtime, and no native game frame exists.
+
 ## Session 70
 
 [Session 70 — Instrumented reference emulator and graphics discovery](SESSION_70.md):
