@@ -1,3 +1,9 @@
+## Session 76
+
+[Session 76 — Tool evaluation and original loading work](SESSION_76.md): authentic
+owner prompt with visible redactions. Two additional routines pass isolated native
+checks; continuous startup and complete graphics correctness remain unfinished.
+
 ## Session 75
 
 [Session 75 — Focused native execution investigation](SESSION_75.md): authentic

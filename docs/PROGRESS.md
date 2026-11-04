@@ -1,5 +1,26 @@
 # Progress
 
+<a id="session-76"></a>
+## Session 76 — Following the game's loading work
+
+We observed the original game create its background loading worker and select the
+active thread. Independent checks now agree on several of those startup steps.
+Two more small original routines run in isolated native PC checks and match the
+reference results. These pieces still need to be connected into a continuously
+running native game.
+
+The new analysis tools had mixed results: one helps inspect code structure, while
+others remain blocked or disabled. Graphics checks found color differences before
+the startup picture's dark overlay, narrowing the search. The complete pictures
+still differ. New diagnostic images remain private; no game imagery is published.
+
+All 235 project tests pass, alongside the native baseline checks. Next is following
+one real loading request through cache, device and interrupt handling without
+inventing missing behavior. The game is not playable, and there is no live native
+first frame or release date. All eight milestones remain open.
+
+[Read the visibly redacted owner prompt](../prompts/SESSION_76.md).
+
 <a id="session-75"></a>
 ## Session 75 — Checking how game loading begins
 
