@@ -1,5 +1,31 @@
 # Progress
 
+<a id="session-78"></a>
+## Session 78 — Finding a concrete loading compatibility barrier
+
+We identified the selected cache operation and checked the memory range it covers.
+A separate test against the pinned PC runtime confirmed a specific mismatch in
+how the original game and the runtime represent an empty list of waiting threads.
+Connecting those queues directly would be unsafe. Thread mapping, request
+lifetimes, memory visibility and completion delivery still need a complete contract.
+No new original service was added to startup.
+
+We also repaired the public prompts for Sessions 74–77 from their authentic
+originals. Their engineering instructions are now readable, with narrow redactions
+for sensitive material. Earlier versions remain in Git history. The substantially
+complete [Session 78 owner prompt](../prompts/SESSION_78.md) uses the same standard.
+A documentation regression flags obvious whole-section withholding in candidates;
+manual security review is still required. Earlier archive review remains unfinished.
+
+The existing native baseline checks pass. No additional original function was
+certified, and graphics were not freshly replayed in this session. The known saved
+graphics differences remain unresolved. No new diagnostic images were captured or
+published. There is no live native first frame, playable build or release date;
+all eight milestones remain open.
+
+Next is a bounded test of queue ownership and a real blocking wakeup, with original
+thread records kept separate from host thread contexts until compatibility is proved.
+
 <a id="session-77"></a>
 ## Session 77 — Following one loading request to completion
 

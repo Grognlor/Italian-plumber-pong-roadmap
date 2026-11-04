@@ -1,3 +1,26 @@
+## Session 78
+
+[Session 78 — Native loading admission and prompt transparency](SESSION_78.md):
+authentic owner instructions with narrow visible redactions. The diary records
+verified results separately from requested objectives.
+
+## Transparency repair in Session 78
+
+Sessions [74](SESSION_74.md), [75](SESSION_75.md), [76](SESSION_76.md) and
+[77](SESSION_77.md) were revised from authenticated original owner prompts to
+restore safe engineering instructions. Earlier, more heavily redacted versions
+remain in repository history. Tool choices, experiments, validation requirements,
+setbacks and next-step instructions should be readable. Private evidence paths,
+seals, diagnostic values, account details and private repository identifiers remain
+visibly redacted. Requested work is never proof that it was completed.
+
+The publication rule is maximum safe transparency. Review each sensitive span in
+context and retain its surrounding instructions in their original order. A local
+documentation check flags obvious blanket withholding; it cannot replace source
+authentication or manual security review and never publishes text automatically.
+The remaining historical prompts are being reviewed in bounded future sessions;
+missing originals will not be reconstructed.
+
 ## Session 77
 
 [Session 77 — Original loading and native integration](SESSION_77.md): authentic
