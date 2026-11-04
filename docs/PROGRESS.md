@@ -1,5 +1,29 @@
 # Progress
 
+<a id="session-77"></a>
+## Session 77 — Following one loading request to completion
+
+We followed one small original loading request through the reference emulator's
+data transfer, interrupt and completion messages. Independent checks agree on
+the copied data and the selected message-handling steps. This gives us a clearer
+contract for connecting loading to the PC version. Memory visibility, thread
+ownership and safe request lifetimes still need work before that connection.
+
+Two more complete original routines run in isolated native PC checks and match
+the reference results. A new check also catches mistakes in saved evidence archives.
+All 244 project tests pass, alongside the native baseline checks.
+
+Graphics observations now show exactly how the software reference rounds one
+unequal pixel and darkens it in the overlay. The corresponding internal GPU value
+still needs checking; the complete saved pictures remain unequal. Two new private
+diagnostic images were saved. No game imagery is published.
+
+Next is the missing memory-visibility and ownership contract for a safe native
+loading connection. Mario Tennis is not playable, there is no live native first
+frame or release date, and all eight milestones remain open.
+
+[Read the visibly redacted owner prompt](../prompts/SESSION_77.md).
+
 <a id="session-76"></a>
 ## Session 76 — Following the game's loading work
 

@@ -1,3 +1,10 @@
+## Session 77
+
+[Session 77 — Original loading and native integration](SESSION_77.md): authentic
+owner prompt with visible redactions. One reference loading request is followed
+to completion, and two more routines pass isolated native checks. Continuous
+native startup and complete graphics correctness remain unfinished.
+
 ## Session 76
 
 [Session 76 — Tool evaluation and original loading work](SESSION_76.md): authentic
