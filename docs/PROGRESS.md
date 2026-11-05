@@ -1,5 +1,32 @@
 # Progress
 
+<a id="session-80"></a>
+## Session 80 — Following the loading worker's first start
+
+We followed the original game as it created its background loading worker,
+registered it, chose it to run and executed its first instruction. Independent
+checks agree on the important changes. This gives us a clearer starting contract
+for connecting loading to the PC version. The complete ownership and lifetime of
+the worker's stack still need proof before that connection is safe.
+
+Three more complete original routines now run in isolated native PC checks and
+match the original run and a separate interpreter. Normal startup coverage is
+unchanged. We reviewed a design that keeps the original and PC thread records
+separate, but no loading worker received a native PC context and no new loading
+service entered native startup.
+
+All twelve diagnostic shaders passed offline validity checks and had matching
+interfaces. A new tool and twelve made-up tests check those interfaces. This does
+not explain the earlier graphics compiler crash, so the failed modified shader
+was not sent to the GPU again. No internal GPU color values or new pictures were
+captured; the known saved-picture differences remain unresolved.
+
+Next is proving the loading worker's complete stack ownership before native
+thread registration. Mario Tennis is not playable, there is no live native first
+frame or release date, and all eight milestones remain open.
+
+[Read the visibly redacted Session 80 owner prompt](../prompts/SESSION_80.md).
+
 <a id="session-79"></a>
 ## Session 79 — Watching the original loading worker wait and wake up
 

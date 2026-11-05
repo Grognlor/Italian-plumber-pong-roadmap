@@ -1,3 +1,9 @@
+## Session 80
+
+[Session 80 — Original thread registration and native ownership](SESSION_80.md):
+authentic owner instructions with narrow visible redactions. Requested objectives
+are separate from the verified diary results. Previous prompts remain unchanged.
+
 ## Session 79
 
 [Session 79 — Original thread wakeup, native integration and graphics](SESSION_79.md):
