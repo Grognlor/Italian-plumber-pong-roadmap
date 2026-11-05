@@ -1,5 +1,34 @@
 # Progress
 
+<a id="session-82"></a>
+## Session 82 — Another original event routine runs in a PC check
+
+One more complete original routine now runs in isolation on PC and matches a fresh
+original run and a separate interpreter. It records which queue and message the
+game uses for a console event. This checks another part of the original loading
+setup; it does not yet connect the game's background loading worker to PC startup.
+
+The stack investigation did not recover proof of the worker's complete memory
+allocation and lifetime. We stopped before repeating earlier findings and moved
+to the original routine above. The first native attempt rejected missing interrupt
+state; a second original capture supplied the real state, and the comparison passed.
+The worker's PC adapter remains blocked until ownership evidence is complete.
+
+Coverage tracking adds the new routine and one older checked helper. The reviewed
+subset now has twelve complete functions and one partial routine; overall game
+coverage and percentages remain unknown. Eleven older code extents still need review.
+
+Offline graphics checks reject the known shader/output format mismatch and test a
+possible matching format and memory size. No modified shader ran on the GPU, no
+graphics fix is claimed, and the saved-picture differences remain unresolved.
+
+Next is checking the original startup routine that changes the main thread's
+priority, with the real interrupt state. Stack ownership will need a new independent
+source of evidence. Mario Tennis is not playable, there is no live native first
+frame, and all eight milestones remain open.
+
+[Read the visibly redacted Session 82 owner prompt](../prompts/SESSION_82.md).
+
 <a id="session-81"></a>
 ## Session 81 — Another original thread routine checked on PC
 

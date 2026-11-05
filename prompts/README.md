@@ -1,3 +1,9 @@
+## Session 82
+
+[Session 82 — Allocation provenance and authentic native progress](SESSION_82.md):
+authentic complete owner instructions with localized visible redactions. Requested
+work is separate from verified diary results. Earlier prompts are unchanged.
+
 ## Session 81
 
 [Session 81 — Worker stack ownership and native registration](SESSION_81.md):

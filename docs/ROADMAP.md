@@ -1,4 +1,4 @@
-## Code coverage tracking — Session 81
+## Code coverage tracking — Session 82
 
 Code coverage measures authenticated recompilation progress, not overall gameplay completion.
 
@@ -6,31 +6,31 @@ Code coverage measures authenticated recompilation progress, not overall gamepla
 | --- | --- |
 | Estimated total original functions | UNKNOWN |
 | Estimated total executable instructions | UNKNOWN |
-| Identified complete functions | At least 10 |
-| Analyzed complete functions | At least 10 |
-| Generated complete functions | At least 10 |
-| Compiled complete functions | At least 10 |
-| Executed complete functions | At least 10 |
-| Validated complete functions | At least 5 |
+| Identified complete functions | At least 12 |
+| Analyzed complete functions | At least 12 |
+| Generated complete functions | At least 12 |
+| Compiled complete functions | At least 12 |
+| Executed complete functions | At least 12 |
+| Validated complete functions | At least 7 |
 | Connected complete functions | At least 5 |
 | Startup complete functions | At least 0 |
-| Compiled instruction locations | At least 481 |
+| Compiled instruction locations | At least 532 |
 | Compiled function coverage | UNKNOWN |
 | Compiled instruction coverage | UNKNOWN |
 | Baseline revision | mt-us-census-v1 |
-| Last coverage update | Session 81 |
+| Last coverage update | Session 82 |
 
-These counts describe a reviewed subset of ten complete functions and one separate
-partial startup routine. They are lower bounds, not complete project totals or a
-measure of how close the game is to being playable. One function ran freshly in
-isolation this session; one older checked helper was added to the tracking ledger.
-Earlier validation qualifications remain.
 
-The older classification now has seventeen isolated extents (325 compiled
-instruction locations, 28 cases). Connected coverage remains six routines
-(342 compiled locations). These categories may overlap and must not be added together.
-Twelve older isolated extents still need tracking review. The baseline stays the
-same; no new whole-game census or defensible percentage is available.
+These counts describe a reviewed subset of twelve complete functions and one
+partial routine. They are lower bounds, not complete project totals or a measure
+of how close the game is to being playable. One new function ran in isolation
+this session; one older checked helper was added to the ledger.
+
+The older classification has eighteen isolated extents (368 compiled instruction
+locations, 29 cases). Connected coverage remains six routines (342 compiled
+locations). These categories may overlap and must not be added together.
+Eleven older isolated extents still need tracking review. The existing baseline
+is unchanged; whole-game totals and every percentage remain unknown.
 
 # Roadmap
 
