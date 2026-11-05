@@ -1,3 +1,9 @@
+## Session 84
+
+[Session 84 — Authentic preempting handoff and context-save certification](SESSION_84.md):
+authentic complete owner instructions with localized visible redactions. Requested
+work is separate from verified diary results. Earlier prompts are unchanged.
+
 ## Session 83
 
 [Session 83 — Authentic root priority transition and native progress](SESSION_83.md):

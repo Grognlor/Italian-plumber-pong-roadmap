@@ -1,5 +1,40 @@
 # Progress
 
+<a id="session-84"></a>
+## Session 84 — The original startup handoff matches on PC
+
+We followed the real game as its main startup thread lowered its priority and
+handed control to the background loading worker. Two more complete original
+routines now run in an isolated PC check: one saves the outgoing thread's state,
+and the other chooses and restores the next thread. All 194 executed instructions
+and 24 checkpoints match the original run and a separate interpreter, including
+the real interrupt state and memory changes. The PC check stops at the worker's
+entry; the original reference run also executes its first instruction.
+
+This is a real transfer to another original thread, so the check preserves that
+outcome without pretending the first caller returned. Earlier capture attempts
+hit an uninitialized list and then missed two memory snapshots. We kept those
+failures and used a fresh, complete run for the final comparison. Deliberately
+wrong state and missing evidence reject, and a short execution limit unwinds safely.
+
+The result remains isolated. It does not give the loading worker a runnable PC
+thread or connect it to normal game startup. Complete ownership and lifetime of
+the worker's stack still lack proof; we did not repeat the earlier investigation
+without a new source of evidence. Connected native coverage is unchanged.
+
+The reviewed subset now contains fifteen complete functions and one partial
+routine. Whole-game code totals and percentages remain unknown. All 307 project
+tests and the existing build checks pass. No new graphics experiment or picture
+was made; the saved-picture differences and graphics compiler crash remain unresolved.
+Mario Tennis is not playable, there is no live native first frame, and all eight
+milestones remain open.
+
+The next engineering target is the worker's original startup through its first
+natural wait for loading work, with the same ownership and interrupt checks.
+Session 85 has not begun.
+
+[Read the visibly redacted Session 84 owner prompt](../prompts/SESSION_84.md).
+
 <a id="session-83"></a>
 ## Session 83 — Checking the main startup thread's priority change
 
