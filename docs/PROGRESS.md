@@ -1,5 +1,33 @@
 # Progress
 
+<a id="session-81"></a>
+## Session 81 — Another original thread routine checked on PC
+
+One more complete original routine now runs in an isolated PC check and matches
+the original run and a separate interpreter. It places the background loading
+worker in the waiting-to-run list and returns to the game's main startup thread.
+This makes another part of the original startup behavior testable on PC.
+
+We still could not prove the complete size, exclusive ownership and lifetime of
+the loading worker's stack. Nearby memory and a successful first start do not
+provide that proof. New checks reject incomplete or mismatched ownership evidence,
+but they do not create a working PC loading thread. Connected startup is unchanged.
+
+Offline graphics review found that the diagnostic shader and selected output
+buffer use incompatible formats. This is separate from the unexplained graphics
+compiler crash. No failed shader was retried on the GPU, no internal GPU color
+values were captured and the known saved-picture differences remain unresolved.
+
+The existing code-coverage baseline was reused. The reviewed subset now includes
+the new routine and one older checked helper. It remains a lower bound; total
+game-code coverage and every percentage are unknown. Next is finding independent
+evidence for the worker's complete stack allocation before connecting its PC thread.
+
+Mario Tennis is not playable, there is no live native first frame or release date,
+and all eight milestones remain open.
+
+[Read the visibly redacted Session 81 owner prompt](../prompts/SESSION_81.md).
+
 <a id="session-80"></a>
 ## Session 80 — Following the loading worker's first start
 

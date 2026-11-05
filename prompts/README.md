@@ -1,3 +1,9 @@
+## Session 81
+
+[Session 81 — Worker stack ownership and native registration](SESSION_81.md):
+authentic owner instructions with localized visible redactions. Requested work
+is separate from verified results in the diary. Earlier prompts are unchanged.
+
 ## Session 80
 
 [Session 80 — Original thread registration and native ownership](SESSION_80.md):
