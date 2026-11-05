@@ -25,6 +25,13 @@ Next is proving the loading worker's complete stack ownership before native
 thread registration. Mario Tennis is not playable, there is no live native first
 frame or release date, and all eight milestones remain open.
 
+A supplementary coverage tracker now keeps the original-code counters separate
+and deduplicates a small reviewed subset. The full number of functions and
+executable instructions remains unknown, so there is no honest percentage yet.
+This measures recompilation evidence, not progress toward a playable game. No new
+game code or graphics was executed for the tracker. Future updates reuse the
+versioned baseline instead of repeating a full census.
+
 [Read the visibly redacted Session 80 owner prompt](../prompts/SESSION_80.md).
 
 <a id="session-79"></a>

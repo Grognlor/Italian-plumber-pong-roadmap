@@ -1264,3 +1264,301 @@ The objective is measurable progress toward
 a continuously running native Mario Tennis
 application, with authentic original code
 executing safely inside the native runtime.
+
+---
+
+## Authentic owner addendum — coverage tracking
+
+Requested work is separate from verified results. Original text follows unchanged.
+
+SESSION 80 ADDENDUM
+ROM FUNCTION CENSUS AND LONG-TERM COVERAGE TRACKING
+
+OWNER REQUEST:
+
+Add a lightweight, reproducible progress-tracking system
+to Italian Plumber Pong.
+
+This is a secondary task. Do not interrupt or displace
+the primary Session 80 engineering objectives.
+
+The goal is to establish a credible estimate of the
+total executable functions and instructions in the
+original Mario Tennis (USA) ROM, then track our
+recompilation progress against that baseline.
+
+==================================================
+1. ESTABLISH AN INITIAL BASELINE
+==================================================
+
+Use existing authenticated ROM analysis, disassembly,
+function-boundary evidence, overlay information and
+control-flow analysis.
+
+Do not begin a completely new full-ROM analysis unless
+existing evidence is insufficient and the work can be
+completed within a small, bounded time budget.
+
+Estimate:
+
+- Total unique executable functions
+- Total executable instruction locations
+- Identified code regions
+- Unknown or ambiguous executable regions
+- Known overlays and dynamically installed code
+- Confidence level of the estimate
+
+Classify candidate functions as:
+
+CONFIRMED:
+Authenticated entry and sufficiently established
+boundaries.
+
+PROBABLE:
+Strong control-flow evidence, but incomplete
+boundary authentication.
+
+UNCERTAIN:
+Potential function entries requiring further review.
+
+Avoid counting the same function multiple times
+because it appears in different runtime addresses,
+overlays, or installed-code epochs.
+
+Do not incorrectly merge distinct functions that
+happen to occupy the same runtime address.
+
+Distinguish unique code identities from runtime
+instances.
+
+Do not treat the entire ROM as executable code.
+
+Do not assume all executable code has already
+been discovered.
+
+If the evidence cannot support a meaningful total,
+report the known lower bound and the unresolved
+coverage rather than inventing a denominator.
+
+==================================================
+2. TRACK DEVELOPMENT PROGRESS
+==================================================
+
+Record separate counts for:
+
+- Identified original functions
+- Analyzed original functions
+- Generated original functions
+- Successfully compiled original functions
+- Natively executed original functions
+- Independently validated original functions
+- Connected original functions
+- Original functions participating in conventional
+  native startup
+
+Also record:
+
+- Unique executable instruction locations identified
+- Unique instruction locations generated
+- Unique instruction locations compiled
+- Unique instruction locations executed
+- Unique instruction locations validated
+- Unique instruction locations connected
+
+Keep isolated and connected classifications separate.
+
+Do not assume isolated extents are complete functions.
+
+Do not add overlapping categories together.
+
+Distinguish fresh executions from retained evidence.
+
+Use authenticated Session 79 coverage as the
+starting point:
+
+CONNECTED ORIGINAL:
+6 routines
+1,368 bytes
+342 static locations
+
+ISOLATED ORIGINAL:
+13 extents
+796 bytes
+199 static locations
+24 authenticated cases
+
+These are classification totals, not necessarily
+disjoint unique functions.
+
+Deduplicate before reporting combined coverage.
+
+==================================================
+3. CALCULATE PERCENTAGES
+==================================================
+
+Where a defensible denominator exists, calculate:
+
+A. Function identification percentage
+
+B. Function native-compilation percentage
+
+C. Function native-execution percentage
+
+D. Function independent-validation percentage
+
+E. Function connected-execution percentage
+
+F. Executable instruction coverage percentage
+
+G. Conventional native-startup coverage percentage
+
+For uncertain denominators, provide a range.
+
+Clearly label:
+
+ESTIMATED
+VERIFIED
+UNKNOWN
+
+Do not present estimates as exact completion figures.
+
+Do not equate code coverage with gameplay completion
+or percentage of a playable game.
+
+==================================================
+4. AVOID REPEATING THE FULL CENSUS
+==================================================
+
+The full ROM function census should NOT run
+automatically every session.
+
+Establish a versioned baseline containing:
+
+- ROM identity
+- Analysis methodology
+- Tool versions
+- Code-region classification
+- Function-count estimate
+- Executable-instruction estimate
+- Confidence ranges
+- Known limitations
+- Baseline revision identifier
+
+In subsequent sessions:
+
+Update only the development progress counters
+using authenticated new results.
+
+Reuse the existing denominator.
+
+Recalculate the baseline only when:
+
+- New executable regions are discovered
+- Previously unknown overlays are identified
+- Significant boundary errors are corrected
+- New analysis substantially changes the estimate
+- The owner explicitly requests recalculation
+
+If the denominator changes, preserve both the
+old and new baseline versions.
+
+Explain why it changed.
+
+Do not silently rewrite historical progress.
+
+==================================================
+5. PUBLIC ROADMAP PRESENTATION
+==================================================
+
+Add a simple progress summary to the public roadmap.
+
+Prefer a small Markdown table that can be
+updated automatically.
+
+Suggested fields:
+
+Estimated total original functions
+Identified original functions
+Compiled original functions
+Validated original functions
+Connected original functions
+Estimated function coverage
+Estimated instruction coverage
+Baseline revision
+Last coverage update
+
+Include a prominent qualification:
+
+"Code coverage measures authenticated
+recompilation progress, not overall
+gameplay completion."
+
+Do not publish:
+
+- ROM-derived source
+- Disassembly
+- Proprietary instruction sequences
+- Private function/address maps
+- Extracted assets
+- Private traces or evidence
+
+Publish only reviewed aggregate counts,
+methodology and non-sensitive explanations.
+
+Maintain the existing security and
+public-content review requirements.
+
+==================================================
+6. TIME AND PRIORITY LIMITS
+==================================================
+
+This is a supplementary engineering task.
+
+Do not derail the ongoing Session 80 work.
+
+Allocate no more than approximately 10-15 minutes
+of additional effort to the initial census.
+
+Prefer existing data and simple scripts.
+
+Do not perform expensive full-ROM reanalysis,
+large new toolchain setup, or speculative
+function discovery solely for this feature.
+
+If a defensible baseline cannot be established
+within the time limit:
+
+- Preserve the current verified counters.
+- Document what denominator evidence is missing.
+- Add the baseline calculation to the Session 81
+  backlog.
+- Continue the primary engineering work.
+
+Do not delay Session 80 verification,
+archival, GitHub delivery or closeout.
+
+==================================================
+7. FINAL REPORT
+==================================================
+
+In the Session 80 owner report, include:
+
+1. Whether a function census was established.
+2. Estimated total functions, if defensible.
+3. Estimated total executable instructions,
+   if defensible.
+4. Current validated and connected coverage.
+5. Percentage ranges and confidence levels.
+6. Baseline version and methodology.
+7. Whether automatic incremental tracking works.
+8. What remains unknown.
+
+Do not invent percentages.
+
+Do not claim gameplay progress based solely
+on the number of translated functions.
+
+Continue Session 80's existing engineering
+objectives and safety requirements.
+
+END SESSION 80 ADDENDUM

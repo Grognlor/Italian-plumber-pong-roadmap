@@ -1,3 +1,34 @@
+## Code coverage tracking — Session 80 supplement
+
+Code coverage measures authenticated recompilation progress, not overall gameplay completion.
+
+| Measure | Reviewed ledger subset |
+| --- | --- |
+| Estimated total original functions | UNKNOWN |
+| Estimated total executable instructions | UNKNOWN |
+| Identified complete functions | At least 8 |
+| Analyzed complete functions | At least 8 |
+| Generated complete functions | At least 8 |
+| Compiled complete functions | At least 8 |
+| Executed complete functions | At least 8 |
+| Validated complete functions | At least 3 |
+| Connected complete functions | At least 5 |
+| Startup complete functions | At least 0 |
+| Compiled instruction locations | At least 408 |
+| Compiled function coverage | UNKNOWN |
+| Compiled instruction coverage | UNKNOWN |
+| Baseline revision | mt-us-census-v1 |
+| Last coverage update | Session 80 coverage supplement |
+
+These are lower bounds from a reviewed subset: eight complete functions and one
+separate startup prefix. They are not complete project totals. The retained
+classifications remain six connected routines (342 compiled locations) and sixteen
+isolated extents (265 compiled locations, 27 cases). They must not be added together
+or treated as disjoint complete functions. Earlier validation qualifications remain.
+No new game code ran for this tracking supplement. Global probable/uncertain
+functions, region totals and overlay totals remain unknown. The versioned baseline
+is reused for incremental updates; a full census does not run each session.
+
 # Roadmap
 
 The game is **not playable**. Original message handling runs across real PC threads
