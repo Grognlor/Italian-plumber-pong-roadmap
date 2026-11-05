@@ -1,5 +1,35 @@
 # Progress
 
+<a id="session-83"></a>
+## Session 83 — Checking the main startup thread's priority change
+
+One more complete original routine now runs directly on PC in an isolated check
+and matches a fresh original run and a separate interpreter. It raises the main
+startup thread's priority before the loading worker is created, then returns.
+The real interrupt state was captured during that same run. Deliberately wrong
+inputs and missing evidence were rejected, and a short execution limit stopped
+safely without changing memory.
+
+This verifies another original startup step. It does not yet connect the loading
+worker to PC startup. The later handoff that lets the worker run still needs its
+own checks, and proof of the worker's complete stack ownership remains missing.
+We did not repeat the earlier stack investigation without new evidence.
+
+The reviewed coverage subset now contains thirteen complete functions and one
+partial routine. This session adds one function; total game-code coverage and
+every percentage remain unknown. Connected native coverage is unchanged.
+
+All 307 project tests pass, together with the existing build and native checks.
+No new graphics experiment or picture was made. The saved-picture differences
+and earlier graphics compiler crash remain unresolved. Mario Tennis is not
+playable, there is no live native first frame, and all eight milestones stay open.
+
+Next is checking the original scheduling handoff when the main thread later lowers
+its priority and the loading worker takes over. Ownership gates still apply before
+any original worker can receive a native PC thread context.
+
+[Read the visibly redacted Session 83 owner prompt](../prompts/SESSION_83.md).
+
 <a id="session-82"></a>
 ## Session 82 — Another original event routine runs in a PC check
 

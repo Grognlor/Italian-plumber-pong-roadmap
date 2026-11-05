@@ -1,4 +1,4 @@
-## Code coverage tracking — Session 82
+## Code coverage tracking — Session 83
 
 Code coverage measures authenticated recompilation progress, not overall gameplay completion.
 
@@ -6,28 +6,33 @@ Code coverage measures authenticated recompilation progress, not overall gamepla
 | --- | --- |
 | Estimated total original functions | UNKNOWN |
 | Estimated total executable instructions | UNKNOWN |
-| Identified complete functions | At least 12 |
-| Analyzed complete functions | At least 12 |
-| Generated complete functions | At least 12 |
-| Compiled complete functions | At least 12 |
-| Executed complete functions | At least 12 |
-| Validated complete functions | At least 7 |
+| Identified complete functions | At least 13 |
+| Analyzed complete functions | At least 13 |
+| Generated complete functions | At least 13 |
+| Compiled complete functions | At least 13 |
+| Executed complete functions | At least 13 |
+| Validated complete functions | At least 8 |
 | Connected complete functions | At least 5 |
 | Startup complete functions | At least 0 |
-| Compiled instruction locations | At least 532 |
+| Compiled instruction locations | At least 582 |
 | Compiled function coverage | UNKNOWN |
 | Compiled instruction coverage | UNKNOWN |
 | Baseline revision | mt-us-census-v1 |
-| Last coverage update | Session 82 |
+| Last coverage update | Session 83 |
 
 
-These counts describe a reviewed subset of twelve complete functions and one
+These counts describe a reviewed subset of thirteen complete functions and one
 partial routine. They are lower bounds, not complete project totals or a measure
-of how close the game is to being playable. One new function ran in isolation
-this session; one older checked helper was added to the ledger.
+of how close the game is to being playable. One new complete function was generated,
+compiled, executed in isolation and independently validated this session.
 
-The older classification has eighteen isolated extents (368 compiled instruction
-locations, 29 cases). Connected coverage remains six routines (342 compiled
+Within the reviewed subset, 357 instruction locations have executed, 190 have strict
+independent validation and 167 have connected execution evidence. These stages can
+overlap. Connected execution still comes from development checks; the full game
+does not start normally.
+
+The older classification has nineteen isolated extents (418 compiled instruction
+locations, 30 cases). Connected coverage remains six routines (342 compiled
 locations). These categories may overlap and must not be added together.
 Eleven older isolated extents still need tracking review. The existing baseline
 is unchanged; whole-game totals and every percentage remain unknown.

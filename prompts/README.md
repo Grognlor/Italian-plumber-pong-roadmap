@@ -1,3 +1,9 @@
+## Session 83
+
+[Session 83 — Authentic root priority transition and native progress](SESSION_83.md):
+authentic complete owner instructions with localized visible redactions. Requested
+work is separate from verified diary results. Earlier prompts are unchanged.
+
 ## Session 82
 
 [Session 82 — Allocation provenance and authentic native progress](SESSION_82.md):
