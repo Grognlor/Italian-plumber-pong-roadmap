@@ -1,3 +1,10 @@
+## Session 79
+
+[Session 79 — Original thread wakeup, native integration and graphics](SESSION_79.md):
+authentic owner instructions with narrow visible redactions. Requested objectives
+are separate from the verified diary results. Historical prompt repair was deferred
+to keep this session focused on engineering.
+
 ## Session 78
 
 [Session 78 — Native loading admission and prompt transparency](SESSION_78.md):

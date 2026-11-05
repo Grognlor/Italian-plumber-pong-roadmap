@@ -1,5 +1,33 @@
 # Progress
 
+<a id="session-79"></a>
+## Session 79 — Watching the original loading worker wait and wake up
+
+We observed the original background loading worker actually wait for a transfer
+event, then resume as the correct thread and finish the request. This happened
+in the research emulator, with independent checks of the important state changes.
+It gives us a verified waiting-and-wakeup contract to work from when connecting
+loading to the PC version. The original and PC thread systems still need a safe
+ownership boundary; no new loading service entered native startup.
+
+One more complete original routine now runs in isolated native PC checks.
+We also checked the game's own startup installation of that routine. Normal
+startup coverage is unchanged. Thirteen new made-up tests reject wrong-thread,
+message, ordering and lifetime records; these checks do not certify game startup.
+
+The graphics work rebuilt the shaders actually embedded in the renderer. The
+unchanged version reproduced both saved startup pictures, with the existing color
+differences. A modified diagnostic shader crashed while its GPU pipeline was being
+created, so it did not reveal the internal color values. The failure is preserved;
+there is no justified graphics fix or new published imagery.
+
+Next is proving how the original worker can receive a separately owned live PC
+thread context without mixing incompatible records. Mario Tennis is not playable,
+there is no live native first frame or release date, and all eight milestones
+remain open. Earlier diary entries and historical prompts are unchanged.
+
+[Read the visibly redacted Session 79 owner prompt](../prompts/SESSION_79.md).
+
 <a id="session-78"></a>
 ## Session 78 — Finding a concrete loading compatibility barrier
 
