@@ -1,5 +1,33 @@
 # Progress
 
+<a id="session-89"></a>
+## Session 89 — Finding why a loading interrupt changes the return order
+
+We followed an original loading operation through a real device interrupt and
+back to its caller. The research tool varies the delay before that interrupt,
+so another fresh run reached the caller before it happened. The saved runs
+remain separate. We found the timing input that the independent check still
+needs, and stopped before guessing its value or forcing a completion.
+
+A separate interpreter agrees with the original code up to the transfer trigger.
+Deliberately incorrect processor, memory, ordering and owner records are rejected.
+Checks of the later interrupt records also reject wrong inputs, but those checks
+do not independently prove the interrupted return. Complete ownership and
+lifetime evidence is still missing. No additional original game routine is
+certified or connected, and native game-code coverage is unchanged.
+
+A preparation step stopped on an outdated path assumption, and a diagnostic
+check first selected the wrong log. Both are preserved; corrected checks pass.
+All 322 project tests and established build checks pass. No old stack search
+was repeated and no host changes were made to repair unavailable safety tools.
+
+There is no new picture, live native frame or playable Mario Tennis build.
+All eight milestones remain open. Next: capture the missing timing inputs
+without changing the original run, then independently check the whole return.
+Session 90 has not begun.
+
+[Read the visibly redacted Session 89 owner prompt](../prompts/SESSION_89.md).
+
 <a id="session-88"></a>
 ## Session 88 — Testing failure and shutdown before connecting more game code
 
