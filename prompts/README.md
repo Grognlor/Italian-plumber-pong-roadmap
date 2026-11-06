@@ -1,3 +1,9 @@
+## Session 88
+
+[Session 88 — Integration-first failure and shutdown tests](SESSION_88.md):
+authentic complete owner instructions with three localized visible redactions.
+Requested work is separate from verified diary results. Earlier prompts are unchanged.
+
 ## Session 87
 
 [Session 87 — Independently owned PC worker test](SESSION_87.md): authentic

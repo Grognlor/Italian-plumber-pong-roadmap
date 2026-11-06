@@ -1,5 +1,35 @@
 # Progress
 
+<a id="session-88"></a>
+## Session 88 — Testing failure and shutdown before connecting more game code
+
+The small PC worker now has direct tests for a failed start, running out of safe
+identities, cancelled work and shutdown. A failed start leaves no worker or
+storage behind, and a new attempt works. Old jobs cannot use replacement storage.
+Two deliberately broken versions fail the tests, helping check that the tests
+catch the mistakes they are meant to prevent. This uses made-up data; it does
+not connect the game's loading worker to PC startup.
+
+A fresh research run follows the next original loading operation through a real
+return. A separate interpreter agrees through starting the transfer and restoring
+registers. A real device interrupt happens before the caller resumes, and that
+whole interrupted return still needs an independent check. Complete ownership
+and lifetime evidence also remains missing. No additional original game routine
+is certified or connected, and native game-code coverage is unchanged.
+
+An altered checksum in a preparation recipe stopped the first preflight before
+original execution. The rejected recipe is preserved; corrected fresh checks pass.
+All 322 project tests and established build checks pass. An extra memory-safety
+check cannot build because a host library is missing. We did not repeat the
+exhausted stack search.
+
+There is no new picture, live native frame or playable Mario Tennis build. All
+eight milestones remain open. Next: independently check the actual interrupted
+return and the remaining ownership requirements before connecting the operation.
+Session 89 has not begun.
+
+[Read the visibly redacted Session 88 owner prompt](../prompts/SESSION_88.md).
+
 <a id="session-87"></a>
 ## Session 87 — A safely owned PC worker passes its first small test
 
