@@ -1,3 +1,9 @@
+## Session 85
+
+[Session 85 — First worker command wait and permanent workflow](SESSION_85.md):
+authentic complete owner instructions with localized visible redactions. Requested
+work is separate from verified diary results. Earlier prompts are unchanged.
+
 ## Session 84
 
 [Session 84 — Authentic preempting handoff and context-save certification](SESSION_84.md):

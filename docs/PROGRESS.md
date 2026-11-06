@@ -1,5 +1,38 @@
 # Progress
 
+<a id="session-85"></a>
+## Session 85 — The loading worker waits for its first command
+
+We followed the original background loading worker from its starting point to
+its first request for work. Its real command queue was empty, so the game put
+the worker to sleep and resumed its main startup thread. One more complete
+original routine now passes an isolated PC check: all 173 executed instructions
+and 27 checkpoints match the original run and a separate interpreter. The short
+worker entry sequence was checked separately and has not been translated for PC.
+
+The first comparison attempt selected an older run and stopped. Another expected
+the entire processor state to stay fixed, but the original timer had naturally
+advanced. We preserved both failures, checked the state used by this path, and
+kept that timing limit explicit. Deliberately wrong inputs reject and a short
+execution limit unwinds safely. No message or interrupt was invented.
+
+We also consolidated the permanent development safeguards, shortened the next
+session handoff, and added reusable checks for saved evidence and clear failure
+summaries. All 316 project tests and the existing build checks pass. The reviewed
+subset now has sixteen complete functions and one partial routine; whole-game
+totals and percentages remain unknown.
+
+The result remains isolated. Connected native coverage is unchanged, and complete
+ownership and lifetime of the worker's stack still lack proof. We did not repeat
+that search without new independent evidence. No new graphics experiment or
+picture was made. Mario Tennis is not playable, there is no live native first
+frame, and all eight milestones remain open.
+
+Next: follow the first real command being sent and the worker waking up, keeping
+the same ownership and interrupt checks. Session 86 has not begun.
+
+[Read the visibly redacted Session 85 owner prompt](../prompts/SESSION_85.md).
+
 <a id="session-84"></a>
 ## Session 84 — The original startup handoff matches on PC
 
