@@ -1,5 +1,37 @@
 # Progress
 
+<a id="session-86"></a>
+## Session 86 — The loading worker receives its first real command
+
+We followed the original game from its loading worker waiting for work to the
+first real command being sent. The game placed that command in its queue, woke
+the worker and let it receive the message. Nothing was added to force it awake.
+
+Two more complete original routines now pass an isolated PC check. All 228
+executed instructions and 26 directly recorded checkpoints match a separate
+interpreter and the original run. The final return to the worker was checked
+through a separately interpreted continuation; that short continuation has not
+been run natively. We also fixed the test runtime to retain earlier processor
+exception information while checking that no interrupt was pending.
+
+A wrong observer filename, a recording limit, an incorrect priority assumption
+and a test-harness typo each stopped an attempt. The failures are preserved;
+the final bounded checks pass, including deliberately wrong inputs and safe
+execution-limit cleanup. All 316 project tests and the existing build checks pass.
+The reviewed subset now contains eighteen complete functions and one partial
+routine. Whole-game totals and percentages remain unknown.
+
+Connected PC execution is unchanged. The worker's full stack ownership and
+lifetime still lack proof, so this result does not enable a live loading service.
+We did not repeat that search without new independent evidence. There is no
+new picture, live native game frame or playable Mario Tennis build; all eight
+milestones remain open.
+
+Next: follow how the awakened worker reads its first command and reaches the
+next loading helper. Session 87 has not begun.
+
+[Read the visibly redacted Session 86 owner prompt](../prompts/SESSION_86.md).
+
 <a id="session-85"></a>
 ## Session 85 — The loading worker waits for its first command
 

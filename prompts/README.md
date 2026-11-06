@@ -1,3 +1,9 @@
+## Session 86
+
+[Session 86 — First real command and worker wakeup](SESSION_86.md): authentic
+complete owner instructions with a localized visible redaction. Requested work
+is separate from verified diary results. Earlier prompts are unchanged.
+
 ## Session 85
 
 [Session 85 — First worker command wait and permanent workflow](SESSION_85.md):
