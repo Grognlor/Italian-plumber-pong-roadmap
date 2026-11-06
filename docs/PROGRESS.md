@@ -1,5 +1,30 @@
 # Progress
 
+<a id="session-90"></a>
+## Session 90 — Checking how the original game handles an empty queue
+
+The loading-interrupt investigation stopped because the research tool still
+cannot provide all the timing inputs needed for an independent check. We kept
+that limit and moved to a different integration requirement: what the original
+game does when an operation cannot complete immediately.
+
+A separate interpreter now agrees with an original request that finds no message
+waiting and returns failure to its real caller. The queue and message destination
+stay unchanged, and deliberately incorrect records are rejected. A separate
+attempt to find a full queue found no matching case within its limit.
+
+The native check for the returning failure case is unfinished. Three preparation
+attempts exposed harness errors, and work stopped at the attempt limit. No new
+game routine is certified or connected to PC startup. All 322 project tests and
+established build checks pass; game-code coverage stays unchanged.
+
+There is no new picture, live native frame or playable Mario Tennis build.
+All eight milestones remain open. Next: finish the native check for this recorded
+failure case, while keeping the original queues separate from PC-owned threads.
+Session 91 has not begun.
+
+[Read the visibly redacted Session 90 owner prompt](../prompts/SESSION_90.md).
+
 <a id="session-89"></a>
 ## Session 89 — Finding why a loading interrupt changes the return order
 

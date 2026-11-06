@@ -1,4 +1,4 @@
-## Code coverage tracking — Session 89
+## Code coverage tracking — Session 90
 
 Code coverage measures authenticated recompilation progress, not overall gameplay completion.
 
@@ -18,14 +18,13 @@ Code coverage measures authenticated recompilation progress, not overall gamepla
 | Compiled function coverage | UNKNOWN |
 | Compiled instruction coverage | UNKNOWN |
 | Baseline revision | mt-us-census-v1 |
-| Last coverage update | Session 89 |
+| Last coverage update | Session 90 |
 
 
 These are lower bounds for a reviewed subset of eighteen complete functions and
 one partial routine. They do not measure how close the game is to being playable.
 This session adds no original function or native instruction location. Research
-follows an actual interrupted loading return, but a randomized timing input still
-blocks the independent check. No new game routine is connected to PC startup.
+independently checks one original failure return, but its native check is unfinished. No new game routine is connected to PC startup.
 
 The reviewed subset stays at 883 compiled instruction locations, 565 executed,
 398 independently validated and 167 with connected execution evidence. Stages
