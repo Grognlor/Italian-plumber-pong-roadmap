@@ -1,3 +1,9 @@
+## Session 91
+
+[Session 91 — Native failure-path certification](SESSION_91.md):
+authentic complete owner instructions with five localized visible redactions.
+Requested work is separate from verified diary results. Earlier prompts are unchanged.
+
 ## Session 90
 
 [Session 90 — Native integration priority](SESSION_90.md):

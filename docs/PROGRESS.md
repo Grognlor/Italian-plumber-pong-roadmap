@@ -1,5 +1,28 @@
 # Progress
 
+<a id="session-91"></a>
+## Session 91 — The original empty-queue failure now passes the native check
+
+The original game routine now runs in an isolated PC test and returns failure
+when no message is waiting. It agrees with the recorded game run and a separate
+interpreter, while leaving the queue and message destination unchanged. Deliberately
+incorrect records and unsupported paths are rejected.
+
+This finishes the native check left open last session. The saved failures remain
+preserved; the test harness was corrected without changing the original routine.
+Six more instruction locations now have execution and independent validation
+evidence. No new routine is connected to PC startup.
+
+This is one failure case. Full queues, safe cleanup, and ownership across the
+complete loading process still need evidence. All project tests and established
+build checks pass. There is no new picture, live native game frame or playable
+Mario Tennis build, and all eight milestones remain open.
+
+Next: review how to observe another real failure or full queue safely, keeping
+the game's queues separate from PC-owned threads. Session 92 has not begun.
+
+[Read the visibly redacted Session 91 owner prompt](../prompts/SESSION_91.md).
+
 <a id="session-90"></a>
 ## Session 90 — Checking how the original game handles an empty queue
 
