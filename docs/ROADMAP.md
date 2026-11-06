@@ -1,4 +1,4 @@
-## Code coverage tracking — Session 86
+## Code coverage tracking — Session 87
 
 Code coverage measures authenticated recompilation progress, not overall gameplay completion.
 
@@ -18,23 +18,20 @@ Code coverage measures authenticated recompilation progress, not overall gamepla
 | Compiled function coverage | UNKNOWN |
 | Compiled instruction coverage | UNKNOWN |
 | Baseline revision | mt-us-census-v1 |
-| Last coverage update | Session 86 |
+| Last coverage update | Session 87 |
 
 
 These are lower bounds for a reviewed subset of eighteen complete functions and
 one partial routine. They do not measure how close the game is to being playable.
-Two new complete routines were generated, compiled, executed in isolation and
-independently validated this session.
+This session adds no original function or native instruction location. The new
+PC worker uses made-up data, and the command-decoding comparison runs only in
+the research emulator and a separate interpreter.
 
-Within this subset, 565 instruction locations have executed, 398 have strict
-independent validation and 167 have connected execution evidence. The stages
-can overlap. The short resumed-worker sequence checked only in the original run
-and a separate interpreter is excluded from new native execution counts.
-Connected execution comes from development checks; the full game does not start.
-
-The older classification has twenty-four isolated extents (719 compiled locations,
-33 cases). Connected coverage stays six routines (342 compiled locations).
-These categories may overlap and must not be added together. Eleven older
+The reviewed subset stays at 883 compiled instruction locations, 565 executed,
+398 independently validated and 167 with connected execution evidence. Stages
+can overlap. The older classification stays at twenty-four isolated extents
+(719 compiled locations, 33 cases) and six connected routines (342 compiled
+locations). These groups overlap and must not be added together. Eleven older
 isolated extents still need tracking review. The baseline is unchanged;
 whole-game totals and every percentage remain unknown.
 

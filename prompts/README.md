@@ -1,3 +1,9 @@
+## Session 87
+
+[Session 87 — Independently owned PC worker test](SESSION_87.md): authentic
+complete owner instructions with a localized visible redaction. Requested work
+is separate from verified diary results. Earlier prompts are unchanged.
+
 ## Session 86
 
 [Session 86 — First real command and worker wakeup](SESSION_86.md): authentic

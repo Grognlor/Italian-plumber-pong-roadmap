@@ -1,5 +1,35 @@
 # Progress
 
+<a id="session-87"></a>
+## Session 87 — A safely owned PC worker passes its first small test
+
+We built a small PC worker using made-up data. It owns its own waiting job and
+result, rejects missing or outdated owners, and shuts down safely before its
+storage is reused. Tests cover cancelled jobs, failed jobs and results that
+have not been collected. This checks groundwork for connecting loading later;
+it does not run the game's loading worker on PC.
+
+Separately, we followed how the original worker reads its first real command
+and chooses the next loading operation. The research run and a separate
+interpreter agree. We stopped before that next operation, and no additional
+original game routine was certified or connected to PC startup.
+
+An incorrect command-branch assumption and an overly broad source check stopped
+early attempts. Their records are preserved and the corrected checks pass.
+An extra memory-safety check could not build because a host library is missing.
+All 319 project tests and the established build checks pass.
+
+We listed the remaining connection barriers and the smallest evidence needed
+for each. Complete original memory ownership and lifetime still lack proof;
+we did not repeat the old stack search. Native game-code coverage is unchanged.
+There is no new picture, live native frame or playable Mario Tennis build, and
+all eight milestones remain open.
+
+Next: verify the complete next loading operation and its ownership before any
+native connection. Session 88 has not begun.
+
+[Read the visibly redacted Session 87 owner prompt](../prompts/SESSION_87.md).
+
 <a id="session-86"></a>
 ## Session 86 — The loading worker receives its first real command
 
