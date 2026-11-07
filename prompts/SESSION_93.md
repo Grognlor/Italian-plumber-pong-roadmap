@@ -23,7 +23,7 @@ authenticated initialization through the first
 genuine command publication, worker wakeup
 and command consumption.
 
-1. Use Session 92's verified 50-slot queue
+1. Use Session 92's verified [REDACTED: original queue capacity] queue
    initializer and first worker wait as the
    starting evidence.
 
