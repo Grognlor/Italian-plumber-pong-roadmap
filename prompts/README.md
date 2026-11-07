@@ -1,7 +1,7 @@
 ## Session 93
 
 [Session 93 — Original queue integration evidence](SESSION_93.md):
-authentic complete owner instructions with three localized visible redactions.
+authentic complete owner instructions with four localized visible redactions.
 Requested work is separate from verified diary results. Earlier prompts are unchanged.
 
 ## Session 92
