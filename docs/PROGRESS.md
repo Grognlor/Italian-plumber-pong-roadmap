@@ -1,5 +1,29 @@
 # Progress
 
+<a id="session-92"></a>
+## Session 92 — Following the loading queue from setup to its first wait
+
+A short review found no credible new full-queue or loading-failure case, so we
+stopped that search without repeating the earlier unsuccessful test or forcing
+an error. We moved to how the original game sets up its loading queue.
+
+One fresh research run now links the queue's real setup and return to the loading
+worker's first wait for a command. A separate interpreter agrees with the setup,
+the worker's entry and the switch back to the main startup thread. Deliberately
+wrong queue, owner and return records are rejected. This gives us a clearer
+connection between two original startup steps.
+
+Complete ownership and lifetime still need proof, and the steps between setup
+and first use have not all been independently checked. No additional game code
+was run natively or connected to PC startup. Native coverage is unchanged.
+All project tests and the established build checks pass. There is no new picture,
+live native game frame or playable Mario Tennis build; all eight milestones stay open.
+
+Next: follow this queue through the first real command and its consumption,
+checking who owns the request and its destination. Session 93 has not begun.
+
+[Read the visibly redacted Session 92 owner prompt](../prompts/SESSION_92.md).
+
 <a id="session-91"></a>
 ## Session 91 — The original empty-queue failure now passes the native check
 

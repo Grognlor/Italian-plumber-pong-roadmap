@@ -1,38 +1,16 @@
-## Code coverage tracking — Session 91
+## Code coverage tracking — Session 92
 
-Code coverage measures authenticated recompilation progress, not overall gameplay completion.
+This session checks the original loading queue from setup to the worker's first
+wait using a separate interpreter. It adds evidence for how startup steps connect;
+no additional game code is run natively or connected to PC startup.
 
-| Measure | Reviewed ledger subset |
-| --- | --- |
-| Estimated total original functions | UNKNOWN |
-| Estimated total executable instructions | UNKNOWN |
-| Identified complete functions | At least 18 |
-| Analyzed complete functions | At least 18 |
-| Generated complete functions | At least 18 |
-| Compiled complete functions | At least 18 |
-| Executed complete functions | At least 18 |
-| Validated complete functions | At least 13 |
-| Connected complete functions | At least 5 |
-| Startup complete functions | At least 0 |
-| Compiled instruction locations | At least 883 |
-| Compiled function coverage | UNKNOWN |
-| Compiled instruction coverage | UNKNOWN |
-| Baseline revision | mt-us-census-v1 |
-| Last coverage update | Session 91 |
-
-These are lower bounds for a reviewed subset of eighteen complete functions and
-one partial routine. They do not measure how close the game is to being playable.
-This session completes an isolated native failure check for an existing routine.
-Six additional instruction locations have execution and independent validation
-evidence. No new routine is connected to PC startup.
-
-The reviewed subset has 883 compiled instruction locations, 571 executed,
-404 independently validated and 167 with connected execution evidence. Stages
-can overlap. The older classification has twenty-four isolated extents
-(719 compiled locations, 34 cases) and six connected routines (342 compiled
-locations). These groups overlap and must not be added together. Eleven older
-isolated extents still need tracking review. The baseline is unchanged;
-whole-game totals and every percentage remain unknown.
+The reviewed subset remains eighteen complete functions and one partial routine:
+883 compiled instruction locations, 571 executed, 404 independently validated
+and 167 with connected execution evidence. These stages overlap. The older
+classification has twenty-four isolated extents (719 compiled locations,
+34 retained cases) and six connected routines (342 compiled locations). These
+groups overlap and must not be added. Eleven older isolated extents still need
+tracking review. Whole-game totals and percentages remain unknown.
 
 # Roadmap
 

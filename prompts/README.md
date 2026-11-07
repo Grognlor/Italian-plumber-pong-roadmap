@@ -1,3 +1,9 @@
+## Session 92
+
+[Session 92 — Integration-first development](SESSION_92.md):
+authentic complete owner instructions with three localized visible redactions.
+Requested work is separate from verified diary results. Earlier prompts are unchanged.
+
 ## Session 91
 
 [Session 91 — Native failure-path certification](SESSION_91.md):
