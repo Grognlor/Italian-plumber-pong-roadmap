@@ -1,3 +1,9 @@
+## Session 94
+
+[Session 94 — Destruction Derby workflow investigation](SESSION_94.md): authentic
+owner instructions with six localized visible redactions. Investigation results
+and the proposed next direction are separate from the requested objectives.
+
 ## Session 93
 
 [Session 93 — Original queue integration evidence](SESSION_93.md):

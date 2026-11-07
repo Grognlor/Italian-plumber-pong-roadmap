@@ -1,5 +1,28 @@
 # Progress
 
+<a id="session-94"></a>
+## Session 94 — Learning from Destruction Derby's PC port
+
+We studied how Destruction Derby 64 moved from its original console version to a
+native PC port. Its history supports a very fast burst of development, but does
+not independently prove the author's exact claim of a fully playable version
+within 24 hours. We inspected the local installation without running or changing
+it. Its ROM matches the documented input requirement; we could not independently
+rebuild the matching console version because required build tools were missing.
+
+The useful lesson is to try a small, real startup using PC replacements for
+console services, while keeping our existing tests and ROM privacy protections.
+We recommend a separate experimental branch. That is a proposal awaiting the
+owner's approval; no implementation or safety rule changed this session.
+
+Mario Tennis still has no live native game frame or playable build. Game execution
+coverage is unchanged, and all eight milestones remain open. The project checks
+pass. Next, the owner can decide whether to approve a small cold-start experiment
+before pursuing graphics and a playable match. No next session was started and
+no new pictures or videos were produced.
+
+[Read the visibly redacted Session 94 owner prompt](../prompts/SESSION_94.md).
+
 <a id="session-93"></a>
 ## Session 93 — Following one loading request from setup to the waiting worker
 
