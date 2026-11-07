@@ -1,5 +1,31 @@
 # Progress
 
+<a id="session-93"></a>
+## Session 93 — Following one loading request from setup to the waiting worker
+
+One fresh research run now follows the original loading queue from setup through
+its first real command. We checked the game preparing the request, placing it
+in the queue, waking the waiting worker and letting that worker receive and read
+it. A separate interpreter agrees with each selected step. Deliberately wrong
+owners, queues, request details and missing records are rejected.
+
+This connects more of the original loading process in one recorded run. The next
+loading operation and collection of its result were not run, and complete memory
+ownership and lifetime still need proof. No additional game code was run natively
+or connected to PC startup; native coverage is unchanged.
+
+Two preparation mistakes stopped early checks. The first recording also reached
+its limit; a separate fresh run kept fewer repeated stops and completed the
+planned observation. All failed records remain preserved. All project tests and
+the established build checks pass. There is no new picture, live native game
+frame or playable Mario Tennis build; all eight milestones remain open.
+
+Next: identify new evidence for who owns the request and its memory through
+completion. We will not repeat exhausted searches without a new source.
+Session 94 has not begun.
+
+[Read the visibly redacted Session 93 owner prompt](../prompts/SESSION_93.md).
+
 <a id="session-92"></a>
 ## Session 92 — Following the loading queue from setup to its first wait
 

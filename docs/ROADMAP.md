@@ -1,8 +1,9 @@
-## Code coverage tracking — Session 92
+## Code coverage tracking — Session 93
 
-This session checks the original loading queue from setup to the worker's first
-wait using a separate interpreter. It adds evidence for how startup steps connect;
-no additional game code is run natively or connected to PC startup.
+This session follows the original loading queue through request preparation,
+worker wakeup and consumption in one research run, with separate interpretation
+of each selected step. It adds evidence for how loading steps connect; no
+additional game code is run natively or connected to PC startup.
 
 The reviewed subset remains eighteen complete functions and one partial routine:
 883 compiled instruction locations, 571 executed, 404 independently validated
