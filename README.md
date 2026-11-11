@@ -8,9 +8,9 @@ local multiplayer, then add helpful PC options such as widescreen and smoother
 play where they work correctly.
 
 **The game is not playable yet.** A separate experimental Linux developer build
-now starts from the owner's ROM, runs the original startup code and starts a real
-game thread. It stops before the video manager is connected. There is no live
-native game picture, title screen or playable download.
+now gets past video setup, completes real loading requests and reaches the game's
+first drawing request. Connecting that live work to the graphics engine is next.
+There is no live native game picture, title screen or playable download.
 
 Earlier tests of saved drawing tasks produced recognizable startup logos. Those
 remain private diagnostic pictures; they are not a live frame from this new

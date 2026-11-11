@@ -1,5 +1,24 @@
 # Progress
 
+<a id="session-96"></a>
+## Session 96 — Real loading and the first drawing request
+
+The experimental Linux build now gets past video setup. It supplies screen-timing
+events, starts more of the original game, and completes two real loading requests.
+The game uses the loaded data and reaches its first request to draw through the
+PC graphics system. This is progress from a fresh start with the owner's ROM.
+
+A few build and memory-handling checks caught problems during development. Those
+were corrected, and the final project checks pass. Drawing still stops before the
+graphics engine accepts the live work. The next step is to keep the drawing data
+safe while the graphics engine uses it, finish that work, and show a live picture.
+
+There is still no live game picture, title screen, controller support or playable
+match. All eight roadmap milestones remain open. No new pictures or videos were
+made, and no game files were published. The next session has not begun.
+
+[Read the visibly redacted Session 96 owner prompt](../prompts/SESSION_96.md).
+
 <a id="session-95"></a>
 ## Session 95 — The first experimental cold startup
 

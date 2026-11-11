@@ -1,8 +1,9 @@
-## Code coverage tracking — Session 95
+## Code coverage tracking — Session 96
 
 The earlier reviewed test counts below remain separate from the new experimental
 cold startup. Their overlap has not been counted, so the groups are not added.
-The experiment now starts a real game thread, then stops before video setup.
+The experiment now completes real loading requests and reaches the first drawing
+request. Live drawing remains unfinished.
 
 The reviewed subset remains eighteen complete functions and one partial routine:
 883 compiled instruction locations, 571 executed, 404 independently validated
@@ -14,11 +15,10 @@ tracking review. Whole-game totals and percentages remain unknown.
 
 # Roadmap
 
-The game is **not playable**. A separate experimental Linux developer build now
-runs the original ROM startup and starts a real game thread. It stops at video
-manager setup. The next steps are screen-timing events, real game loading and
-safe graphics handling. There is no live native first frame or title screen.
-Earlier saved-task graphics tests remain separate diagnostic results.
+The game is **not playable**. The experimental Linux build gets past video setup,
+completes real loading requests and reaches the first drawing request. Safe live
+drawing and showing the result are next. There is no live game picture or title
+screen. Earlier saved-task graphics tests remain separate diagnostic results.
 
 | Status | Milestone | What it means for players |
 | --- | --- | --- |

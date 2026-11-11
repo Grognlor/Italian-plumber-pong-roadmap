@@ -1,3 +1,9 @@
+## Session 96
+
+[Session 96 — Video manager and continued native boot](SESSION_96.md): authentic
+owner instructions with five localized visible redactions. Requested results are
+separate from the verified loading and drawing-request progress.
+
 ## Session 95
 
 [Session 95 — Accelerated native boot](SESSION_95.md): authentic primary owner
