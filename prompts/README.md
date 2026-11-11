@@ -1,3 +1,9 @@
+## Session 98
+
+[Session 98 — Queue retirement and first drawing](SESSION_98.md): authentic owner
+instructions with five localized visible redactions. Safe storage reuse advanced
+loading; requested drawing and a live frame remain unfinished.
+
 ## Session 97
 
 [Session 97 — First live game frame](SESSION_97.md): authentic owner instructions

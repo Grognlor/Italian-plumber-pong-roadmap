@@ -1,5 +1,25 @@
 # Progress
 
+<a id="session-98"></a>
+## Session 98 — Loading moves past the queue safety check
+
+The experimental build now checks when temporary message queues have finished
+all their work and safely releases their storage. This fixes the loading stop
+from the previous session. Eleven loading requests and their completion messages
+now finish from a fresh start with the owner's ROM, up from four.
+
+The first attempt found another temporary queue needing the same careful check.
+After reviewing that separate helper, loading continued. Startup now stops at
+controller initialization, which still needs a real PC input connection and
+proper completion handling. That is the next task before continuing toward drawing.
+
+The game's one live graphics request still only prepares drawing settings. No
+live drawing or game picture appeared, and there is no title screen or playable
+match. All eight milestones remain open. No game files, pictures or videos were
+published, and the next session has not started.
+
+[Read the visibly redacted Session 98 owner prompt](../prompts/SESSION_98.md).
+
 <a id="session-97"></a>
 ## Session 97 — The first live graphics work finishes
 
