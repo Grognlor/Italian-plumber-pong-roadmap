@@ -1,9 +1,8 @@
-## Code coverage tracking — Session 93
+## Code coverage tracking — Session 95
 
-This session follows the original loading queue through request preparation,
-worker wakeup and consumption in one research run, with separate interpretation
-of each selected step. It adds evidence for how loading steps connect; no
-additional game code is run natively or connected to PC startup.
+The earlier reviewed test counts below remain separate from the new experimental
+cold startup. Their overlap has not been counted, so the groups are not added.
+The experiment now starts a real game thread, then stops before video setup.
 
 The reviewed subset remains eighteen complete functions and one partial routine:
 883 compiled instruction locations, 571 executed, 404 independently validated
@@ -15,11 +14,11 @@ tracking review. Whole-game totals and percentages remain unknown.
 
 # Roadmap
 
-The game is **not playable**. Original message handling runs across real PC threads
-in a local developer build. Separate frozen replays now draw saved original startup
-logos through the native graphics engine, with pixel differences still unresolved.
-The native game still needs its actual loading and startup path, thread ownership
-and safe graphics completion handling. No live native first frame exists.
+The game is **not playable**. A separate experimental Linux developer build now
+runs the original ROM startup and starts a real game thread. It stops at video
+manager setup. The next steps are screen-timing events, real game loading and
+safe graphics handling. There is no live native first frame or title screen.
+Earlier saved-task graphics tests remain separate diagnostic results.
 
 | Status | Milestone | What it means for players |
 | --- | --- | --- |

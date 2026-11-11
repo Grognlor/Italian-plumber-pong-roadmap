@@ -1,5 +1,27 @@
 # Progress
 
+<a id="session-95"></a>
+## Session 95 — The first experimental cold startup
+
+The owner approved a separate experimental route toward getting Mario Tennis
+running. A new local Linux developer build now loads the owner's ROM, runs the
+original startup code and starts a real game thread. PC replacements handle the
+early console services, with separate ownership for PC threads and message queues.
+
+It stops when the game asks to start its video manager. The next work is to supply
+screen-timing events and working graphics startup, then continue toward a
+real game loading request and its completed result. The ROM-copy service passes
+focused tests, but the game has not used it on this startup path yet.
+
+Early setup and build checks caught three preparation problems, which were fixed
+and retained in the record. All project tests and the new focused build checks
+pass. This is experimental progress, not a finished startup or a certified game
+build. There is still no live game picture, title screen, controller support or
+playable match. All eight roadmap milestones remain open. No new pictures or
+videos were made, and no game files were published. The next session has not begun.
+
+[Read the visibly redacted Session 95 owner prompt](../prompts/SESSION_95.md).
+
 <a id="session-94"></a>
 ## Session 94 — Learning from Destruction Derby's PC port
 

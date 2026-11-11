@@ -7,12 +7,14 @@ The goal is to keep the original tennis, characters, courts, game modes and
 local multiplayer, then add helpful PC options such as widescreen and smoother
 play where they work correctly.
 
-**The game is not playable yet.** A local developer build runs connected original
-message handling across real PC threads. Separate frozen replays of saved original
-drawing tasks now produce recognizable startup logos through the native PC graphics
-engine. These pictures still differ from the research software renderer, and the
-native game cannot yet reach them through its own startup. There is no live native
-first frame or playable download. Diagnostic game images remain private.
+**The game is not playable yet.** A separate experimental Linux developer build
+now starts from the owner's ROM, runs the original startup code and starts a real
+game thread. It stops before the video manager is connected. There is no live
+native game picture, title screen or playable download.
+
+Earlier tests of saved drawing tasks produced recognizable startup logos. Those
+remain private diagnostic pictures; they are not a live frame from this new
+startup path. The original game files stay local and are never included here.
 
 See the [roadmap](docs/ROADMAP.md) for the planned steps and
 [progress notes](docs/PROGRESS.md) for the development diary. This project

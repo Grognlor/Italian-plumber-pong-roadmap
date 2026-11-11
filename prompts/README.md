@@ -1,3 +1,9 @@
+## Session 95
+
+[Session 95 — Accelerated native boot](SESSION_95.md): authentic primary owner
+instructions with nine localized path redactions. Requested milestones are
+separate from the verified experimental startup result.
+
 ## Session 94
 
 [Session 94 — Destruction Derby workflow investigation](SESSION_94.md): authentic
