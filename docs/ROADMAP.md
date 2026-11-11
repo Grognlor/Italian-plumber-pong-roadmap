@@ -1,9 +1,10 @@
-## Code coverage tracking — Session 96
+## Code coverage tracking — Session 97
 
 The earlier reviewed test counts below remain separate from the new experimental
 cold startup. Their overlap has not been counted, so the groups are not added.
-The experiment now completes real loading requests and reaches the first drawing
-request. Live drawing remains unfinished.
+The experiment now finishes its first live graphics request and continues loading.
+That request prepares drawing settings without drawing pixels. Live drawing remains
+unfinished.
 
 The reviewed subset remains eighteen complete functions and one partial routine:
 883 compiled instruction locations, 571 executed, 404 independently validated
@@ -15,10 +16,11 @@ tracking review. Whole-game totals and percentages remain unknown.
 
 # Roadmap
 
-The game is **not playable**. The experimental Linux build gets past video setup,
-completes real loading requests and reaches the first drawing request. Safe live
-drawing and showing the result are next. There is no live game picture or title
-screen. Earlier saved-task graphics tests remain separate diagnostic results.
+The game is **not playable**. The experimental build finishes the game's first live
+graphics request, receives its completion messages and continues loading. That work
+only prepares drawing settings and produces no picture. A check protecting message
+queue storage blocks later loading. Safe storage reuse, actual drawing and showing
+a live picture are next. Earlier saved-task pictures remain separate diagnostics.
 
 | Status | Milestone | What it means for players |
 | --- | --- | --- |

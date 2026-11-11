@@ -7,10 +7,10 @@ The goal is to keep the original tennis, characters, courts, game modes and
 local multiplayer, then add helpful PC options such as widescreen and smoother
 play where they work correctly.
 
-**The game is not playable yet.** A separate experimental Linux developer build
-now gets past video setup, completes real loading requests and reaches the game's
-first drawing request. Connecting that live work to the graphics engine is next.
-There is no live native game picture, title screen or playable download.
+**The game is not playable yet.** A separate experimental developer build now
+finishes the game's first live graphics request and continues loading. That request
+only prepares drawing settings and produces no picture. A memory-safety check is
+the next blocker. There is no live game picture, title screen or playable download.
 
 Earlier tests of saved drawing tasks produced recognizable startup logos. Those
 remain private diagnostic pictures; they are not a live frame from this new

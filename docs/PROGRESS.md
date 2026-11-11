@@ -1,5 +1,26 @@
 # Progress
 
+<a id="session-97"></a>
+## Session 97 — The first live graphics work finishes
+
+The experimental build now sends the game's first live graphics request to the
+PC graphics engine. That work finishes, the original game receives both completion
+messages, and loading continues. Four loading requests now finish from a fresh
+start with the owner's ROM. The graphics request only prepares drawing settings;
+it does not draw a picture, so this is not the first live game frame.
+
+Testing caught a wait on unused graphics work and a shutdown problem in the
+isolated test environment. Both were corrected. The next stop is a memory-safety
+check: new loading work crosses storage still registered for an earlier message
+queue. We stopped with the check intact. Next, establish when that storage can be
+safely reused, then continue toward actual drawing and showing a live picture.
+
+There is still no live game picture, title screen, controller support or playable
+match. All eight roadmap milestones remain open. No game files, pictures or videos
+were published. The next session has not begun.
+
+[Read the visibly redacted Session 97 owner prompt](../prompts/SESSION_97.md).
+
 <a id="session-96"></a>
 ## Session 96 — Real loading and the first drawing request
 

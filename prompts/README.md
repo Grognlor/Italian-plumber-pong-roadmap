@@ -1,3 +1,9 @@
+## Session 97
+
+[Session 97 — First live game frame](SESSION_97.md): authentic owner instructions
+with five localized visible redactions. The requested frame was not achieved;
+verified graphics-request progress and its blocker are in the diary.
+
 ## Session 96
 
 [Session 96 — Video manager and continued native boot](SESSION_96.md): authentic
