@@ -1,5 +1,30 @@
 # Progress
 
+<a id="session-99"></a>
+## Session 99 — Real controller setup lets startup continue
+
+Mario Tennis now receives real controller status from Linux and continues past
+controller setup. The new service keeps all four player ports and checks connected
+PC gamepads rather than assuming one is present. The game also completes its next
+controller-status request and receives the result. Button and stick controls in a
+running game have not been demonstrated yet.
+
+Some raw device connections could not be opened. We kept that failure visible,
+used readable gamepad connections and did not change the computer's permissions.
+The earlier session's saved work survived an interrupted connection and was reused.
+Tests for missing devices, failed requests, shutdown and message ownership pass.
+
+Startup now reaches another loaded part of the original game. That part needs
+checking before we translate and run its next helper. Eleven loading requests
+still finish, and the first graphics request still only prepares drawing settings.
+There is no live drawing, game picture, title screen or playable match. All eight
+milestones remain open. No game files, pictures or videos were published.
+
+Next: check that loaded startup code, continue toward real drawing and connect
+button and stick input when the game asks for it. Session 100 has not started.
+
+[Read the visibly redacted Session 99 owner prompt](../prompts/SESSION_99.md).
+
 <a id="session-98"></a>
 ## Session 98 — Loading moves past the queue safety check
 

@@ -1,3 +1,9 @@
+## Session 99
+
+[Session 99 — Controller initialization and game startup](SESSION_99.md): authentic
+owner instructions with three localized visible redactions. Real controller setup
+and status discovery advance startup; drawing and a live frame remain unfinished.
+
 ## Session 98
 
 [Session 98 — Queue retirement and first drawing](SESSION_98.md): authentic owner

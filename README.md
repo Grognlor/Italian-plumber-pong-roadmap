@@ -7,11 +7,11 @@ The goal is to keep the original tennis, characters, courts, game modes and
 local multiplayer, then add helpful PC options such as widescreen and smoother
 play where they work correctly.
 
-**The game is not playable yet.** The experimental developer build now safely
-reuses temporary message storage and finishes eleven loading requests from a fresh
-start. Controller initialization is the next blocker. Its first live graphics
-request still only prepares drawing settings: there is no live game picture,
-title screen or playable download.
+**The game is not playable yet.** The experimental developer build now gets
+real controller status from Linux and continues past controller setup, with all
+four player ports kept available. Startup stops at the next loaded part of the
+game, which needs checking before it can run. Eleven loading requests finish.
+There is still no live game picture, title screen or playable download.
 
 Earlier tests of saved drawing tasks produced recognizable startup logos. Those
 remain private diagnostic pictures; they are not a live frame from this new

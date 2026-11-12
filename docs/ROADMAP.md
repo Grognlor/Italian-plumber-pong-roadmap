@@ -1,10 +1,11 @@
-## Code coverage tracking — Session 98
+## Code coverage tracking — Session 99
 
 The earlier reviewed test counts below remain separate from the new experimental
 cold startup. Their overlap has not been counted, so the groups are not added.
-The experiment now safely reuses temporary message storage and completes eleven
-loading requests. Controller initialization is the next blocker. Its first live
-graphics request still only prepares drawing settings; live drawing is unfinished.
+The experiment now completes real Linux controller setup and a controller-status
+request, then reaches the next loaded part of startup. Eleven loading requests
+still finish. Its first graphics request only prepares drawing settings; live
+drawing remains unfinished.
 
 The reviewed subset remains eighteen complete functions and one partial routine:
 883 compiled instruction locations, 571 executed, 404 independently validated
@@ -16,11 +17,11 @@ tracking review. Whole-game totals and percentages remain unknown.
 
 # Roadmap
 
-The game is **not playable**. The experimental build has passed its previous
-message-storage safety stop and now completes eleven loading requests. Startup
-stops at controller initialization, which needs a real PC input connection.
-The one live graphics request still only prepares drawing settings; there is no
-live game picture. Earlier saved-task pictures remain separate diagnostics.
+The game is **not playable**. Real controller setup and status discovery now let
+the experimental build continue to another loaded part of startup. That code needs
+checking before its next helper can run. Button and stick controls in a running
+game are not yet demonstrated. There is still no live game picture; earlier
+saved-task pictures remain separate diagnostics.
 
 | Status | Milestone | What it means for players |
 | --- | --- | --- |
