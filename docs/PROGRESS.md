@@ -1,3 +1,22 @@
+<a id="session-104"></a>
+## Session 104 — Repeated sound work and safe sample handling
+
+A fresh Mario Tennis startup now runs sixteen real sound-processing tasks, and
+the game receives every completion. Finished samples reach a timed recording
+service so their handling can be checked without throwing them away. Fifteen
+buffers finish recording; the last pending buffer is safely stopped when the
+test reaches its recording limit. The recorded samples are silent, and audible
+playback has not been established.
+
+Live controller reads and loading requests still work. There is no live game
+picture, title screen or playable build yet. An earlier test also found a timing
+problem with temporary working memory; it remains recorded for investigation.
+Next is a longer startup test with smaller diagnostic recordings, then continued
+work toward actual drawing and sound playback. The next game-startup obstacle
+has not yet been identified.
+
+[Read the authentic, visibly redacted Session 104 prompt](../prompts/SESSION_104.md).
+
 # Progress
 
 <a id="session-103"></a>

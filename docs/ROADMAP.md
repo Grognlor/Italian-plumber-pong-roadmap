@@ -1,13 +1,14 @@
-## Code coverage tracking — Session 103
+## Code coverage tracking — Session 104
 
 The earlier reviewed test counts below remain separate from the new experimental
 cold startup. Their overlap has not been counted, so the groups are not added.
-The first real sound-processing task now runs and the game receives its
-completion. Its initial output is silence while startup voices are idle. The
-next step is safely submitting those finished samples for sound output. Live
-controller reads and eleven loading requests finish. The completed graphics
-request only prepares drawing settings; there is no sound playback, live game
-picture or playable game.
+Sixteen real sound-processing tasks now run during a fresh startup, and the
+game receives their completions. Their samples reach a timed recording service
+for testing; the recorded samples are silent and audible playback is not yet
+established. Live controller reads and eleven loading requests finish. The test
+stops at its recording limit. The completed graphics request only prepares
+drawing settings; there is no live game picture or playable game. Next is a
+longer startup test using smaller diagnostic recordings.
 
 The reviewed subset remains eighteen complete functions and one partial routine:
 883 compiled instruction locations, 571 executed, 404 independently validated
@@ -19,8 +20,8 @@ tracking review. Whole-game totals and percentages remain unknown.
 
 # Roadmap
 
-The game is **not playable**. Its first sound-processing task now runs and
-completes, but submitting finished samples for sound output is still blocked. Live button and stick
+The game is **not playable**. Repeated sound-processing tasks now run and
+submit samples to timed test recordings. Audible playback is not established. Live button and stick
 reads work during startup, but gameplay controls and broad controller compatibility
 still need testing. Four independent players, reconnecting, mapping, dead zones
 and controller-operated settings inside the game remain requirements. There is

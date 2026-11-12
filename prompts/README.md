@@ -1,3 +1,10 @@
+## Session 104
+
+[Session 104 — Audio output and continued game startup](SESSION_104.md): authentic
+owner prompt with three localized visible redactions. Repeated sound-processing
+tasks and timed sample recordings work; audible playback, drawing and a playable
+game remain unfinished.
+
 ## Session 103
 
 [Session 103 — First real audio task](SESSION_103.md): authentic owner prompt with
