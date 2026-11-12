@@ -1,3 +1,9 @@
+## Session 100
+
+[Session 100 — Continue native game startup](SESSION_100.md): authentic owner
+instructions with three localized visible redactions. Startup and live controller
+reads advance; drawing, presentation and a playable game remain unfinished.
+
 ## Session 99
 
 [Session 99 — Controller initialization and game startup](SESSION_99.md): authentic

@@ -1,11 +1,11 @@
-## Code coverage tracking — Session 99
+## Code coverage tracking — Session 100
 
 The earlier reviewed test counts below remain separate from the new experimental
 cold startup. Their overlap has not been counted, so the groups are not added.
-The experiment now completes real Linux controller setup and a controller-status
-request, then reaches the next loaded part of startup. Eleven loading requests
-still finish. Its first graphics request only prepares drawing settings; live
-drawing remains unfinished.
+The experiment now runs the next checked part of startup and advances sound setup.
+Live controller reads complete repeatedly. Eleven loading requests still finish;
+its first graphics request only prepares drawing settings. There is no live game
+picture or playable game.
 
 The reviewed subset remains eighteen complete functions and one partial routine:
 883 compiled instruction locations, 571 executed, 404 independently validated
@@ -17,11 +17,12 @@ tracking review. Whole-game totals and percentages remain unknown.
 
 # Roadmap
 
-The game is **not playable**. Real controller setup and status discovery now let
-the experimental build continue to another loaded part of startup. That code needs
-checking before its next helper can run. Button and stick controls in a running
-game are not yet demonstrated. There is still no live game picture; earlier
-saved-task pictures remain separate diagnostics.
+The game is **not playable**. Startup now reaches a missing service needed by
+sound setup after running another checked part of the game. Live button and stick
+reads work during startup, but gameplay controls and broad controller compatibility
+still need testing. Four independent players, reconnecting, mapping, dead zones
+and controller-operated settings inside the game remain requirements. There is
+still no live game picture; earlier saved-task pictures are separate diagnostics.
 
 | Status | Milestone | What it means for players |
 | --- | --- | --- |

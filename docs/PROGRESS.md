@@ -1,5 +1,33 @@
 # Progress
 
+<a id="session-100"></a>
+## Session 100 — Startup continues and live controller reads work
+
+We checked the next loaded part of Mario Tennis against the original game file
+and let it run in a fresh developer build. Startup now gets further into sound
+setup and starts another of the game's workers. The game also asks for live
+button and stick readings, receives them and collects the results repeatedly.
+This is progress in startup input handling; it does not show playable controls yet.
+
+The next stop is a missing service that sound setup needs to coordinate its work.
+It still stops safely there. Eleven loading requests finish. The completed graphics
+request still only prepares drawing settings: there is no live drawing, game
+picture, title screen or playable match, and no sound playback yet.
+
+Tests pass for all four player ports, failed reads, disconnects, shutdown and
+safe handling of results. We also documented the goal of broad controller support:
+Xbox, PlayStation, Switch-compatible, 8BitDo, generic pads and ROG Ally controls,
+using available host drivers. Four independent players, USB/Bluetooth/receiver
+connections, reconnecting, button mapping, stick dead zones and settings operated
+inside the game remain requirements to build and test. The current Linux input
+service is experimental; a shared Linux/Windows input library is proposed.
+
+Next: complete the missing sound setup service, then continue toward actual
+drawing and a live game picture. All eight milestones remain open. No game files,
+binaries, pictures or videos were published. Session 101 has not started.
+
+[Read the visibly redacted Session 100 owner prompt](../prompts/SESSION_100.md).
+
 <a id="session-99"></a>
 ## Session 99 — Real controller setup lets startup continue
 
