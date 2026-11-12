@@ -1,5 +1,30 @@
 # Progress
 
+<a id="session-103"></a>
+## Session 103 — The first sound-processing task runs
+
+Mario Tennis now runs its first real sound-processing task during a fresh startup.
+The task finishes its work, and the original game receives the completion and
+continues. Its first output is silence because the startup voices are idle;
+there is no audible playback yet. Tests also show that the new path can write
+nonzero sample data and stops safely on bad memory access, cancellation or
+unfinished work.
+
+The next stop is the service that hands the finished samples to sound output.
+That needs safe buffer handling and truthful timing before startup can continue.
+Later sound tasks also need their continuing state checked. Live controller reads
+and eleven loading requests still finish. There is no live drawing, game picture,
+title screen or playable match; the completed graphics task only prepares settings.
+
+All relevant code tests pass. A build reproducibility check found changing archive
+timestamps; the compiled code itself matched exactly, and the difference is recorded.
+Next: finish sound-output submission and continue toward genuine drawing. Broad
+controller support, four players, reconnecting, mapping and settings inside the
+game remain requirements. All eight milestones stay open. No game files, binaries,
+pictures or videos were published. Session 104 has not started.
+
+[Read the visibly redacted Session 103 owner prompt](../prompts/SESSION_103.md).
+
 <a id="session-102"></a>
 ## Session 102 — Original sound setup reaches its first processing task
 

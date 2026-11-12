@@ -7,12 +7,13 @@ The goal is to keep the original tennis, characters, courts, game modes and
 local multiplayer, then add helpful PC options such as widescreen and smoother
 play where they work correctly.
 
-**The game is not playable yet.** More original sound setup now runs during a
-fresh startup and reaches its first sound-processing task. Running that task
-safely is the next blocker. Live controller reads and eleven loading requests
-complete. There is still no live game picture, title screen, sound playback or
-playable download. Broad controller support and four independent players remain
-goals to test in a running game.
+**The game is not playable yet.** Its first real sound-processing task now runs
+during a fresh startup, and the original game receives the completion. That first
+task produces silence while startup voices are idle. The next blocker is safely
+handing the finished samples to the sound-output service. Live controller reads
+and eleven loading requests complete. There is still no sound playback, live game
+picture, title screen or playable download. Broad controller support and four
+independent players remain goals to test in a running game.
 
 Earlier tests of saved drawing tasks produced recognizable startup logos. Those
 remain private diagnostic pictures; they are not a live frame from this new

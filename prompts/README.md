@@ -1,3 +1,9 @@
+## Session 103
+
+[Session 103 — First real audio task](SESSION_103.md): authentic owner prompt with
+three localized visible redactions. The first sound-processing task runs and its
+completion is received; sound output, drawing and a playable game remain unfinished.
+
 ## Session 102
 
 [Session 102 — Audio dispatch and continued native startup](SESSION_102.md): authentic
