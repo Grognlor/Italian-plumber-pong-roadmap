@@ -1,5 +1,30 @@
 # Progress
 
+<a id="session-102"></a>
+## Session 102 — Original sound setup reaches its first processing task
+
+Three more complete original game routines now run during a fresh startup.
+The sound routine that stopped the previous session gets through its current
+startup work, followed by the next sound helper and the game's own request to
+process audio. Tests check that the conversion tool keeps its dispatch data
+and rejects changed or unexpected destinations. The game has not yet used
+that routine's command-selection path during startup; its coverage is from
+tests with made-up inputs.
+
+The new stop is the first real sound-processing task. The current task bridge
+handles graphics and cannot safely run audio work yet. No sound completion was
+invented to get past it. Live controller reads and eleven loading requests still
+finish. There is no sound playback, live drawing, game picture, title screen or
+playable match. The one completed graphics request only prepares drawing settings.
+
+All relevant tests pass. Next: establish real audio-task execution and safe
+completion, then continue toward genuine drawing and a live picture. Broad
+controller support, four players, reconnecting, mapping and settings inside the
+game remain requirements. All eight milestones stay open. No game files,
+binaries, pictures or videos were published. Session 103 has not started.
+
+[Read the visibly redacted Session 102 owner prompt](../prompts/SESSION_102.md).
+
 <a id="session-101"></a>
 ## Session 101 — Sound setup gets past its missing service
 

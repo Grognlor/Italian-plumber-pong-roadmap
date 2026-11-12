@@ -1,10 +1,10 @@
-## Code coverage tracking — Session 101
+## Code coverage tracking — Session 102
 
 The earlier reviewed test counts below remain separate from the new experimental
 cold startup. Their overlap has not been counted, so the groups are not added.
-The missing coordination service now works and original sound setup continues.
-The next original sound-processing routine still needs safe translation. Live
-controller reads and eleven loading requests finish. Its completed graphics
+More original sound routines now run and reach the first sound-processing task.
+The next step is to run that task safely and complete its actual work. Live
+controller reads and eleven loading requests finish. The completed graphics
 request only prepares drawing settings; there is no live game picture or
 playable game.
 
@@ -18,8 +18,8 @@ tracking review. Whole-game totals and percentages remain unknown.
 
 # Roadmap
 
-The game is **not playable**. Sound setup has passed its missing coordination
-service and reaches the next original routine that needs safe translation. Live button and stick
+The game is **not playable**. More sound setup now runs and reaches its first
+processing task, which still needs safe execution and completion. Live button and stick
 reads work during startup, but gameplay controls and broad controller compatibility
 still need testing. Four independent players, reconnecting, mapping, dead zones
 and controller-operated settings inside the game remain requirements. There is

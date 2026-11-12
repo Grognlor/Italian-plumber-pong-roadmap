@@ -1,3 +1,9 @@
+## Session 102
+
+[Session 102 — Audio dispatch and continued native startup](SESSION_102.md): authentic
+owner prompt with three localized visible redactions. Original sound setup reaches
+its first processing task; completion, drawing and a playable game remain unfinished.
+
 ## Session 101
 
 [Session 101 — Audio initialization and native startup](SESSION_101.md): authentic
