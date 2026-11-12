@@ -1,3 +1,25 @@
+<a id="session-105"></a>
+## Session 105 — A longer startup test and a reproduced memory blocker
+
+Mario Tennis now completes 512 real sound-processing tasks in one fresh startup,
+and the game receives every completion. Smaller test recordings retain the full
+evidence without saving the same memory over and over. Finished samples still
+reach timed recordings, but they are silent and there is no audible playback.
+Live controller reads and loading requests continue to work.
+
+A separate faster test reproduced the temporary-memory problem seen earlier. It
+stopped safely when the game tried to reuse a temporary work area that the test
+still marked as in use. We traced where this happens, but still need to prove
+when that memory can be released safely. The safeguard remains in
+place. Tests pass; there is still no live drawing, game picture, title screen or
+playable match.
+
+Next: fix that temporary-memory lifetime, then continue startup toward the first
+real picture. Broad controller support, four players and settings inside the game
+remain requirements. No game files, binaries, pictures or videos were published.
+
+[Read the authentic, visibly redacted Session 105 prompt](../prompts/SESSION_105.md).
+
 <a id="session-104"></a>
 ## Session 104 — Repeated sound work and safe sample handling
 

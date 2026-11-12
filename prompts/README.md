@@ -1,3 +1,10 @@
+## Session 105
+
+[Session 105 — Extended native execution](SESSION_105.md): authentic owner prompt
+with three localized visible redactions. A longer startup run completes repeated
+sound work; a separate faster test reproduces a temporary-memory blocker.
+No live game picture or playable game yet.
+
 ## Session 104
 
 [Session 104 — Audio output and continued game startup](SESSION_104.md): authentic
