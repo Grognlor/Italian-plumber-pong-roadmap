@@ -1,3 +1,9 @@
+## Session 101
+
+[Session 101 — Audio initialization and native startup](SESSION_101.md): authentic
+owner prompt with two localized visible redactions. Sound setup continues; drawing,
+presentation and a playable game remain unfinished.
+
 ## Session 100
 
 [Session 100 — Continue native game startup](SESSION_100.md): authentic owner

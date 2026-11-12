@@ -1,5 +1,29 @@
 # Progress
 
+<a id="session-101"></a>
+## Session 101 — Sound setup gets past its missing service
+
+The missing coordination service now works during a fresh startup, letting the
+original sound setup continue into more of its own routines. It can protect its
+shared work and restore the previous state. Tests also check that completed
+controller and graphics work waits safely when needed and is delivered afterward.
+Shutdown prevents late messages from reaching stopped workers.
+
+Live button and stick reads still work. Eleven loading requests finish. The next
+stop is another original sound-processing routine that needs safe translation.
+No audio task completion was invented to get past it. There is still no sound
+playback, live drawing, game picture, title screen or playable match. The completed
+graphics request still only prepares drawing settings.
+
+All relevant tests pass. Next: bring across the next sound routine with its
+checked dispatch data, then continue toward genuine drawing and a live picture.
+Broad controller support, four independent players, reconnecting, mapping and
+settings inside the game remain requirements. All eight milestones stay open.
+No game files, binaries, pictures or videos were published. Session 102 has not
+started.
+
+[Read the visibly redacted Session 101 owner prompt](../prompts/SESSION_101.md).
+
 <a id="session-100"></a>
 ## Session 100 — Startup continues and live controller reads work
 
