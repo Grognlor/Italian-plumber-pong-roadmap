@@ -1,3 +1,10 @@
+## Session 107
+
+[Session 107 — Advance startup toward the first real frame](SESSION_107.md): authentic
+owner prompt with two localized visible redactions. Another original part of
+startup runs and more game data loads; a different request stops safely pending
+its own memory checks. No live game picture or playable game yet.
+
 ## Session 106
 
 [Session 106 — Queue lifetime and graphics progress](SESSION_106.md): authentic

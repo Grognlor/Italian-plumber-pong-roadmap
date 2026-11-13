@@ -1,3 +1,26 @@
+<a id="session-107"></a>
+## Session 107 — Startup reaches another original part of the game
+
+Startup now gets through the missing helper from the last session and runs the
+next original part of the game. A repeated cartridge check now reuses its existing
+work safely. The game finishes twenty-five loading requests, up from twenty-three,
+and prepares more of its original drawing instructions.
+
+The drawing instructions have not reached the graphics engine yet. There is still
+no live game picture, title screen or playable match. The next stop is a different
+startup request that needs its own memory-lifetime checks before it can run safely.
+The earlier request's checks cannot simply be reused for it.
+
+Eighteen more complete original routines are brought across; seventeen start and
+thirteen return in the final test. A separate run still completes three genuine
+sound-processing tasks and receives their completions; its recording is silent.
+Live controller reads continue. Focused and full tests pass. Next: check the new
+startup request and keep working toward the first real picture. Broad controller
+support, four players and controller-operated settings inside Mario Tennis remain
+goals. No screenshots, videos or game files were published.
+
+[Read the authentic Session 107 prompt, with visible redactions](../prompts/SESSION_107.md).
+
 <a id="session-106"></a>
 ## Session 106 — A temporary-memory fix lets startup load more game data
 
