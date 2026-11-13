@@ -7,15 +7,15 @@ The goal is to keep the original tennis, characters, courts, game modes and
 local multiplayer, then add helpful PC options such as widescreen and smoother
 play where they work correctly.
 
-**The game is not playable yet.** Fresh startup now reaches another original
-part of the game and finishes twenty-five loading requests, up from twenty-three.
-More original drawing instructions are prepared, but they have not reached the
-graphics engine. There is still no live game picture, title screen or playable
-match. A different startup request now stops safely until its memory use is
-checked. Live controller reads continue; a separate sound test still completes
-real processing work, with a silent recording and no audible playback established.
-Next is to check that request and continue toward the first real picture. Broad
-controller support, four players and settings inside the game remain goals.
+**The game is not playable yet.** The blocked startup request now finishes safely,
+and fresh startup completes sixty-one loading requests, up from twenty-five.
+Eleven more complete original game routines run and return. The next part is loaded,
+but the runtime needs to track it replacing earlier startup code before it can run.
+There is still no live game picture, title screen or playable match, and real drawing
+has not reached the graphics engine. Live controller reads and genuine sound work
+continue; the recording is silent and audible playback is not established.
+Next is to handle that change safely and continue toward the first real picture.
+Broad controller support, four players and settings inside the game remain goals.
 
 Earlier tests of saved drawing tasks produced recognizable startup logos. Those
 remain private diagnostic pictures; they are not a live frame from this new

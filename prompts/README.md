@@ -1,3 +1,10 @@
+## Session 108
+
+[Session 108 — Continue native startup toward first frame](SESSION_108.md): authentic
+owner prompt with two localized visible redactions. The blocked startup request
+now finishes and more game data loads; running the next part needs a safe change
+from earlier startup code. No live game picture or playable game yet.
+
 ## Session 107
 
 [Session 107 — Advance startup toward the first real frame](SESSION_107.md): authentic

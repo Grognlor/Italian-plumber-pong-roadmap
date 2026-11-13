@@ -1,15 +1,14 @@
-## Code coverage tracking — Session 107
+## Code coverage tracking — Session 108
 
-The earlier reviewed test counts below remain separate from experimental cold
-startup; these overlapping groups are not added. Another original part of startup
-now runs, and twenty-five genuine loading requests finish, up from twenty-three.
-Eighteen more complete original routines are brought across; seventeen start and
-thirteen return in the final test. One is not entered and four stop with the next
-unsupported request. The game prepares more original drawing instructions, but
-the graphics engine has not run them. There is no live game picture, title screen
-or playable match. A different startup request needs its own memory-lifetime
-checks. A separate run completes three real sound tasks, with a silent recording;
-live controller reads continue. No audible playback is established.
+The earlier reviewed test counts below remain separate from experimental startup;
+these overlapping groups are not added. The blocked startup request now finishes
+safely, and eleven more complete original routines run and return. Sixty-one genuine
+loading requests finish, up from twenty-five. The next part of the game is loaded,
+but the runtime must track it replacing earlier startup code before it can run.
+The existing check remains in place. There is still no live game picture, title
+screen or playable match; real drawing has not reached the graphics engine.
+Live controller reads continue. Eleven genuine sound-processing tasks finish during
+startup, with a silent recording and no audible playback established.
 
 The reviewed subset remains eighteen complete functions and one partial routine:
 883 compiled instruction locations, 571 executed, 404 independently validated

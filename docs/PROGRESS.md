@@ -1,3 +1,26 @@
+<a id="session-108"></a>
+## Session 108 — A startup request works and more game data loads
+
+The request that stopped the last session now finishes safely. Its original game
+routine runs, the game receives its reply, and the temporary work area is released
+only after everyone has finished using it. Eleven more complete original routines
+now run and return.
+
+Fresh startup finishes sixty-one loading requests, up from twenty-five. The next
+part of the game is loaded, but it replaces an area used by earlier startup code.
+The runtime needs to track that change safely before it can run this new part.
+The original memory check that exposed the change is preserved; it was not bypassed.
+
+There is still no live game picture, title screen or playable match. The graphics
+engine finishes its earlier setup work, but it has not received real drawing yet.
+Live controller reads continue. Eleven genuine sound-processing tasks finish during
+startup; the retained recording is silent and audible playback is not established.
+Focused and full tests pass. Next: handle the change between old and new game code,
+then continue toward the first real picture. Broad controller support, four players
+and settings inside Mario Tennis remain goals. No game files or media were published.
+
+[Read the authentic Session 108 prompt, with visible redactions](../prompts/SESSION_108.md).
+
 <a id="session-107"></a>
 ## Session 107 — Startup reaches another original part of the game
 
