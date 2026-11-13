@@ -1,3 +1,10 @@
+## Session 106
+
+[Session 106 — Queue lifetime and graphics progress](SESSION_106.md): authentic
+owner prompt with three localized visible redactions. A temporary-memory fix lets
+startup load more original game data; there is still no live game picture or
+playable game.
+
 ## Session 105
 
 [Session 105 — Extended native execution](SESSION_105.md): authentic owner prompt

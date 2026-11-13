@@ -1,3 +1,27 @@
+<a id="session-106"></a>
+## Session 106 — A temporary-memory fix lets startup load more game data
+
+The faster startup test now gets past the temporary-memory stop from the last
+session. We checked that the original request, its reply and everyone using them
+have finished before releasing the work area. Tests also reject cleanup while
+someone still needs it, or when a request fails or is cancelled.
+
+Startup now finishes twenty-three loading requests, up from eleven, and more
+original game routines run and return. A later sound-recording wait also exposed
+an overly broad stop: samples already copied safely can finish recording without
+holding up unrelated loading. The final run completes three real sound-processing
+tasks and receives all their completions. The recordings remain silent, and there
+is no audible playback. Earlier longer sound tests remain separate results.
+
+Focused and full tests pass. The next stop is another original startup helper
+that still needs bringing across safely. There is no live drawing, game picture,
+title screen or playable match yet. Next: continue startup toward the first real
+picture. Broad controller support, four players and settings inside Mario Tennis
+remain requirements. All eight milestones keep their current status. No game
+files, binaries, pictures or videos were published. Session 107 has not started.
+
+[Read the authentic, visibly redacted Session 106 prompt](../prompts/SESSION_106.md).
+
 <a id="session-105"></a>
 ## Session 105 — A longer startup test and a reproduced memory blocker
 

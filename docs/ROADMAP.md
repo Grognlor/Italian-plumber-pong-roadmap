@@ -1,14 +1,15 @@
-## Code coverage tracking — Session 105
+## Code coverage tracking — Session 106
 
 The earlier reviewed test counts below remain separate from the new experimental
 cold startup. Their overlap has not been counted, so the groups are not added.
-A fresh startup completes 512 real sound-processing tasks and receives every
-completion. Smaller test recordings preserve the evidence for a longer run.
-Recorded samples are silent and audible playback is not established. Live
-controller reads and eleven loading requests finish. A separate faster test
-reproduced the temporary-memory problem and stopped safely. Making that memory safe to reuse is next, followed by more startup work toward actual drawing. The
-completed graphics request still only prepares settings; there is no live game
-picture or playable game.
+The temporary-memory stop is fixed for the tested startup request. A faster
+fresh startup now finishes twenty-three loading requests and gets more original
+game data ready. Fourteen more complete original routines run and return in the
+final test. Three real sound-processing tasks complete and their completions reach
+the game. Recorded samples remain silent and audible playback is not established.
+The next original startup helper still stops safely. No live drawing, game
+picture, title screen or playable match exists yet. The earlier long sound test
+remains a separate result; these runs and the reviewed counts below are not added.
 
 The reviewed subset remains eighteen complete functions and one partial routine:
 883 compiled instruction locations, 571 executed, 404 independently validated
