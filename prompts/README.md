@@ -1,3 +1,10 @@
+## Session 111
+
+[Session 111 — Video startup and the next memory-setup blocker](SESSION_111.md):
+authentic owner prompt with four localized visible redactions. Original video
+startup now runs and loading advances; the next memory-setup connection remains
+unfinished. Requested goals are separate from verified diary results.
+
 ## Session 110
 
 [Session 110 — Video initialization and development workflow](SESSION_110.md):

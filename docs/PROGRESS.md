@@ -1,3 +1,22 @@
+<a id="session-111"></a>
+## Session 111 — Original video startup runs and more loading finishes
+
+The complete original video setup and update routines now run during fresh PC
+startup. The game finishes 110 loading requests, up from 86, and more of its
+original graphics preparation runs. This clears the video connection that stopped
+the previous startup attempt.
+
+Two early tests stopped at ownership protections; the missing connections were
+fixed and retested. Startup now stops at another required part of the game's
+memory setup, which needs a complete PC connection before execution can continue.
+There is still no live game picture, title screen or playable match. The one
+completed graphics task only sets up graphics state. Live controller reads and
+original sound processing continue; the recording is silent and audible playback
+is not established. Next is the memory-setup connection, then the next real step
+toward drawing and displaying the game.
+
+[Read the authentic, visibly redacted Session 111 prompt](../prompts/SESSION_111.md).
+
 <a id="session-110"></a>
 ## Session 110 — Video startup needs a complete connection
 
