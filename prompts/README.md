@@ -1,3 +1,11 @@
+## Session 109
+
+[Session 109 — Safe code image replacement and first frame progress](SESSION_109.md):
+authentic owner prompt with two localized visible redactions. The next original
+part now safely replaces startup code and runs; video settings are the next stop.
+No live game picture or playable game yet. Requested objectives are separate from
+verified results in the diary.
+
 ## Session 108
 
 [Session 108 — Continue native startup toward first frame](SESSION_108.md): authentic

@@ -1,3 +1,27 @@
+<a id="session-109"></a>
+## Session 109 — The next part of the game safely replaces startup code
+
+Mario Tennis can now replace an earlier piece of startup code with the next part
+of the game. The runtime checks that the earlier routines have finished, keeps
+the two versions separate and prevents the old version from running afterward.
+Changed or unfinished loading still stops safely.
+
+Eleven more complete original routines now run; eight return before the next
+stop. Fresh startup finishes eighty-six loading requests, up from sixty-one,
+and another loaded part of the game starts and returns. The next stop is in the
+game's video settings: the original code needs a mode reference that the PC video
+service does not yet provide safely. That connection is the next task.
+
+There is still no live game picture, title screen or playable match. The graphics
+engine finishes its earlier setup task, but it has not received real drawing yet.
+Twelve genuine sound-processing tasks finish; the recording is silent and there
+is no audible playback. Live controller reads continue. Focused and full tests
+pass. A later build was held back because files changed during the build; a fresh
+build passed its checks. Broad controller support, four players and settings
+inside Mario Tennis remain goals. No game files, pictures or videos were published.
+
+[Read the authentic Session 109 prompt, with visible redactions](../prompts/SESSION_109.md).
+
 <a id="session-108"></a>
 ## Session 108 — A startup request works and more game data loads
 

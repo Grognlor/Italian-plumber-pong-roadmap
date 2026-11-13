@@ -7,14 +7,14 @@ The goal is to keep the original tennis, characters, courts, game modes and
 local multiplayer, then add helpful PC options such as widescreen and smoother
 play where they work correctly.
 
-**The game is not playable yet.** The blocked startup request now finishes safely,
-and fresh startup completes sixty-one loading requests, up from twenty-five.
-Eleven more complete original game routines run and return. The next part is loaded,
-but the runtime needs to track it replacing earlier startup code before it can run.
-There is still no live game picture, title screen or playable match, and real drawing
+**The game is not playable yet.** Startup now safely replaces earlier code with
+the next original part of Mario Tennis, and that new part runs. Fresh startup
+finishes eighty-six loading requests, up from sixty-one. Eleven more complete
+original routines run; eight return before the next stop, which needs a safe
+connection between the game's video settings and the PC video service.
+There is still no live game picture, title screen or playable match. Real drawing
 has not reached the graphics engine. Live controller reads and genuine sound work
 continue; the recording is silent and audible playback is not established.
-Next is to handle that change safely and continue toward the first real picture.
 Broad controller support, four players and settings inside the game remain goals.
 
 Earlier tests of saved drawing tasks produced recognizable startup logos. Those
