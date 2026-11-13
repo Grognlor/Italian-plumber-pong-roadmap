@@ -1,3 +1,10 @@
+## Session 110
+
+[Session 110 — Video initialization and development workflow](SESSION_110.md):
+authentic owner-attached prompt with three localized visible redactions. Startup
+did not advance; one complete video helper compiled without execution. The video
+connection remains unfinished. Requested objectives are separate from diary results.
+
 ## Session 109
 
 [Session 109 — Safe code image replacement and first frame progress](SESSION_109.md):
@@ -586,4 +593,3 @@ what this work means for players; the game remains unplayable.
 ## Session 23
 
 [Session 23 — Recovery and preservation](SESSION_23.md): authentic owner-supplied prompt with visible redactions. The diary records the partial recovery and remaining blockers.
-

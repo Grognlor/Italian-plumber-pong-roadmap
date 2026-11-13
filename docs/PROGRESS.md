@@ -1,3 +1,20 @@
+<a id="session-110"></a>
+## Session 110 — Video startup needs a complete connection
+
+Startup did not advance this session. Reviewing the original video setup showed
+that filling in its missing setting alone would leave other initialization and
+video-update behavior unfinished. That connection still needs to be completed
+before a fresh startup test can safely continue.
+
+One complete original video helper was translated and compiled locally, but was
+not run or added to startup. A smaller progress index and clearer testing workflow
+now make the next session easier to resume without treating old results as new.
+There are no new loading, sound, controller or graphics results, and still no live
+game picture, title screen or playable match. Next is the complete video connection,
+then a fresh startup test and the next real game dependency.
+
+[Read the authentic, visibly redacted Session 110 prompt](../prompts/SESSION_110.md).
+
 <a id="session-109"></a>
 ## Session 109 — The next part of the game safely replaces startup code
 
