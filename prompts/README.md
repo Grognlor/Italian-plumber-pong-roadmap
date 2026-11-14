@@ -1,3 +1,9 @@
+## Session 118
+
+[Session 118 — Accepted PC startup settings and remaining initialization work](SESSION_118.md):
+authentic owner prompt with localized redactions. The diary distinguishes the
+implemented setup provider from a completed game startup.
+
 ## Session 117
 
 [Session 117 — Review of the startup platform contract](SESSION_117.md):
