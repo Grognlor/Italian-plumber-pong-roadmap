@@ -1,3 +1,20 @@
+<a id="session-117"></a>
+## Session 117 — A concrete choice for the PC startup model
+
+We reviewed the original platform documentation and the saved reference evidence.
+They do not establish the missing starting settings for the original hardware.
+The experimental PC version could instead use an explicitly documented model
+compatible with the reference emulator, without claiming identical hardware startup.
+
+We recorded the exact proposed change, its limits and the checks still required.
+It needs the owner's acceptance before implementation. No startup code was changed
+and no fresh native game startup or live picture was produced. The game still has
+no title screen or playable build. After that decision, the next work is to connect
+the original initialization and finish the memory ownership checks. Existing
+graphics, sound and controller work is preserved.
+
+[Read the reviewed Session 117 prompt](../prompts/SESSION_117.md).
+
 <a id="session-116"></a>
 ## Session 116 — Missing setup traced to before the game begins
 
