@@ -1,3 +1,9 @@
+## Session 117
+
+[Session 117 — Review of the startup platform contract](SESSION_117.md):
+authentic owner prompt with localized redactions. The diary distinguishes the
+proposed startup model from implementation and a successful game startup.
+
 ## Session 116
 
 [Session 116 — Earlier startup initialization provenance](SESSION_116.md):
