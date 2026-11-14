@@ -1,4 +1,19 @@
 <a id="session-112"></a>
+## Session 113 — Missing original startup information captured
+
+A fresh read-only check of the original game captured the missing startup memory
+information and followed the first mapping operation to its return. This closes
+one evidence gap, but the PC version still needs a complete way to own and track
+those mappings safely. A small startup helper compiled separately; the attempted
+program link failed because that native support is still absent. The failed build
+was preserved and was not run.
+
+Native startup did not advance this session. There is still no live game picture,
+title screen or playable build. Next is the complete shared memory solution, then
+a fresh PC startup test toward drawing and displaying a genuine game frame.
+
+[Read the reviewed Session 113 prompt](../prompts/SESSION_113.md).
+
 ## Session 112 — Checking the next memory-setup connection
 
 A fresh PC startup again finishes 110 loading requests but stops at the same
