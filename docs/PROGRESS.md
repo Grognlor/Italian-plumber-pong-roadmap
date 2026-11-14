@@ -1,3 +1,20 @@
+<a id="session-116"></a>
+## Session 116 — Missing setup traced to before the game begins
+
+A short read-only check traced the missing memory setup further back. The saved
+reference already has those settings before the game begins, and its emulator
+initializes them itself. The processor manual does not guarantee the same starting
+values. We still need independent evidence for how the PC version should establish
+that setup; copying the saved values would not resolve it.
+
+The startup blocker remains. No native game startup or live game picture was
+produced this session, and there is still no title screen or playable build.
+We recorded three possible routes and the evidence each needs. The next step is
+to establish that earlier setup contract, then finish the original startup
+connection. Existing graphics, sound and controller work is preserved.
+
+[Read the reviewed Session 116 prompt](../prompts/SESSION_116.md).
+
 <a id="session-115"></a>
 ## Session 115 — Initial memory settings still block startup
 
