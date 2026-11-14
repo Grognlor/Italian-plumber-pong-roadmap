@@ -1,3 +1,10 @@
+## Session 112
+
+[Session 112 — Memory setup remains unfinished](SESSION_112.md): authentic owner
+prompt with six localized visible redactions. A small memory-model fix and safer
+failure records were completed; startup remains at the previous memory-setup
+stop. Requested objectives are separate from verified diary results.
+
 ## Session 111
 
 [Session 111 — Video startup and the next memory-setup blocker](SESSION_111.md):
