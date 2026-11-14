@@ -1,3 +1,9 @@
+## Session 116
+
+[Session 116 — Earlier startup initialization provenance](SESSION_116.md):
+authentic owner prompt with localized redactions. The diary distinguishes the
+earlier reference observation from the still unresolved native startup blocker.
+
 ## Session 115
 
 [Session 115 — Original startup and memory admission](SESSION_115.md):
