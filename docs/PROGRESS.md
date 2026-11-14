@@ -1,3 +1,20 @@
+<a id="session-115"></a>
+## Session 115 — Initial memory settings still block startup
+
+New tests check that memory stays protected while graphics work succeeds, fails
+or is cancelled, until that work finishes and its worker stops. Another small
+original startup routine builds separately, but was not run.
+
+The full startup connection remains blocked. The saved reference shows the
+initial memory settings used in that run, but does not establish how the native
+PC startup should obtain them. We kept that gate in place and recorded the
+specific missing evidence. No fresh game startup or live game picture occurred;
+Mario Tennis still has no title screen or playable build through this project.
+Next is to establish those initial settings and finish the original startup
+connection before trying a fresh start.
+
+[Read the reviewed Session 115 prompt](../prompts/SESSION_115.md).
+
 <a id="session-112"></a>
 ## Session 114 — Shared memory support builds; startup remains gated
 
