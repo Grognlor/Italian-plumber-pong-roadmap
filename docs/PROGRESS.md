@@ -1,4 +1,20 @@
 <a id="session-112"></a>
+## Session 114 — Shared memory support builds; startup remains gated
+
+The PC memory support now tracks shared memory, address aliases and mapping
+changes, with tests for ownership and safe shutdown. The small original startup
+helper that failed to link last session now builds into a program with real
+support operations. It remains a build check and was not run.
+
+The complete startup connection is still unfinished. We kept execution gated
+because the remaining original initialization and retained-memory contracts have
+not been verified. Broader tests also caught a controller initialization regression;
+the established behavior was restored. No fresh game startup or live game picture
+occurred, and there is still no title screen or playable build. Next is to finish
+that connection and test fresh startup toward a genuine displayed game frame.
+
+[Read the reviewed Session 114 prompt](../prompts/SESSION_114.md).
+
 ## Session 113 — Missing original startup information captured
 
 A fresh read-only check of the original game captured the missing startup memory
