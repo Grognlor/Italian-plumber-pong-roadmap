@@ -1,3 +1,20 @@
+<a id="session-118"></a>
+## Session 118 — One-time startup settings implemented; device setup still blocks
+
+The owner separately approved the proposed experimental PC starting settings.
+We implemented their one-time setup with checks for identity, timing, cancellation
+and repeated use. This describes the chosen PC model; it makes no claim that the
+original hardware starts identically. Focused and native tests pass.
+
+The complete original startup still needs device behavior that this change does
+not supply. We recorded those missing connections and kept execution gated.
+No fresh native game startup, live picture, title screen or playable match occurred.
+Existing graphics, sound and controller work is preserved. Next is the complete
+original device initialization and memory ownership checks, then a fresh startup
+test toward drawing and displaying the game.
+
+[Read the reviewed Session 118 prompt](../prompts/SESSION_118.md).
+
 <a id="session-117"></a>
 ## Session 117 — A concrete choice for the PC startup model
 
