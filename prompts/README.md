@@ -1,3 +1,9 @@
+## Session 115
+
+[Session 115 — Original startup and memory admission](SESSION_115.md):
+authentic owner prompt with localized redactions. The diary distinguishes new
+memory lifetime tests and a separate build from unfinished startup integration.
+
 ## Session 114
 
 [Session 114 — Native shared memory and startup integration](SESSION_114.md):
