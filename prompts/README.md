@@ -1,3 +1,9 @@
+## Session 113
+
+[Session 113 — Original startup memory and continued native development](SESSION_113.md):
+authentic owner prompt with localized redactions. The diary separates the newly
+captured original evidence from the remaining native implementation and failed link.
+
 ## Session 112
 
 [Session 112 — Memory setup remains unfinished](SESSION_112.md): authentic owner
