@@ -1,3 +1,21 @@
+<a id="session-112"></a>
+## Session 112 — Checking the next memory-setup connection
+
+A fresh PC startup again finishes 110 loading requests but stops at the same
+unfinished memory-setup step. We found earlier setup information that still needs
+proof before that connection can safely run, so the game has not advanced past
+the previous stop. No new original game routines were added.
+
+We fixed a small memory-model error and added safer records of where startup
+stops, with tests for both. The standing project instructions now include a
+private screenshot policy for when live game pictures become available. There is
+still no live game picture, title screen or playable match. Original sound work
+and live controller reads continue; the recording remains silent. Next is to
+establish the missing startup information and complete the memory connection,
+then follow the game's next real step toward drawing.
+
+[Read the authentic, visibly redacted Session 112 prompt](../prompts/SESSION_112.md).
+
 <a id="session-111"></a>
 ## Session 111 — Original video startup runs and more loading finishes
 
