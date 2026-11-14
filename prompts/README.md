@@ -1,3 +1,9 @@
+## Session 114
+
+[Session 114 — Native shared memory and startup integration](SESSION_114.md):
+authentic owner prompt with localized redactions. The diary separates implemented
+memory support and the successful build from unfinished startup admission.
+
 ## Session 113
 
 [Session 113 — Original startup memory and continued native development](SESSION_113.md):
