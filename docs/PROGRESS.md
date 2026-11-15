@@ -1,3 +1,19 @@
+<a id="session-121"></a>
+## Session 121 — Starting-state decision narrowed; no new startup run
+
+We separated two ways to define the device state before the game starts: establish
+what the original firmware leaves behind, or explicitly approve a small experimental
+PC starting-state contract. The saved evidence does not prove the firmware state.
+We documented a narrow proposal for owner review and left it unimplemented.
+
+Timing and the shared completion path still need proof before connecting the tested
+device model to live game execution. No new native game run, picture, sound or
+controller result occurred. Existing work is preserved and the game remains
+unplayable. Next comes the starting-state decision, followed by timing and ownership
+checks before another startup attempt toward drawing and displaying the game.
+
+[Read the reviewed Session 121 prompt](../prompts/SESSION_121.md).
+
 <a id="session-120"></a>
 ## Session 120 — Device completion model tested; startup still blocked
 

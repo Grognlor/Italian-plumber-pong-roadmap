@@ -1,3 +1,9 @@
+## Session 121
+
+[Session 121 — Reviewing the device starting-state contract](SESSION_121.md):
+authentic owner prompt with localized redactions. The diary distinguishes an
+unimplemented proposal from live game execution.
+
 ## Session 120
 
 [Session 120 — Serial-device initialization and ownership](SESSION_120.md):
