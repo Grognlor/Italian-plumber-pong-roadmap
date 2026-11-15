@@ -1,3 +1,9 @@
+## Session 119
+
+[Session 119 — Original initialization and device dependencies](SESSION_119.md):
+authentic owner prompt with localized redactions. The diary distinguishes the
+processor fix and reference observations from completed native game startup.
+
 ## Session 118
 
 [Session 118 — Accepted PC startup settings and remaining initialization work](SESSION_118.md):
