@@ -1,3 +1,9 @@
+## Session 120
+
+[Session 120 — Serial-device initialization and ownership](SESSION_120.md):
+authentic owner prompt with localized redactions. The diary distinguishes the
+bounded device model and synthetic tests from completed native game startup.
+
 ## Session 119
 
 [Session 119 — Original initialization and device dependencies](SESSION_119.md):
