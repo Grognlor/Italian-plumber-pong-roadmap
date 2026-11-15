@@ -1,3 +1,20 @@
+<a id="session-120"></a>
+## Session 120 — Device completion model tested; startup still blocked
+
+We added and tested a small model of a pending device write. It keeps the device
+busy until its scheduled completion, handles acknowledgement, and checks failed
+or cancelled work and safe cleanup. It also rejects completion from the wrong
+operation. These are tests with made-up inputs, not a new native game run.
+
+The missing original starting state is still unproved, so the model is not connected
+to game startup. The full initialization and memory ownership checks remain
+unfinished. There is no new game picture, title screen, playable match, sound or
+controller runtime result. Existing graphics, sound and controller work is preserved.
+Next is to establish the real starting state and timing, then connect the shared
+completion path before another startup test toward drawing and displaying the game.
+
+[Read the reviewed Session 120 prompt](../prompts/SESSION_120.md).
+
 <a id="session-119"></a>
 ## Session 119 — One processor connection fixed; device setup still blocks
 
