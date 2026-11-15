@@ -1,3 +1,22 @@
+<a id="session-122"></a>
+## Session 122 — Analysis tool works; native-service route identified
+
+We fixed the isolated analysis environment and demonstrated Splat on verified game
+code, including overlapping loaded images. A new checker catches changed or
+incomplete tool output. These are analysis results, not new game execution.
+
+We also reviewed the native runtime already in the project. The preferred next
+step is a complete operating-system initialization service that keeps game logic
+running as translated code and preserves memory ownership. That boundary change
+needs owner approval and further output checks; no shortcut was enabled.
+
+No new native startup, displayed game picture, sound or controller result occurred.
+Existing work is preserved and the game remains unplayable. Next is the explicit
+initialization-boundary decision, followed by focused tests and another genuine
+startup attempt when its requirements are met.
+
+[Read the reviewed Session 122 prompt](../prompts/SESSION_122.md).
+
 <a id="session-121"></a>
 ## Session 121 — Starting-state decision narrowed; no new startup run
 

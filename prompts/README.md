@@ -1,3 +1,9 @@
+## Session 122
+
+[Session 122 — Testing established analysis and native services](SESSION_122.md):
+authentic owner prompt with localized redactions. The diary separates static
+analysis and a proposed native service from genuine game execution.
+
 ## Session 121
 
 [Session 121 — Reviewing the device starting-state contract](SESSION_121.md):
