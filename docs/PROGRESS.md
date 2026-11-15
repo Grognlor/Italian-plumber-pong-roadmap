@@ -1,3 +1,21 @@
+<a id="session-119"></a>
+## Session 119 — One processor connection fixed; device setup still blocks
+
+We connected another processor operation to the shared memory owner, with tests
+for invalid settings, changed code, cancellation and repeated setup. Two short,
+read-only checks followed the original initialization and a small helper's returns.
+They show that a device operation is still pending when initialization returns;
+the PC version needs its real completion and ownership path before it can proceed.
+One complete original helper builds separately and was not run natively.
+
+The required checks pass, but the complete native startup connection is unfinished.
+There was no fresh native game startup, live picture, title screen or playable match.
+No new sound or controller runtime result is claimed. Existing graphics, sound and
+controller work is preserved. Next is to finish that device behavior and the memory
+ownership checks before a fresh startup test toward drawing and displaying the game.
+
+[Read the reviewed Session 119 prompt](../prompts/SESSION_119.md).
+
 <a id="session-118"></a>
 ## Session 118 — One-time startup settings implemented; device setup still blocks
 
